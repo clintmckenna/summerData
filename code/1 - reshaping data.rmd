@@ -1,0 +1,479 @@
+---
+title: "1 - data manipulation"
+author: "Clint McKenna"
+date: "7/23/2020"
+output: html_document
+---
+
+For this markdown file, we will practice reading in data and doing some common data cleaning tasks.
+
+Typically, I always use markdown header (##), so I can easily navigate through Rmarkdown's "Show Document Outline" button.
+
+
+## data prep
+
+I always have one chunk to load packages, read data into the environment, and define functions that I will use. We will mostly be working with tidyverse, which is actually a collection of a bunch of packages. Most notably, dplyr (for data manipulation) and ggplot2 (plotting).
+```{r}
+# load packages
+library(tidyverse)
+
+# read in data from csv
+tennis <- read.csv('../data/raw/wta_matches_2015.csv')
+
+# custom functions
+select <- dplyr::select
+
+```
+
+One thing about how R handles functions... If you want to access a named function from a specific package, you can say package_name::function_name(). Above, there are multiple packages that use a named "select" function, so I specify that I want to use the one from dplyr.
+
+
+## preview data
+You can use head() and tail() to look at the data. str() to get a sense of each variable.
+
+```{r}
+# preview data
+head(tennis)
+tail(tennis)
+
+# examine variable classes, etc.
+str(tennis)
+
+
+```
+
+A quick note about pipes... with dplyr, you can chain multiple commands together so you don't need to rewrite an object so many times.
+```{r}
+# pipe an object into a function
+tennis %>%
+  head()
+
+# which is the same as head(tennis)
+
+```
+
+Another common function I use is table(), which you can see the count of individual values for a given column/variable.
+```{r}
+# surface var
+table(tennis$surface)
+```
+
+Also super-important is retrieving column names
+```{r}
+names(tennis)
+
+```
+
+
+
+## selecting columns
+
+You can use select() to choose to keep/drop certain columns and apply some functions to them.
+
+```{r}
+# select tourney_name and winner column
+tennis %>%
+  select(tourney_name, winner_name)
+
+# can also drop columns using the minus symbol
+tennis %>%
+  select(tourney_name, tourney_date, tourney_level, winner_name) %>%
+  select(- tourney_name)
+
+
+
+```
+
+dplyr also has some handy functions. Suppose you want to make a dataframe that has all the columns that start with a certain string? 
+```{r}
+# new dataframe of tourney columns
+tourney <- tennis %>%
+  select(starts_with('tourney_'))
+
+# preview
+head(tourney)
+
+```
+
+
+
+## filtering row data
+
+We can use dplyr's filter function to look at a single tournement.
+```{r}
+# filter only wimbleton
+wimbleton <- tennis %>%
+  filter(tourney_name == 'Wimbledon')
+
+# preview
+head(wimbleton)
+
+```
+
+For muliple conditions, can use | character.
+```{r}
+
+multiple <- tennis %>%
+  filter(tourney_name == 'Wimbledon'|tourney_name == 'Sydney')
+
+# preview with table
+table(multiple$tourney_name)
+
+```
+
+
+You can also use operator commands to filter numeric information.
+```{r}
+# filter draw size > 50
+tennis %>% 
+  filter(draw_size > 50) %>% 
+  head()
+
+```
+
+## creating new columns
+
+I typically create columns with dplyr, but you can also do it with base R.
+```{r}
+# create column with base R
+tennis$text_col <- 'text value here'
+
+# or a random numeric value between 1 and 100
+tennis$numeric_col <- sample(1:100, 1)
+
+# preview
+head(tennis$text_col)
+head(tennis$numeric_col)
+
+```
+
+This is equivalent to using mutate() to create new columns in dplyr.
+```{r}
+# use arrows to "overwrite" existing object
+tennis <- tennis %>%
+  mutate(text_col = 'text value here',
+         numeric_col = sample(1:100, 1))
+
+# preview
+head(tennis$text_col)
+head(tennis$numeric_col)
+
+```
+
+Now, what about making a new column based on an existing column's value? You can do this with ifelse() function, but lately I've been using case_when() from dplyr. Here we will code a row as taking place on grass or not depending on the value in surface column
+
+```{r}
+# create grass variable
+# TRUE basically means "else" if this was an if else function
+# ~ means if the boolean statement is TRUE, assign this value
+tennis <- tennis %>%
+  mutate(grass = case_when(
+    surface == 'Grass' ~ 1,
+    TRUE ~ 0))
+
+# preview
+table(tennis$surface)
+table(tennis$grass)
+
+
+```
+This is especially handy if you have a new variable that has many factor levels. Let's saw we want to arbitrarily make a draw size column categorical...
+
+```{r}
+# specify new column categories
+tennis <- tennis %>%
+  mutate(draw_cat = case_when(
+    draw_size < 50 ~ 'small',
+    draw_size >= 50 & draw_size < 100 ~ 'medium',
+    draw_size >= 100 ~ 'large'
+  ))
+
+# preview
+head(tennis$draw_cat)
+table(tennis$draw_cat)
+
+```
+
+
+## factors
+
+There are different classes of variables, including string, numeric, factor, integer, and I think some others. The one we just made we can check.
+```{r}
+class(tennis$draw_cat)
+```
+
+As a categorical variable, it should probably be a factor. We can coerce it like so.
+```{r}
+tennis$draw_cat <- as.factor(tennis$draw_cat)
+
+class(tennis$draw_cat)
+```
+
+You can check the levels of factors
+```{r}
+# levels (possible values)
+levels(tennis$draw_cat)
+
+```
+
+There are a ton of confusing things about using factors in R that i always have to google, but one important thing for plotting, is rearranging the factor levels. Above, they are listed large, medium, small. If I want to sort ascending, I often use the forcats library (also part of tidyverse).
+
+```{r}
+# I had to look at the help file to remember this...
+?fct_relevel
+
+# relevel draw_cat
+tennis <- tennis %>%
+  mutate(draw_cat = fct_relevel(draw_cat, 'small', 'medium', 'large'))
+
+# check levels
+levels(tennis$draw_cat)
+
+```
+
+Again, the importance of this will be more clear when doing plotting/modeling of categorical data.
+
+
+
+
+## strings
+
+When working with strings, I commonly need to detect the presence of a small string within one variable. With base R you can do this with indexing.
+
+```{r}
+# detect string starting with 'ana'
+# best to convert column to lowercase first with base function tolower() 
+tennis$winner_name <- tolower(tennis$winner_name)
+
+# grepl will return a boolean check if winner_name column contains 'ana'
+grepl('ana', tennis$winner_name)
+
+# indexing with base R is dataframe[row, column]
+# here, I am taking the test above, and returning all columns where the row matches our ana test
+ana <- tennis[grepl('ana', tennis$winner_name), ]
+head(ana)
+```
+
+
+
+If you want to read up on regular expressions, can also test things like start of string, end of string, x number of occurrences, etc.
+```{r}
+# start of string test with ^
+ana <- tennis[grepl('^ana', tennis$winner_name), ]
+head(ana$winner_name)
+
+
+```
+
+Again, I always need to look this up: https://rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf
+
+
+Now, there are some handy functions in stringr (part of tidyverse) that make this easier to remember.
+```{r}
+# detect 'ana' in text
+ana <- tennis %>%
+  filter(str_detect(winner_name, 'ana'))
+head(ana$winner_name)
+
+# starts with 'ana'
+ana <- tennis %>%
+  filter(str_starts(winner_name, 'ana'))
+head(ana$winner_name)
+
+
+# ends with 'son'
+son <- tennis %>%
+  filter(str_ends(winner_name, 'son'))
+head(son$winner_name)
+
+```
+
+You can combine this with case_when if you want to code a new column based on a partial match or something.
+```{r}
+# new variable if starts with ana
+tennis <- tennis %>%
+  mutate(nameAna = case_when(
+    str_starts(winner_name, 'ana') ~ 1,
+    TRUE ~ 0))
+
+# preview
+table(tennis$nameAna)
+
+```
+
+
+
+## splitting columns
+
+Suppose we want to split a string column by some character. For instance, in the tennis dataset, we may want to split the first and last names.
+
+```{r}
+# select vars
+tennisNames <- tennis %>%
+  select(winner_name, loser_name)
+
+# we can do this with base R, but again, I typically use the stringr package
+str_split_fixed(tennisNames$winner_name, ' ', 2) %>%
+  head()
+
+# here the pattern is string column/vector, the string to split it up by, and the number of times to split
+
+```
+
+This mostly works, but might not work if someone has multiple spaces in their name ('Ludwig van Beethoven' would consider the last name 'van Beethoven').
+
+```{r}
+# make new columns of tennisNames
+
+# first split
+winnerNames <- str_split_fixed(tennisNames$winner_name, ' ', 2)
+loserNames <- str_split_fixed(tennisNames$loser_name, ' ', 2)
+
+# then mutate
+tennisNames <- tennisNames %>%
+  mutate(wFirst = winnerNames[,1]) %>% # first column of winnerNames
+  mutate(wLast = winnerNames[,2]) %>%  # second column of winnerNames
+  mutate(lFirst = loserNames[,1]) %>%  # first column of loserNames
+  mutate(lLast = loserNames[,2])       # second column of loserNames
+  
+# preview
+head(tennisNames)
+
+
+```
+
+Another option is tidyr's seperate. I think this gets rid of the original column, so might want to save it before using.
+```{r}
+# save OG column
+tennisNames <- tennisNames %>%
+  mutate(save = winner_name)
+
+# seperate
+tennisNames <- tennisNames %>% 
+  separate(winner_name, 
+           into = c('wFirst', 'wLast'), sep = ' ')
+
+# preview
+head(tennisNames)
+
+
+
+```
+
+You can see from the warning, that seperate discards additional strings. The 3rd name is Carla Suarez Navarro, but it only kept Carla Suarez.
+
+
+
+
+## group_by and summarise
+
+The last thing I'll mention for now that I use a lot is dplyr's group_by() and summarise() functions. This is good for taking a categorical input and summarizing the including rows on some dimension(s). Here, I look at mean, max, minimum.
+
+```{r}
+# look at various outcome of surface var
+tennis %>%
+  group_by(surface) %>%
+  summarise(avgDraw = mean(draw_size, na.rm = TRUE),
+            minWinnerRank = min(winner_rank, na.rm = TRUE),
+            maxLoserAge = max(loser_age, na.rm = TRUE))
+
+
+# you can also chain further functions
+tennis %>%
+  group_by(surface) %>%
+  summarise(avgDraw = mean(draw_size, na.rm = TRUE),
+            minWinnerRank = min(winner_rank, na.rm = TRUE),
+            maxLoserAge = max(loser_age, na.rm = TRUE)) %>%
+  mutate(meaninglessdifference = avgDraw - maxLoserAge)
+
+
+```
+
+This is especially useful when categorical variables.
+
+
+## saving data to file
+
+```{r}
+# save new tennis dataframe to the data folder
+write.csv(tennis, '../data/tennisNew.csv')
+
+```
+
+I also often save as .rds file, but I think we ran into some trouble going from windows pc to mac. Csv is very universal, but you may encounter some odd encoding problems here and there depending on where your data comes from.
+
+
+
+
+
+
+# PRACTICE
+
+Here, I want you to fill in your own code for the college football dataset.
+
+## data prep
+```{r}
+# load college football dataset from csv
+
+
+
+
+```
+
+
+## filter
+```{r}
+# create a smaller dataframe of only Big-10 rows, and print the head and tail of it
+
+
+```
+
+
+## table and group_by/summarise
+
+```{r}
+# create a dataframe of games that were on channels staring with 'ESPN'
+
+
+# create a table of TV network frequencies
+
+
+# now, filter only the following: ESPN, ESPN2, ESPN3, ESPN+, and ESPNU
+
+
+# create a table of TV network frequencies
+
+
+# group_by TV channel and summarise the average attendance for each game
+
+
+```
+
+## new column and strings
+```{r}
+# detect if the result was an overtime game
+# if it was, make a new column called 'OT' that codes it as 1, or else as 0
+
+
+
+# make a table of OT frequencies
+
+
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
