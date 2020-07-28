@@ -396,7 +396,7 @@ This is especially useful when categorical variables.
 
 ```{r}
 # save new tennis dataframe to the data folder
-write.csv(tennis, '../data/tennisNew.csv')
+write.csv('../data/tennisNew.csv')
 
 ```
 
@@ -414,7 +414,7 @@ Here, I want you to fill in your own code for the college football dataset.
 ## data prep
 ```{r}
 # load college football dataset from csv
-
+collegefb <- read.csv('../data/raw/CFBeattendance.csv')
 
 
 
@@ -424,7 +424,10 @@ Here, I want you to fill in your own code for the college football dataset.
 ## filter
 ```{r}
 # create a smaller dataframe of only Big-10 rows, and print the head and tail of it
-
+big10 <- collegefb %>%
+  filter(Conference == "Big-10")
+head(big10)
+tail(big10)
 
 ```
 
@@ -433,19 +436,23 @@ Here, I want you to fill in your own code for the college football dataset.
 
 ```{r}
 # create a dataframe of games that were on channels staring with 'ESPN'
-
+ESPNgames <- collegefb %>%
+  filter(str_starts(TV, "ESPN"))
 
 # create a table of TV network frequencies
-
+networkfreq <- table(collegefb$TV)
 
 # now, filter only the following: ESPN, ESPN2, ESPN3, ESPN+, and ESPNU
-
-
+ESPNfiltered <- ESPNgames %>%
+  filter(TV == "ESPN" | TV == "ESPN2" | TV == "ESPN3" | TV == "ESPN+" | TV == "ESPNU")
+  
 # create a table of TV network frequencies
-
+ESPNfreq <- table(ESPNgames$TV)
 
 # group_by TV channel and summarise the average attendance for each game
-
+collegefb %>%
+  group_by(TV) %>%
+  summarise(mean(Attendance))
 
 ```
 
@@ -453,11 +460,14 @@ Here, I want you to fill in your own code for the college football dataset.
 ```{r}
 # detect if the result was an overtime game
 # if it was, make a new column called 'OT' that codes it as 1, or else as 0
-
-
+collegefb <- collegefb %>%
+  mutate(OT = case_when(
+    str_ends(Result, 'OT') ~ 1, 
+    TRUE ~ 0))
 
 # make a table of OT frequencies
 
+OTfreq <- table(collegefb$OT)
 
 ```
 
