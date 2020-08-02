@@ -368,8 +368,8 @@ p <- ggplot(tv, aes(x = genre,
   scale_x_discrete(labels = c('International', 'Docuseries', 'Anime', 'Crime', 'British', 'Kids')) +
   labs(
     title = 'Genre Barplots',
-    subtitle = 'this is only a few genres...',
-    caption = 'only frequency above 100',
+    subtitle = 'frequency > 100',
+    caption = 'Error Bars 95% CI',
     fill = NULL, 
     x = 'Genre Name',
     y = 'Average Season Length') +
@@ -380,7 +380,9 @@ p
 
 ```
 
-There are other ways of calculating error bars inline ggplot, but this is typically how I do it. This is pretty close to what I might use in a presentation or paper. Now, you try.
+There are other ways of calculating error bars inline ggplot, but this is typically how I do it. Something you should always do is indicate what the error bars represent. Typically people use either standard error or confidence intervals. I think I've see +/- one standard deviation as well.
+
+This is pretty close to what I might use in a presentation or paper. Now, you try.
 
 
 ## PRACTICE
