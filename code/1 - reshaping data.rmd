@@ -447,10 +447,10 @@ ESPNfiltered <- ESPNgames %>%
   filter(TV == "ESPN" | TV == "ESPN2" | TV == "ESPN3" | TV == "ESPN+" | TV == "ESPNU")
   
 # create a table of TV network frequencies
-ESPNfreq <- table(ESPNgames$TV)
+ESPNfreq <- table(ESPNfiltered$TV)
 
 # group_by TV channel and summarise the average attendance for each game
-collegefb %>%
+ESPNfiltered %>%
   group_by(TV) %>%
   summarise(mean(Attendance))
 

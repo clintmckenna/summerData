@@ -1,0 +1,406 @@
+---
+title: "2 - plotting categorical predictors, pt1"
+author: "Clint McKenna"
+date: "8/1/2020"
+output: html_document
+---
+
+## data prep
+
+```{r}
+# load packages
+library(tidyverse)
+
+# read in data from csv
+tennis <- read.csv('../data/raw/wta_matches_2015.csv')
+collegefb <- read.csv('../data/raw/CFBeattendance.csv')
+netflix <- read.csv('../data/raw/netflix_titles.csv')
+books <- read.csv('../data/raw/books.csv')
+
+
+# custom functions
+select <- dplyr::select
+# ggplot2 alpha (sometimes gets a conflict depending on other packages)
+alpha <- scales::alpha
+
+```
+
+
+I included a color palette of hex color codes for some Michigan colors that I use a lot (https://brand.umich.edu/design-resources/colors/). Here, we can reference them as part of the vector. Maize is UMcolors[1], dark blue is UMcolors[2], etc. 
+
+```{r}
+# color palette
+UMcolors <- c('#ffcb05', '#00274c', '#407EC9', '#9A3324', '#702082', '#D86018', '#00B2A9')
+
+```
+
+You can also reference a range of vector elements with the colon. Just makes things easier sometimes.
+
+```{r}
+# first four colors
+UMcolors[1:4]
+
+```
+
+You can also of course make your own palettes. coolors.co is something I use sometimes to get ideas.
+
+## bar graphs
+
+Starting with the basics... Using the netflix data set, let's plot the series duration of TV series based on the first genre given in the listed_in column. 
+
+### reshape data
+
+```{r}
+# filter only tv shows
+tv <- netflix %>%
+  filter(type == 'TV Show') %>%
+  select(listed_in, duration)
+
+
+# separate column for listed_in
+tv <- tv %>%
+  mutate(genre = listed_in) %>%
+  separate(genre,
+           into = c('genre'), sep = ',')
+
+
+```
+
+This was a quick way to just get the first genre listed. I only specified a label for the first column that separate() used. If I wanted more, I could have done 'into = c('genre1', 'genre2', ...)'
+
+Now, let's extract the season count from duration column. A few ways to do this, including what we just did with separate() and just separate on ' ' (a space character). Instead, we will extract all numeric digits using regular expressions.
+
+```{r}
+# create numeric variable for number of seasons
+tv <- tv %>%
+  mutate(seasons = str_extract(duration, '[0-9]+')) %>%
+  mutate(seasons = as.numeric(seasons))
+
+```
+
+
+Now, group_by genre and calculate mean season.
+
+```{r}
+tv <- tv %>%
+  group_by(genre) %>%
+  summarise(
+    seasons = mean(seasons, na.rm = TRUE),
+    n = n()) %>%
+  ungroup()
+
+
+```
+
+Some of these genres are strange, like 'TV Shows'... lets just look at those with frequency above 100.
+
+```{r}
+tv <- tv %>%
+  filter(n > 100)
+    
+```
+
+
+### plot
+
+Here is the basic format for using ggplot().
+
+```{r}
+# plot
+ggplot(tv, aes(x = genre, y = seasons)) +
+  geom_bar(stat = 'identity')
+
+```
+
+'geom_bar' can be swapped out for any number of graph types that ggplot uses. I also use stat = 'identity' here because we already calculated the means that we want to plot. This is usually how I do barplots.
+
+As you can see, Kid's TV is the longest in duration compared to the others in this group. In retrospect, an average of seasons might not be as meaningful, since overwhelmingly, most shows were only 1 season. Still, let's work with this data a bit. 
+
+We can sort by ascending using reorder() function within aes()
+```{r}
+
+# plot
+ggplot(tv, aes(x = reorder(genre, seasons), 
+               y = seasons)) +
+  geom_bar(stat = 'identity')
+
+
+```
+
+You can also reorder the genre as a factor, which might be more appropriate with categories that have a small number of levels.
+
+### color and fill
+
+ggplot has two color components that are important. depending on whether you are using geom_bar or something, else, you may wish to alter either the color or the fill. Here is an example.
+
+```{r}
+
+# plot color
+ggplot(tv, aes(x = reorder(genre, seasons), 
+               y = seasons,
+               color = genre)) +
+  geom_bar(stat = 'identity')
+
+# plot fill
+ggplot(tv, aes(x = reorder(genre, seasons), 
+               y = seasons,
+               fill = genre)) +
+  geom_bar(stat = 'identity')
+
+
+
+
+```
+
+As you can see, in the case of geom_bar, color changes the outline of the genre bar, and fill changes the color inside. Fill makes more sense for me. We can manually specify which colors to use by using scale_fill_manual(). For color, you can also add outlines as a single color value, like 'black'
+
+```{r}
+# plot
+ggplot(tv, aes(x = reorder(genre, seasons), 
+               y = seasons,
+               fill = genre)) +
+  geom_bar(stat = 'identity', color = 'black') +
+  scale_fill_manual(values = UMcolors)
+
+```
+
+If you only wanted some colors, like maize and blue, can use the rep() function to repeat values x number of times
+
+```{r}
+# plot
+ggplot(tv, aes(x = reorder(genre, seasons), 
+               y = seasons,
+               fill = genre)) +
+  geom_bar(stat = 'identity') +
+  scale_fill_manual(values = rep(UMcolors[1:2], 3))
+
+```
+
+Why are the colors in this order? ggplot is coercing genre into a factor, and ordering the levels in its own way. We can change this manually.
+
+```{r}
+# reorder levels of tv as a factor
+tv$genre <- factor(tv$genre,
+                   levels = c('International TV Shows',
+                              'Docuseries',
+                              'Anime Series',
+                              'Crime TV Shows',
+                              'British TV Shows',
+                              'Kids\' TV'))  # backslash to escape a quote character in the string
+
+
+# plot, can now remove reorder()
+ggplot(tv, aes(x = genre, 
+               y = seasons,
+               fill = genre)) +
+  geom_bar(stat = 'identity') +
+  scale_fill_manual(values = rep(UMcolors[1:2], 3))
+
+```
+
+
+### transparency
+
+alpha is used to specify a value between 0 and 1, which will the transparency of a color or fill.
+
+```{r}
+# plot
+ggplot(tv, aes(x = genre, 
+               y = seasons,
+               fill = genre)) +
+  geom_bar(stat = 'identity',
+           alpha = 0.5) +
+  scale_fill_manual(values = UMcolors)
+
+```
+
+As you can see, this lets us see past the bar. This can be super useful when we have multiple plot layers on top of each other. Here, it just lets us see the ugly gray background, which we can change now.
+
+
+### themes
+
+A quick way to jazz up the look of a plot. here are a few.
+
+```{r}
+# assign plot to an object for easy repetition
+p <- ggplot(tv, aes(x = genre, 
+               y = seasons,
+               fill = genre)) +
+  geom_bar(stat = 'identity',
+           alpha = 0.75) +
+  scale_fill_manual(values = UMcolors)
+
+
+
+# bw theme
+p + theme_bw()
+
+# dark theme
+p + theme_dark()
+
+# light theme
+p + theme_light()
+
+# minimal theme
+p + theme_minimal()
+
+# void
+p + theme_void()
+
+
+```
+
+In Rstudio, you can start typing 'theme_' and see a list of those included with ggplot2. You can also install more that were put together in packages like ggthemes. For now, we will use theme_minimal and add components as necessary.
+
+There are lots more fine-grained things we change with a theme() function, but we can save that.
+
+### headings, labels, etc.
+
+These can all be added as part of labs() function.
+
+```{r}
+# plot
+p <- ggplot(tv, aes(x = genre, 
+               y = seasons,
+               fill = genre)) +
+  geom_bar(stat = 'identity',
+           alpha = 0.75) +
+  scale_fill_manual(values = UMcolors) +
+  labs(
+    title = 'Genre Barplots',
+    subtitle = 'this is only a few genres...',
+    caption = 'only frequency above 100',
+    fill = NULL, # this prevents the legend from having a title
+    x = 'Genre Name',
+    y = 'Average Season Length') +
+  theme_minimal()
+
+
+p
+
+```
+
+
+Now, since the x-axis factor labels are super cramped, it might be a good idea to flip the graph horizontally using coord_flip()
+
+```{r}
+p + coord_flip()
+```
+
+A lot easier to read. Alternatively, you might manually rename label values in scale_x_discrete (if the x-axis were a continuous variable, we would use scale_x_continuous)
+
+```{r}
+# rename some labels
+p <- p + 
+  scale_x_discrete(labels = c('International', 'Docuseries', 'Anime', 'Crime', 'British', 'Kids'))
+
+p
+```
+
+We can also make some super granular changes to continuous variables, like the y-axis. suppose we wanted the range to be from 0 to 10? or the labeled breaks to be every 0.1 steps instead of 0.5?
+
+```{r}
+# limits
+p + scale_y_continuous(limits = c(0,10))
+
+# breaks
+p + scale_y_continuous(breaks = seq(0, 2, by = .1))
+# the seq() function allows you to easily create a sequence of numbers given a range
+
+```
+
+Something that I irrationally don't like is how ggplot puts a space between the bottom of the plot and the first value of the y-axis. I often change this by using the expand() function within scale_y_continuous
+
+```{r}
+p + scale_y_continuous(expand = c(0,0))
+```
+But that's just personal preference.
+
+
+### errorbars
+
+Many times for error bars, I will use 95% confidence intervals. Note that if you are plotting within-group comparisons, this might be tricky (see http://www.cookbook-r.com/Graphs/Plotting_means_and_error_bars_(ggplot2)/#error-bars-for-within-subjects-variables)
+
+Here, I will calculate before plotting during the group_by/summarise phase. 
+
+```{r}
+
+# Redo all the steps above (would have been better if I just made a separate dataframe earlier)
+tv <- netflix %>%
+  filter(type == 'TV Show') %>%
+  select(listed_in, duration) %>%
+  mutate(genre = listed_in) %>%
+  separate(genre,
+           into = c('genre'), sep = ',') %>%
+  mutate(seasons = str_extract(duration, '[0-9]+')) %>%
+  mutate(seasons = as.numeric(seasons))
+
+
+# group_by/summarise, with 95% CI
+tv <- tv %>%
+  group_by(genre) %>%
+  summarise(
+    m = mean(seasons, na.rm = TRUE),
+    sd = sd(seasons, na.rm = TRUE),
+    n = n()) %>%
+  mutate(se = sd / sqrt(n),
+         lower = m - qt(1 - (0.05 / 2), n - 1) * se,
+         upper = m + qt(1 - (0.05 / 2), n - 1) * se) %>%
+  ungroup() %>%
+  filter(n > 100)
+    
+```
+The upper and lower refer to each genre's upper CI and lower CI value.
+
+Now, we can just specify this value in geom_errorbar.
+
+```{r}
+
+# plot
+p <- ggplot(tv, aes(x = genre, 
+               y = m,
+               fill = genre)) +
+  geom_bar(stat = 'identity',
+           color = 'black',
+           alpha = 0.75) +
+  geom_errorbar(aes(ymin = lower, ymax = upper), width=.2) +
+  scale_fill_manual(values = UMcolors) +
+  scale_x_discrete(labels = c('International', 'Docuseries', 'Anime', 'Crime', 'British', 'Kids')) +
+  labs(
+    title = 'Genre Barplots',
+    subtitle = 'this is only a few genres...',
+    caption = 'only frequency above 100',
+    fill = NULL, 
+    x = 'Genre Name',
+    y = 'Average Season Length') +
+  theme_minimal()
+
+
+p
+
+```
+
+There are other ways of calculating error bars inline ggplot, but this is typically how I do it. This is pretty close to what I might use in a presentation or paper. Now, you try.
+
+
+## PRACTICE
+
+Here, we can use the books dataset. I already read it in earlier as 'books' if you ran the code.
+
+Here, you will pick an author that has written multiple books (like J.K. Rowling). I want you to try plotting each book as a category on the x-axis. On the y-axis, plot the average_rating of the book. You won't be able to do confidence intervals since the dataset only give you the average already. Pick a color/fill palette and theme to apply (can use the same above if you want, or make a new one). Arrange the bars in ascending or descending order based on book rating.
+
+```{r}
+
+```
+
+
+Slightly more complicated...
+
+Get the 5 authors from books dataset that have the most books published. Each of the 5 authors is a group on x-axis, average rating on y-axis. Calculate the average rating, along with 95% confidence intervals as error bars. Same theme/fill/colors as above!
+
+```{r}
+
+
+```
+
+
