@@ -393,6 +393,42 @@ Here, you will pick an author that has written multiple books (like J.K. Rowling
 
 ```{r}
 
+shakespeare <- books %>%
+  filter(authors == "William Shakespeare") %>%
+  separate(authors, into = c('authors'), sep = "/") %>%
+  group_by(title) %>%
+  #without the summarise() it was combining some of the titles and stacking their bars
+  summarise(avg_rating = mean(as.numeric(as.character(average_rating))))
+
+
+
+shakespeare$title<-factor(shakespeare$title, 
+                          levels = c('The Complete Works', 
+                                     'Love Poems and Sonnets', 
+                                     'The Necessary Shakespeare', 
+                                     'Hamlet', 
+                                     'Twelfth Night', 
+                                     'A Midsummer Night\'s Dream', 
+                                     'King Lear',  
+                                     'Macbeth', 
+                                     'Othello', 
+                                     'As You Like It', 
+                                     'Measure for Measure',
+                                     'The Merchant of Venice', 
+                                     'Henry IV  part II'))
+
+
+ggplot(shakespeare, aes(x = reorder(title, avg_rating), 
+                        y = avg_rating, fill = title)) + 
+  geom_bar(stat = "identity", alpha = .75) + 
+  labs(title = 'Average Rating for Shakespeare\'s Works',
+       fill = NULL,
+       x = 'Title', 
+       y = 'Average Rating') + 
+  scale_fill_manual(values = rep(UMcolors[1:2], 7)) + 
+  scale_y_continuous(breaks = seq(0, 5, by = .5)) +
+  # I decided to flip it because I wasn't sure about what to shorten titles should be and they overlap a lot when the graph is not flipped.
+  coord_flip()
 ```
 
 
@@ -401,6 +437,64 @@ Slightly more complicated...
 Get the 5 authors from books dataset that have the most books published. Each of the 5 authors is a group on x-axis, average rating on y-axis. Calculate the average rating, along with 95% confidence intervals as error bars. Same theme/fill/colors as above!
 
 ```{r}
+
+books.updated <- books %>%
+  #some books have multiple authors listed
+  separate(authors, into = c('authors'), sep = '/')
+
+author.counts<-table(factor(books.updated$authors))
+ 
+
+author.counts<-as.data.frame(author.counts)
+
+author.counts<- author.counts %>%
+  mutate(authors = Var1) %>%
+  select(authors, Freq) %>%
+  filter(Freq > 44)
+#five authors with most books are listed
+author.counts
+
+books.updated<- books.updated %>%
+  filter(authors == "Agatha Christie" | 
+           authors == "J.R.R. Tolkien" | 
+           authors == "P.G. Wodehouse" | 
+           authors == "Stephen King" | 
+           authors == "William Shakespeare") %>%
+  group_by(authors) %>%
+  summarise(avg_rating = mean(as.numeric(as.character(average_rating))), 
+           m = mean(as.numeric(as.character(average_rating)), na.rm = TRUE),
+           sd = sd(as.numeric(as.character(average_rating)), na.rm = TRUE),
+           n = n()) %>%
+  mutate(se = sd / sqrt(n),
+         lower = m - qt(1 - (0.05 / 2), n - 1) * se,
+         upper = m + qt(1 - (0.05 / 2), n - 1) * se)
+
+books.updated$authors<- factor(books.updated$authors, 
+                               c("William Shakespeare", 
+                                 "Agatha Christie", 
+                                 "Stephen King", 
+                                 "P.G. Wodehouse", 
+                                 "J.R.R. Tolkien"))
+
+
+ggplot(books.updated, 
+       aes(x = reorder(authors, avg_rating), 
+           y = avg_rating, 
+           fill = authors)) + 
+  geom_bar(stat = "identity", alpha = .75) + 
+  labs(title = "Average Book Rating of Authors", 
+       x = "Author Name", 
+       y = "Average Rating of Books",
+       fill = NULL, 
+       subtitle = "rating out of 5",
+       caption = "Error Bars: 95% Confidence Interval") +
+  scale_y_continuous(breaks = seq(0, 5, by = .5)) +
+  scale_fill_manual(values = rep(UMcolors[1:2], 3)) + 
+  geom_errorbar(aes(ymin = lower, ymax = upper), width=.2)
+```
+
+
+
 
 
 ```
