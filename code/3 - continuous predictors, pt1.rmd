@@ -252,10 +252,24 @@ Short practice for this one. I want you to read in the netflix dataset, and filt
 
 I also want you to make a column for the duration of the movie that is numeric and just the number of minutes for the length of the movie.
 
+
+
 ```{r}
+netflix1<- read_csv('../data/raw/netflix_titles.csv')
+  
+netflix1<-netflix1 %>%
+  
+  #filter movies, year, rating
+  filter(type == 'Movie')%>%
+  filter(release_year >= 1980) %>%
+  filter(rating == 'G' | rating == 'PG' | rating == 'PG-13' | rating == 'R') %>%
+  
+  #make new column with minutes, didn't want to get rid of duration column completely...
+  mutate(minutes = duration) %>%
+  separate(minutes, into = c('minutes'), sep = ' ')
 
-
-
+#change to integer
+netflix1$minutes <- strtoi(netflix1$minutes)
 
 ```
 
@@ -263,6 +277,16 @@ I also want you to make a column for the duration of the movie that is numeric a
 Plot the relation of release year (x-axis) and movie duration (y-axis) using geom_point() and add a regression fit line.
 
 ```{r}
+
+ggplot(netflix1, aes(x = release_year, y = minutes)) + 
+  geom_point(color = UMcolors[1]) + 
+  stat_smooth(method = 'lm', 
+              level = .95, 
+              color = UMcolors[2], 
+              size = 1) + 
+  labs(title = 'Movie Runtime vs. Release Year on Netflix', 
+       x = 'Release Year', 
+       y = 'Runtime (minutes)')
 
 
 
@@ -273,8 +297,13 @@ Plot again, but add in rating as a categorical factor, either as a facet or colo
 
 ```{r}
 
-
-
+#facet
+ggplot(netflix1, aes(x = release_year, y = minutes)) + 
+  geom_point(color = UMcolors[2]) +
+  stat_smooth(method = 'lm', 
+              level = .95, 
+              color = UMcolors[1]) + 
+  facet_wrap(~rating)
 
 
 ```
