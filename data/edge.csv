@@ -1,0 +1,3538 @@
+Source,Target,Weight,Type
+Ball State,Northern Illinois,12,Directed
+Buffalo,Miami (OH),12,Directed
+California,Oregon State,12,Directed
+Kansas,Kansas State,12,Directed
+Arizona,USC,11,Directed
+Indiana,Michigan State,11,Directed
+Indiana,Penn State,11,Directed
+Kansas,Iowa State,11,Directed
+Kent State,Miami (OH),11,Directed
+Ball State,Toledo,10,Directed
+Hawaii,Nevada,10,Directed
+Iowa State,Kansas State,10,Directed
+Arizona,Oregon State,9,Directed
+Arizona,Washington,9,Directed
+Buffalo,Northern Illinois,9,Directed
+Eastern Michigan,Toledo,9,Directed
+Hawaii,Boise State,9,Directed
+Illinois,Wisconsin,9,Directed
+Indiana,Wisconsin,9,Directed
+Kansas,Baylor,9,Directed
+Kent State,Buffalo,9,Directed
+Kent State,Ohio,9,Directed
+Memphis,UCF,9,Directed
+NC State,Clemson,9,Directed
+Nevada,Boise State,9,Directed
+SMU,Navy,9,Directed
+Tulsa,SMU,9,Directed
+Virginia,Georgia Tech,9,Directed
+Baylor, Oklahoma,8,Directed
+Bowling Green,Toledo,8,Directed
+Buffalo,Ohio,8,Directed
+California,USC,8,Directed
+California,Washington,8,Directed
+Central Michigan,Toledo,8,Directed
+Duke,Georgia Tech,8,Directed
+Eastern Michigan,Northern Illinois,8,Directed
+Fresno State,Boise State,8,Directed
+Georgia Tech,Clemson,8,Directed
+Illinois,Northwestern,8,Directed
+Indiana,Northwestern,8,Directed
+Kent State,Northern Illinois,8,Directed
+Louisiana Tech,Boise State,8,Directed
+Miami (OH),Marshall,8,Directed
+Miami (OH),Ohio,8,Directed
+Minnesota,Wisconsin,8,Directed
+New Mexico,BYU,8,Directed
+Northern Arizona,Arizona,8,Directed
+Northern Illinois,Toledo,8,Directed
+Ohio,Buffalo,8,Directed
+Oregon State,Washington,8,Directed
+San Jose State,Nevada,8,Directed
+Toledo,Northern Illinois,8,Directed
+UNLV,San Diego State,8,Directed
+Wake Forest,Clemson,8,Directed
+Wake Forest,Florida State,8,Directed
+Western Michigan,Northern Illinois,8,Directed
+Arizona,UCLA,7,Directed
+Arizona State,USC,7,Directed
+Arkansas,Alabama,7,Directed
+Arkansas State,Louisiana,7,Directed
+Baylor,Iowa State,7,Directed
+Baylor,Oklahoma,7,Directed
+Baylor,Texas A&M,7,Directed
+BYU,Boise State,7,Directed
+California,Arizona,7,Directed
+California,UCLA,7,Directed
+Central Michigan,Northern Illinois,7,Directed
+Duke,Virginia,7,Directed
+Florida Atlantic,Middle Tennessee,7,Directed
+Idaho,Washington,7,Directed
+Illinois, Ohio State,7,Directed
+Illinois,Indiana,7,Directed
+Illinois,Penn State,7,Directed
+Indiana,Illinois,7,Directed
+Kansas,Nebraska,7,Directed
+Kansas State, Oklahoma,7,Directed
+Kent State,Bowling Green,7,Directed
+Marshall,Southern Miss,7,Directed
+Marshall,UCF,7,Directed
+Memphis,Ole Miss,7,Directed
+Miami (OH),Buffalo,7,Directed
+Miami (OH),Kent State,7,Directed
+Navy,Notre Dame,7,Directed
+NC State,Boston College,7,Directed
+NC State,Florida State,7,Directed
+Nevada,Hawaii,7,Directed
+New Mexico,San Diego State,7,Directed
+New Mexico State,UTEP,7,Directed
+Ohio,Kent State,7,Directed
+Ole Miss,Arkansas,7,Directed
+Oregon State,UCLA,7,Directed
+Oregon State,USC,7,Directed
+Rutgers,West Virginia,7,Directed
+San Diego State,BYU,7,Directed
+San Diego State,New Mexico,7,Directed
+SMU,Memphis,7,Directed
+SMU,Nevada,7,Directed
+SMU,Texas Tech,7,Directed
+Syracuse,Rutgers,7,Directed
+Temple,Penn State,7,Directed
+UCLA,California,7,Directed
+UCLA,USC,7,Directed
+Utah State,Boise State,7,Directed
+UTEP,Louisiana Tech,7,Directed
+Washington,Arizona,7,Directed
+Washington,Oregon State,7,Directed
+Washington,UCLA,7,Directed
+Air Force,San Diego State,6,Directed
+Akron,Buffalo,6,Directed
+Akron,Miami (OH),6,Directed
+Arizona,Arizona State,6,Directed
+Arizona State,UCLA,6,Directed
+Arkansas, Alabama,6,Directed
+Boston College,Florida State,6,Directed
+Buffalo,Ball State,6,Directed
+Buffalo,Kent State,6,Directed
+Colorado,Arizona,6,Directed
+East Carolina,West Virginia,6,Directed
+FIU,Middle Tennessee,6,Directed
+Georgia Tech, Georgia,6,Directed
+Indiana, Ohio State,6,Directed
+Iowa State, Oklahoma,6,Directed
+Iowa State,Colorado,6,Directed
+Iowa State,Missouri,6,Directed
+Kansas, Oklahoma,6,Directed
+Kansas,Oklahoma,6,Directed
+Kent State,Marshall,6,Directed
+Louisiana,Troy,6,Directed
+Louisiana–Monroe,Arkansas State,6,Directed
+Louisiana Tech,Hawaii,6,Directed
+Louisiana Tech,SMU,6,Directed
+Louisiana Tech,Southern Miss,6,Directed
+Memphis,Marshall,6,Directed
+Miami (OH),Northern Illinois,6,Directed
+Michigan State, Ohio State,6,Directed
+Michigan State,Northwestern,6,Directed
+Michigan State,Penn State,6,Directed
+Middle Tennessee,Troy,6,Directed
+Mississippi State,Arkansas,6,Directed
+Nevada,San Diego State,6,Directed
+North Carolina,Georgia Tech,6,Directed
+Notre Dame,Michigan State,6,Directed
+Ohio,Marshall,6,Directed
+Ohio,Miami (OH),6,Directed
+Ole Miss,Alabama,6,Directed
+Penn State, Ohio State,6,Directed
+Purdue,Wisconsin,6,Directed
+Richmond,Virginia,6,Directed
+San Jose State,Boise State,6,Directed
+SMU,San Jose State,6,Directed
+Texas A&M,Oklahoma,6,Directed
+Troy,Arkansas State,6,Directed
+Tulane,Memphis,6,Directed
+Tulsa,Oklahoma,6,Directed
+UCF,Southern Miss,6,Directed
+Western Michigan,Toledo,6,Directed
+Wyoming,Boise State,6,Directed
+Wyoming,BYU,6,Directed
+Wyoming,New Mexico,6,Directed
+Akron,Ohio,5,Directed
+Arizona, Oregon,5,Directed
+Arkansas, LSU,5,Directed
+Arkansas State,Middle Tennessee,5,Directed
+Arkansas State,Troy,5,Directed
+Baylor, Texas,5,Directed
+Baylor,Nebraska,5,Directed
+Boston College,NC State,5,Directed
+Boston College,Notre Dame,5,Directed
+Boston College,Syracuse,5,Directed
+Buffalo,Bowling Green,5,Directed
+Buffalo,Marshall,5,Directed
+Buffalo,Rutgers,5,Directed
+Central Michigan,Michigan State,5,Directed
+Clemson,Georgia Tech,5,Directed
+Colorado,Missouri,5,Directed
+Colorado,UCLA,5,Directed
+Colorado,Washington,5,Directed
+Duke,Clemson,5,Directed
+Duke,Florida State,5,Directed
+Eastern Michigan,Michigan State,5,Directed
+FIU,Arkansas State,5,Directed
+Georgia State,Arkansas State,5,Directed
+Georgia State,Troy,5,Directed
+Georgia Tech,Virginia,5,Directed
+Hawaii,BYU,5,Directed
+Hawaii,San Diego State,5,Directed
+Howard,Rutgers,5,Directed
+Illinois, Michigan,5,Directed
+Illinois,Michigan State,5,Directed
+Illinois,Nebraska,5,Directed
+Illinois,Purdue,5,Directed
+Indiana, Michigan,5,Directed
+Iowa State,Baylor,5,Directed
+Iowa State,Kansas,5,Directed
+Iowa State,Oklahoma,5,Directed
+Iowa State,Texas A&M,5,Directed
+Kansas,Colorado,5,Directed
+Kansas,Texas Tech,5,Directed
+Kansas State,Colorado,5,Directed
+Kansas State,Nebraska,5,Directed
+Kent State,Akron,5,Directed
+Kent State,Ball State,5,Directed
+Kent State,Penn State,5,Directed
+Louisiana–Lafayette,Arkansas State,5,Directed
+Louisiana Tech,Nevada,5,Directed
+Maryland,Florida State,5,Directed
+Memphis,Houston,5,Directed
+Memphis,Middle Tennessee,5,Directed
+Memphis,Southern Miss,5,Directed
+Memphis,UAB,5,Directed
+Miami (OH),Bowling Green,5,Directed
+Miami (OH),Cincinnati,5,Directed
+Middle Tennessee,Arkansas State,5,Directed
+Mississippi State,Alabama,5,Directed
+Missouri,Kansas State,5,Directed
+Navy,Rutgers,5,Directed
+Nevada, Boise State,5,Directed
+Nevada,Fresno State,5,Directed
+New Mexico,Boise State,5,Directed
+New Mexico State,New Mexico,5,Directed
+North Carolina,Virginia,5,Directed
+Northeastern,UMass,5,Directed
+Northern Iowa,Iowa State,5,Directed
+Northwestern,Penn State,5,Directed
+Northwestern State,Baylor,5,Directed
+Notre Dame,Boston College,5,Directed
+Notre Dame,USC,5,Directed
+Oklahoma State,Kansas State,5,Directed
+Ole Miss, Auburn,5,Directed
+Oregon State,Arizona,5,Directed
+Oregon State,California,5,Directed
+Oregon State,Washington State,5,Directed
+Pittsburgh,Notre Dame,5,Directed
+Purdue,Indiana,5,Directed
+Purdue,Notre Dame,5,Directed
+Rhode Island,UMass,5,Directed
+Rice,UTEP,5,Directed
+Rutgers,Boston College,5,Directed
+Rutgers,Syracuse,5,Directed
+San Diego State,UCLA,5,Directed
+San Jose State,Hawaii,5,Directed
+SMU,UTEP,5,Directed
+South Alabama,Arkansas State,5,Directed
+Southern Miss,Marshall,5,Directed
+Southern Miss,Memphis,5,Directed
+Stanford,Notre Dame,5,Directed
+Stanford,UCLA,5,Directed
+Syracuse,Boston College,5,Directed
+Syracuse,Pittsburgh,5,Directed
+Syracuse,South Florida,5,Directed
+Syracuse,West Virginia,5,Directed
+Tennessee,Alabama,5,Directed
+Texas A&M, Texas,5,Directed
+Texas A&M,Missouri,5,Directed
+Texas Tech,Oklahoma,5,Directed
+Toledo,Ball State,5,Directed
+Troy,Louisiana,5,Directed
+UAB,Marshall,5,Directed
+UNLV,BYU,5,Directed
+UNLV,Hawaii,5,Directed
+Utah State,BYU,5,Directed
+UTEP,Southern Miss,5,Directed
+Washington,California,5,Directed
+Washington State,Oregon State,5,Directed
+Western Michigan,Michigan State,5,Directed
+Wisconsin, Ohio State,5,Directed
+Wyoming,San Diego State,5,Directed
+ Florida State,Clemson,4,Directed
+ Florida State,NC State,4,Directed
+ LSU,Alabama,4,Directed
+ LSU,Arkansas,4,Directed
+ Michigan,Michigan State,4,Directed
+ Mississippi State,Alabama,4,Directed
+ Oklahoma State,Oklahoma,4,Directed
+ USC,Oregon State,4,Directed
+Air Force,BYU,4,Directed
+Air Force,New Mexico,4,Directed
+Akron,Kent State,4,Directed
+Akron,Penn State,4,Directed
+Alabama, LSU,4,Directed
+Arizona,Washington State,4,Directed
+Arizona State,Oregon State,4,Directed
+Arkansas, Auburn,4,Directed
+Arkansas, Georgia,4,Directed
+Arkansas,Ole Miss,4,Directed
+Arkansas State,Memphis,4,Directed
+Arkansas State,Ole Miss,4,Directed
+Army,Boston College,4,Directed
+Ball State,Central Michigan,4,Directed
+Ball State,Indiana,4,Directed
+Ball State,Miami (OH),4,Directed
+Baylor,Kansas State,4,Directed
+Baylor,Missouri,4,Directed
+Boston College,Wake Forest,4,Directed
+Buffalo,Central Michigan,4,Directed
+Buffalo,Connecticut,4,Directed
+Buffalo,Syracuse,4,Directed
+Buffalo,Toledo,4,Directed
+Buffalo,UCF,4,Directed
+BYU,Notre Dame,4,Directed
+BYU,Utah,4,Directed
+California, Oregon,4,Directed
+Chattanooga,Memphis,4,Directed
+Clemson,Florida State,4,Directed
+Colorado, USC,4,Directed
+Colorado,California,4,Directed
+Colorado,Kansas State,4,Directed
+Colorado,USC,4,Directed
+Colorado State,Boise State,4,Directed
+Colorado State,BYU,4,Directed
+Connecticut,Rutgers,4,Directed
+East Carolina,Memphis,4,Directed
+Eastern Michigan,Ball State,4,Directed
+FIU,Troy,4,Directed
+FIU,UCF,4,Directed
+Florida Atlantic,FIU,4,Directed
+Florida State, Florida,4,Directed
+Florida State,Clemson,4,Directed
+Florida State,NC State,4,Directed
+Fresno State,Nevada,4,Directed
+Georgia State,South Alabama,4,Directed
+Hofstra,UMass,4,Directed
+Houston,Southern Miss,4,Directed
+Idaho,Boise State,4,Directed
+Idaho,Hawaii,4,Directed
+Idaho,Nevada,4,Directed
+Illinois, Wisconsin,4,Directed
+Illinois,Minnesota,4,Directed
+Indiana,Purdue,4,Directed
+Indiana State,Indiana,4,Directed
+Iowa State, Oklahoma State,4,Directed
+Iowa State,Iowa,4,Directed
+Iowa State,Nebraska,4,Directed
+Kansas, Texas,4,Directed
+Kansas,Oklahoma State,4,Directed
+Kansas,Texas A&M,4,Directed
+Kansas State,Iowa State,4,Directed
+Kansas State,Missouri,4,Directed
+Kansas State,Oklahoma,4,Directed
+Kent State,Toledo,4,Directed
+Louisiana,Louisiana–Monroe,4,Directed
+Louisiana–Monroe,Arkansas,4,Directed
+Maine,Boston College,4,Directed
+Memphis,Arkansas State,4,Directed
+Miami (OH),Ball State,4,Directed
+Michigan State, Michigan,4,Directed
+Michigan State,Notre Dame,4,Directed
+Michigan State,Wisconsin,4,Directed
+Middle Tennessee,FIU,4,Directed
+Missouri,Iowa State,4,Directed
+Missouri,Kansas,4,Directed
+Missouri State,Kansas State,4,Directed
+NC State, Clemson,4,Directed
+NC State, Florida State,4,Directed
+NC State,Georgia Tech,4,Directed
+Nevada,Louisiana Tech,4,Directed
+New Mexico,Colorado State,4,Directed
+New Mexico,UTEP,4,Directed
+Norfolk State,Rutgers,4,Directed
+North Carolina,Clemson,4,Directed
+North Carolina,NC State,4,Directed
+North Texas,Arkansas State,4,Directed
+North Texas,Kansas State,4,Directed
+Northwestern,Illinois,4,Directed
+Northwestern,Wisconsin,4,Directed
+Notre Dame, USC,4,Directed
+Ohio,Bowling Green,4,Directed
+Ohio,Toledo,4,Directed
+Oklahoma State,Baylor,4,Directed
+Ole Miss, Alabama,4,Directed
+Oregon,Oregon State,4,Directed
+Oregon State, Stanford,4,Directed
+Penn State,Wisconsin,4,Directed
+Pittsburgh,Syracuse,4,Directed
+Portland State,Oregon State,4,Directed
+Purdue,Michigan State,4,Directed
+Purdue,Penn State,4,Directed
+Rice,Louisiana Tech,4,Directed
+Rice,SMU,4,Directed
+Rutgers, West Virginia,4,Directed
+Rutgers,Michigan State,4,Directed
+San Diego State,Colorado State,4,Directed
+San Jose State,Louisiana Tech,4,Directed
+San Jose State,San Diego State,4,Directed
+SMU,Baylor,4,Directed
+SMU,Hawaii,4,Directed
+SMU,Texas A&M,4,Directed
+SMU,UCF,4,Directed
+South Alabama,Georgia State,4,Directed
+South Alabama,Louisiana,4,Directed
+South Carolina State,Clemson,4,Directed
+Southern Miss,Alabama,4,Directed
+Southern Miss,East Carolina,4,Directed
+Southern Miss,UAB,4,Directed
+Stanford,California,4,Directed
+Stanford,Oregon State,4,Directed
+Syracuse,Florida State,4,Directed
+Syracuse,NC State,4,Directed
+Texas A&M, Oklahoma,4,Directed
+Texas Tech,Iowa State,4,Directed
+Texas Tech,Kansas State,4,Directed
+The Citadel,Clemson,4,Directed
+Tulane,SMU,4,Directed
+Tulane,Southern Miss,4,Directed
+Tulane,UCF,4,Directed
+Tulsa,UTEP,4,Directed
+UAB,Southern Miss,4,Directed
+UAB,UCF,4,Directed
+UCLA, Oregon,4,Directed
+UCLA,Arizona,4,Directed
+UCLA,Colorado,4,Directed
+UCLA,Washington,4,Directed
+UNLV,Nevada,4,Directed
+USC,Notre Dame,4,Directed
+Utah State,Nevada,4,Directed
+UTEP,Boise State,4,Directed
+UTEP,Rice,4,Directed
+UTEP,SMU,4,Directed
+UTSA,Louisiana Tech,4,Directed
+Vanderbilt,Ole Miss,4,Directed
+Virginia,Boston College,4,Directed
+Virginia,NC State,4,Directed
+Wake Forest,Boston College,4,Directed
+Wake Forest,Georgia Tech,4,Directed
+Washington,USC,4,Directed
+Washington State,California,4,Directed
+Washington State,USC,4,Directed
+Western Carolina,Alabama,4,Directed
+Western Kentucky,FIU,4,Directed
+Western Kentucky,Middle Tennessee,4,Directed
+Western Kentucky,Troy,4,Directed
+ (FCS) Northern Iowa,Iowa State,3,Directed
+ Auburn,Arkansas,3,Directed
+ California,UCLA,3,Directed
+ Clemson,Florida State,3,Directed
+ Florida,Florida State,3,Directed
+ Georgia Tech,Virginia,3,Directed
+ Michigan,Notre Dame,3,Directed
+ Michigan,Wisconsin,3,Directed
+ Mississippi State,Ole Miss,3,Directed
+ Oregon,Arizona,3,Directed
+ South Carolina,Arkansas,3,Directed
+ Stanford,Notre Dame,3,Directed
+ Stanford,Washington,3,Directed
+ TCU,Oklahoma,3,Directed
+ Texas A&M,Alabama,3,Directed
+ Texas Tech,Oklahoma,3,Directed
+ UCLA,USC,3,Directed
+ USC,UCLA,3,Directed
+ Wisconsin,Michigan State,3,Directed
+ Wisconsin,Northwestern,3,Directed
+Air Force,Boise State,3,Directed
+Akron,Northern Illinois,3,Directed
+Akron,Toledo,3,Directed
+Akron,UCF,3,Directed
+Akron,Wisconsin,3,Directed
+Alabama,Arkansas,3,Directed
+Albany,UMass,3,Directed
+Arizona, Oregon State,3,Directed
+Arizona, USC,3,Directed
+Arizona,California,3,Directed
+Arizona,Stanford,3,Directed
+Arizona State,California,3,Directed
+Arkansas State,Nebraska,3,Directed
+Army,Rutgers,3,Directed
+Auburn,Alabama,3,Directed
+Ball State,Eastern Michigan,3,Directed
+Ball State,Ohio,3,Directed
+Ball State,Western Michigan,3,Directed
+Baylor,TCU,3,Directed
+Baylor,Texas Tech,3,Directed
+Boise State,San Diego State,3,Directed
+Boston College, Clemson,3,Directed
+Boston College, Florida State,3,Directed
+Boston College, Virginia Tech,3,Directed
+Boston College,Virginia Tech,3,Directed
+Boston College,West Virginia,3,Directed
+Bowling Green,Northern Illinois,3,Directed
+Buffalo,Akron,3,Directed
+Buffalo,Baylor,3,Directed
+Buffalo,Nevada,3,Directed
+Buffalo,Western Michigan,3,Directed
+BYU,Nevada,3,Directed
+California, Stanford,3,Directed
+California,Stanford,3,Directed
+Central Michigan,Boston College,3,Directed
+Clemson,Virginia,3,Directed
+Colorado, Texas,3,Directed
+Colorado,Baylor,3,Directed
+Colorado,Iowa State,3,Directed
+Colorado,Kansas,3,Directed
+Colorado,Nebraska,3,Directed
+Colorado,Oregon State,3,Directed
+Colorado State,Nevada,3,Directed
+Colorado State,New Mexico,3,Directed
+Colorado State,San Diego State,3,Directed
+Connecticut,Boston College,3,Directed
+Connecticut,Syracuse,3,Directed
+Connecticut,West Virginia,3,Directed
+Delaware State,Kent State,3,Directed
+East Carolina,Marshall,3,Directed
+East Carolina,Southern Miss,3,Directed
+East Carolina,UCF,3,Directed
+Eastern Michigan,Kent State,3,Directed
+FIU,Indiana,3,Directed
+FIU,Louisiana Tech,3,Directed
+Florida Atlantic,Arkansas State,3,Directed
+Florida Atlantic,Marshall,3,Directed
+Florida International,Middle Tennessee,3,Directed
+Florida State, Miami (FL),3,Directed
+Florida State,Boston College,3,Directed
+Furman,Clemson,3,Directed
+Georgia Tech,BYU,3,Directed
+Georgia Tech,NC State,3,Directed
+Hawaii, USC,3,Directed
+Hawaii,Fresno State,3,Directed
+Hawaii,New Mexico,3,Directed
+Hawaii,Oregon State,3,Directed
+Hawaii,San Jose State,3,Directed
+Idaho,Arkansas State,3,Directed
+Idaho,Louisiana Tech,3,Directed
+Illinois, Penn State,3,Directed
+Illinois,Iowa,3,Directed
+Indiana, Iowa,3,Directed
+Indiana, Penn State,3,Directed
+Iowa,Iowa State,3,Directed
+Iowa,Michigan State,3,Directed
+Iowa,Penn State,3,Directed
+Iowa State, Nebraska,3,Directed
+Iowa State, Texas,3,Directed
+Iowa State,Texas Tech,3,Directed
+Kansas, Kansas State,3,Directed
+Kansas,Missouri,3,Directed
+Kansas,West Virginia,3,Directed
+Kansas State,Baylor,3,Directed
+Kansas State,Kansas,3,Directed
+Kansas State,Texas A&M,3,Directed
+Kansas State,West Virginia,3,Directed
+Kent State,Central Michigan,3,Directed
+Kentucky,Alabama,3,Directed
+Kentucky,Ole Miss,3,Directed
+Louisiana,Florida Atlantic,3,Directed
+Louisiana–Lafayette,Kansas State,3,Directed
+Louisiana–Lafayette,Louisiana Tech,3,Directed
+Louisiana–Monroe,Louisiana,3,Directed
+Louisiana–Monroe,Texas A&M,3,Directed
+Louisiana–Monroe,Troy,3,Directed
+Louisiana Tech,Fresno State,3,Directed
+Louisiana Tech,Kansas,3,Directed
+Louisiana Tech,Kansas State,3,Directed
+Louisiana Tech,Texas A&M,3,Directed
+Maine,UMass,3,Directed
+Marshall,Middle Tennessee,3,Directed
+Marshall,Ohio,3,Directed
+Marshall,West Virginia,3,Directed
+Maryland,Clemson,3,Directed
+Maryland,Georgia Tech,3,Directed
+Maryland,NC State,3,Directed
+Maryland,Virginia,3,Directed
+Maryland,West Virginia,3,Directed
+Memphis,Cincinnati,3,Directed
+Memphis,East Carolina,3,Directed
+Memphis,SMU,3,Directed
+Memphis,Tulsa,3,Directed
+Miami (OH),Western Michigan,3,Directed
+Michigan State, Notre Dame,3,Directed
+Middle Tennessee,Marshall,3,Directed
+Minnesota,Illinois,3,Directed
+Minnesota,Michigan State,3,Directed
+Minnesota,Nebraska,3,Directed
+Minnesota,Northwestern,3,Directed
+Mississippi State,Ole Miss,3,Directed
+Missouri, Georgia,3,Directed
+Missouri, Oklahoma State,3,Directed
+Missouri, Texas,3,Directed
+Missouri,Colorado,3,Directed
+Missouri,Nebraska,3,Directed
+Missouri State,Arkansas,3,Directed
+NC State, Georgia Tech,3,Directed
+NC State,Maryland,3,Directed
+Nebraska,Kansas State,3,Directed
+Nebraska,Northwestern,3,Directed
+New Mexico, Utah,3,Directed
+New Mexico,Air Force,3,Directed
+New Mexico,Texas A&M,3,Directed
+New Mexico,UNLV,3,Directed
+New Mexico State,Arkansas,3,Directed
+New Mexico State,Boise State,3,Directed
+New Mexico State,Hawaii,3,Directed
+New Mexico State,Louisiana,3,Directed
+New Mexico State,Louisiana Tech,3,Directed
+Nicholls State,South Alabama,3,Directed
+North Carolina,Florida State,3,Directed
+North Texas,Alabama,3,Directed
+North Texas,Louisiana,3,Directed
+North Texas,Middle Tennessee,3,Directed
+North Texas,Oklahoma,3,Directed
+Northern Illinois,Ball State,3,Directed
+Northern Illinois,Central Michigan,3,Directed
+Northern Illinois,Ohio,3,Directed
+Northern Illinois,Wisconsin,3,Directed
+Northwestern, Michigan,3,Directed
+Northwestern, Michigan State,3,Directed
+Northwestern, Ohio State,3,Directed
+Northwestern,Michigan State,3,Directed
+Northwestern,Purdue,3,Directed
+Ohio,Iowa State,3,Directed
+Oklahoma State,Oklahoma,3,Directed
+Oklahoma State,Texas A&M,3,Directed
+Oregon State, Oregon,3,Directed
+Oregon State,Boise State,3,Directed
+Oregon State,Colorado,3,Directed
+Penn State, Michigan,3,Directed
+Penn State,Illinois,3,Directed
+Penn State,Michigan State,3,Directed
+Penn State,Nebraska,3,Directed
+Penn State,Northwestern,3,Directed
+Pittsburgh,Rutgers,3,Directed
+Rhode Island,Syracuse,3,Directed
+Rice,Baylor,3,Directed
+Rice,Marshall,3,Directed
+Rice,Southern Miss,3,Directed
+Rutgers,Nebraska,3,Directed
+Rutgers,Penn State,3,Directed
+Rutgers,Pittsburgh,3,Directed
+Rutgers,Wisconsin,3,Directed
+Samford,Georgia Tech,3,Directed
+San Diego State, Utah,3,Directed
+San Diego State,Hawaii,3,Directed
+San Diego State,Oregon State,3,Directed
+San Diego State,TCU,3,Directed
+San Jose State,USC,3,Directed
+San Jose State,Washington,3,Directed
+SMU,Southern Miss,3,Directed
+South Alabama,NC State,3,Directed
+South Alabama,Troy,3,Directed
+South Carolina,Clemson,3,Directed
+South Carolina State,UCF,3,Directed
+Southern Miss,Nebraska,3,Directed
+Southern Miss,UTEP,3,Directed
+Stephen F. Austin,SMU,3,Directed
+Syracuse, Florida State,3,Directed
+Syracuse,Clemson,3,Directed
+Syracuse,Louisville,3,Directed
+Temple,Ohio,3,Directed
+Texas A&M, Alabama,3,Directed
+Texas A&M, Oklahoma State,3,Directed
+Texas A&M,Colorado,3,Directed
+Texas A&M,Kansas State,3,Directed
+Texas A&M,Nebraska,3,Directed
+Texas Southern,UTEP,3,Directed
+Texas State,Arkansas State,3,Directed
+Texas State,Louisiana,3,Directed
+Texas State,Troy,3,Directed
+Texas Tech,Texas A&M,3,Directed
+Toledo,Arizona,3,Directed
+Toledo,Miami (OH),3,Directed
+Toledo,Western Michigan,3,Directed
+Troy,Arkansas,3,Directed
+Troy,South Alabama,3,Directed
+Troy State,Nebraska,3,Directed
+Tulsa,Arkansas,3,Directed
+Tulsa,Boise State,3,Directed
+UAB,Florida State,3,Directed
+UAB,Troy,3,Directed
+UCF,East Carolina,3,Directed
+UCF,Marshall,3,Directed
+UCF,Syracuse,3,Directed
+UCLA, Stanford,3,Directed
+UCLA, USC,3,Directed
+UCLA,Oregon State,3,Directed
+UCLA,Washington State,3,Directed
+UMass,Kansas State,3,Directed
+UNLV,New Mexico,3,Directed
+USC, Notre Dame,3,Directed
+USC,Stanford,3,Directed
+USC,Washington,3,Directed
+UT Martin,Arkansas State,3,Directed
+Utah,USC,3,Directed
+Utah State,Louisiana Tech,3,Directed
+UTEP,Hawaii,3,Directed
+UTEP,Memphis,3,Directed
+UTEP,Middle Tennessee,3,Directed
+UTEP,New Mexico,3,Directed
+UTEP,Oklahoma,3,Directed
+UTEP,Tulsa,3,Directed
+UTEP,UAB,3,Directed
+UTEP,UCF,3,Directed
+UTEP,UTSA,3,Directed
+Virginia,Maryland,3,Directed
+Wake Forest,NC State,3,Directed
+Wake Forest,Notre Dame,3,Directed
+Wake Forest,Syracuse,3,Directed
+Washington, USC,3,Directed
+Washington,Arizona State,3,Directed
+Washington,Notre Dame,3,Directed
+Washington State,Arizona,3,Directed
+Washington State,UCLA,3,Directed
+West Virginia,Syracuse,3,Directed
+Western Illinois,Illinois,3,Directed
+Western Kentucky,Florida Atlantic,3,Directed
+Western Michigan,Ball State,3,Directed
+Wisconsin,Michigan State,3,Directed
+Wisconsin,Penn State,3,Directed
+ (FCS) New Hampshire,Toledo,2,Directed
+ Arizona,UCLA,2,Directed
+ Arizona State,Arizona,2,Directed
+ Arizona State,California,2,Directed
+ Arizona State,Oregon State,2,Directed
+ Arkansas,Alabama,2,Directed
+ Auburn,Alabama,2,Directed
+ Auburn,Clemson,2,Directed
+ Boise State,Washington,2,Directed
+ California,Arizona,2,Directed
+ California,USC,2,Directed
+ Colorado,USC,2,Directed
+ Florida,Alabama,2,Directed
+ Florida State,Georgia Tech,2,Directed
+ Houston,SMU,2,Directed
+ Kansas State,Baylor,2,Directed
+ Maine,UMass,2,Directed
+ Maryland,Florida State,2,Directed
+ Miami (FL),Florida State,2,Directed
+ Miami (FL),Virginia,2,Directed
+ Michigan State,Nebraska,2,Directed
+ Missouri,Oklahoma,2,Directed
+ Nebraska,Missouri,2,Directed
+ New Hampshire,UMass,2,Directed
+ North Carolina,Georgia Tech,2,Directed
+ Notre Dame,USC,2,Directed
+ Ohio State,Penn State,2,Directed
+ Ohio State,Wisconsin,2,Directed
+ Oklahoma,Baylor,2,Directed
+ Oklahoma,Nebraska,2,Directed
+ Oklahoma,Texas A&M,2,Directed
+ Ole Miss,Alabama,2,Directed
+ Oregon,California,2,Directed
+ Oregon,USC,2,Directed
+ Penn State,Michigan State,2,Directed
+ South Carolina,Alabama,2,Directed
+ South Florida,Rutgers,2,Directed
+ Stanford,USC,2,Directed
+ TCU,Baylor,2,Directed
+ Tennessee,Alabama,2,Directed
+ Texas,Baylor,2,Directed
+ Texas,Kansas State,2,Directed
+ UCLA,California,2,Directed
+ Virginia Tech,Boston College,2,Directed
+ Virginia Tech,Syracuse,2,Directed
+ Washington,UCLA,2,Directed
+ Washington State,Washington,2,Directed
+ Wisconsin,Penn State,2,Directed
+Air Force,Notre Dame,2,Directed
+Akron,Ball State,2,Directed
+Akron,Indiana,2,Directed
+Akron,Marshall,2,Directed
+Akron,Virginia,2,Directed
+Alabama, Auburn,2,Directed
+Alabama, Georgia,2,Directed
+Alabama, Tennessee,2,Directed
+Alcorn State,Georgia Tech,2,Directed
+Alcorn State,Southern Miss,2,Directed
+American International,UMass,2,Directed
+Arizona, Stanford,2,Directed
+Arizona, UCLA,2,Directed
+Arizona, Utah,2,Directed
+Arizona,BYU,2,Directed
+Arizona,New Mexico,2,Directed
+Arizona,Wisconsin,2,Directed
+Arizona State,Arizona,2,Directed
+Arizona State,Colorado,2,Directed
+Arizona State,Washington,2,Directed
+Arkansas,Mississippi State,2,Directed
+Arkansas,Missouri,2,Directed
+Arkansas,Rutgers,2,Directed
+Arkansas,Vanderbilt,2,Directed
+Arkansas–Pine Bluff,Arkansas State,2,Directed
+Arkansas State,Alabama,2,Directed
+Arkansas State,Appalachian State,2,Directed
+Arkansas State,Illinois,2,Directed
+Arkansas State,Missouri,2,Directed
+Arkansas State,North Texas,2,Directed
+Arkansas State,Southern Miss,2,Directed
+Arkansas State,Toledo,2,Directed
+Arkansas State,Western Kentucky,2,Directed
+Army,Ball State,2,Directed
+Army,Buffalo,2,Directed
+Army,Hawaii,2,Directed
+Army,Memphis,2,Directed
+Austin Peay,Memphis,2,Directed
+Ball State,Boston College,2,Directed
+Ball State,Bowling Green,2,Directed
+Ball State,Clemson,2,Directed
+Ball State,Illinois,2,Directed
+Ball State,Kent State,2,Directed
+Ball State,Missouri,2,Directed
+Ball State,Western Kentucky,2,Directed
+Baylor, Oklahoma State,2,Directed
+Baylor, Texas A&M,2,Directed
+Baylor,Colorado,2,Directed
+Baylor,Kansas,2,Directed
+Baylor,Oklahoma State,2,Directed
+Baylor,Texas,2,Directed
+Blue-White Spring Game,Middle Tennessee,2,Directed
+Boise State,Arkansas,2,Directed
+Boise State,Oregon State,2,Directed
+Boston College,Georgia Tech,2,Directed
+Boston College,Pittsburgh,2,Directed
+Bowling Green,Boise State,2,Directed
+Bowling Green,Buffalo,2,Directed
+Bowling Green,Marshall,2,Directed
+Bowling Green,Miami (OH),2,Directed
+Bowling Green,Michigan State,2,Directed
+Bowling Green,Wisconsin,2,Directed
+Buffalo,Boston College,2,Directed
+Buffalo,Eastern Michigan,2,Directed
+Buffalo,Penn State,2,Directed
+Buffalo,Pittsburgh,2,Directed
+BYU,Florida State,2,Directed
+BYU,New Mexico,2,Directed
+BYU,San Diego State,2,Directed
+BYU,UCLA,2,Directed
+BYU,UNLV,2,Directed
+BYU,Utah State,2,Directed
+Cal State-Northridge,SMU,2,Directed
+California, USC,2,Directed
+California, Washington,2,Directed
+California,BYU,2,Directed
+California,Colorado,2,Directed
+California,Illinois,2,Directed
+California,Nevada,2,Directed
+California,Washington State,2,Directed
+Campbell,Georgia State,2,Directed
+Central Connecticut State,UMass,2,Directed
+Central Michigan,Ball State,2,Directed
+Central Michigan,Indiana,2,Directed
+Central Michigan,Kansas,2,Directed
+Central Michigan,NC State,2,Directed
+Central Michigan,Syracuse,2,Directed
+Charleston Southern,Hawaii,2,Directed
+Charlotte,FIU,2,Directed
+Charlotte,Middle Tennessee,2,Directed
+Chattanooga,Alabama,2,Directed
+Cincinnati,Memphis,2,Directed
+Cincinnati,Miami (OH),2,Directed
+Cincinnati,Rutgers,2,Directed
+Cincinnati,West Virginia,2,Directed
+Clark Atlanta,Georgia State,2,Directed
+Clemson, Florida State,2,Directed
+Clemson, Miami (FL),2,Directed
+Clemson,Boston College,2,Directed
+Clemson,Maryland,2,Directed
+Colorado, Oklahoma State,2,Directed
+Colorado, Oregon,2,Directed
+Colorado, Stanford,2,Directed
+Colorado, Washington,2,Directed
+Colorado,Arizona State,2,Directed
+Colorado,Florida State,2,Directed
+Colorado,Hawaii,2,Directed
+Colorado,Oklahoma,2,Directed
+Colorado,Texas A&M,2,Directed
+Colorado,Utah,2,Directed
+Colorado,Washington State,2,Directed
+Colorado State,Alabama,2,Directed
+Connecticut,Georgia Tech,2,Directed
+Duke,NC State,2,Directed
+Duke,Northwestern,2,Directed
+Eastern Illinois,Hawaii,2,Directed
+Eastern Illinois,Illinois,2,Directed
+Eastern Michigan,Buffalo,2,Directed
+Eastern Michigan,Miami (OH),2,Directed
+Eastern Michigan,Northwestern,2,Directed
+Eastern Michigan,Ohio,2,Directed
+Eastern Michigan,Penn State,2,Directed
+Eastern Washington,Oregon State,2,Directed
+FIU, (FCS) Bethune-Cookman,2,Directed
+FIU,Florida Atlantic,2,Directed
+FIU,Louisiana,2,Directed
+FIU,Louisiana-Monroe,2,Directed
+FIU,Louisiana–Lafayette,2,Directed
+FIU,Marshall,2,Directed
+FIU,UMass,2,Directed
+FIU,WKU,2,Directed
+Florida,Florida State,2,Directed
+Florida Atlantic,Alabama,2,Directed
+Florida Atlantic,Michigan State,2,Directed
+Florida Atlantic,Nebraska,2,Directed
+Florida Atlantic,Troy,2,Directed
+Florida Atlantic,UCF,2,Directed
+Florida International,Alabama,2,Directed
+Florida State, Clemson,2,Directed
+Florida State, Wake Forest,2,Directed
+Florida State,Miami (FL),2,Directed
+Florida State,North Carolina,2,Directed
+Fresno State,Hawaii,2,Directed
+Fresno State,Nebraska,2,Directed
+Fresno State,Ole Miss,2,Directed
+Fresno State,San Diego State,2,Directed
+Fresno State,SMU,2,Directed
+Fresno State,Washington,2,Directed
+Gardner–Webb,Ohio,2,Directed
+Georgia Southern,Georgia Tech,2,Directed
+Georgia State,Alabama,2,Directed
+Georgia State,Appalachian State,2,Directed
+Georgia State,Louisiana,2,Directed
+Georgia State,Louisiana–Lafayette,2,Directed
+Georgia State,Murray State,2,Directed
+Georgia State,Old Dominion,2,Directed
+Georgia State,St. Francis (IL),2,Directed
+Georgia State,Texas State,2,Directed
+Georgia Tech, Florida State,2,Directed
+Georgia Tech, Virginia Tech,2,Directed
+Georgia Tech,Duke,2,Directed
+Georgia Tech,Florida State,2,Directed
+Georgia Tech,Georgia,2,Directed
+Georgia Tech,Miami (FL),2,Directed
+Hawaii, Boise State,2,Directed
+Hawaii, Fresno State,2,Directed
+Hawaii,Colorado State,2,Directed
+Hawaii,UNLV,2,Directed
+Hawaii,USC,2,Directed
+Hawaii,Utah State,2,Directed
+Hawaii,UTEP,2,Directed
+Hawaii,Wisconsin,2,Directed
+Hofstra,Marshall,2,Directed
+Holy Cross,UMass,2,Directed
+Houston,Marshall,2,Directed
+Houston,Memphis,2,Directed
+Houston,UCF,2,Directed
+Howard,Kent State,2,Directed
+Idaho,Arizona,2,Directed
+Idaho,BYU,2,Directed
+Idaho,San Diego State,2,Directed
+Idaho,USC,2,Directed
+Idaho State,Boise State,2,Directed
+Idaho State,BYU,2,Directed
+Idaho State,Oregon State,2,Directed
+Illinois, Iowa,2,Directed
+Illinois, Michigan State,2,Directed
+Illinois,California,2,Directed
+Illinois,Rutgers,2,Directed
+Illinois,UCLA,2,Directed
+Illinois State,Illinois,2,Directed
+Indiana, Michigan State,2,Directed
+Indiana, Wisconsin,2,Directed
+Indiana,Ball State,2,Directed
+Indiana,Iowa,2,Directed
+Indiana,Minnesota,2,Directed
+Indiana,NC State,2,Directed
+Indiana,Rutgers,2,Directed
+Indiana,Virginia,2,Directed
+Indiana State,Northern Illinois,2,Directed
+Iowa,Illinois,2,Directed
+Iowa,Wisconsin,2,Directed
+Iowa State, (FCS) Northern Iowa,2,Directed
+Iowa State, Baylor,2,Directed
+Iowa State, Kansas State,2,Directed
+Iowa State, Missouri,2,Directed
+Iowa State,Texas,2,Directed
+Iowa State,Toledo,2,Directed
+Iowa State,West Virginia,2,Directed
+Jackson State,Southern Miss,2,Directed
+Jacksonville,FIU,2,Directed
+Jacksonville State,Georgia Tech,2,Directed
+James Madison,UMass,2,Directed
+Kansas, Baylor,2,Directed
+Kansas, Oklahoma State,2,Directed
+Kansas, TCU,2,Directed
+Kansas, Texas Tech,2,Directed
+Kansas,Memphis,2,Directed
+Kansas,Northwestern,2,Directed
+Kansas,Ohio,2,Directed
+Kansas,Texas,2,Directed
+Kansas State, Baylor,2,Directed
+Kansas State, Nebraska,2,Directed
+Kansas State, TCU,2,Directed
+Kansas State, Texas,2,Directed
+Kent State,Alabama,2,Directed
+Kent State,Boston College,2,Directed
+Kent State,Illinois,2,Directed
+Kent State,Iowa State,2,Directed
+Kent State,South Alabama,2,Directed
+Kentucky,Indiana,2,Directed
+Liberty,Kent State,2,Directed
+Liberty,Toledo,2,Directed
+Liberty,UCF,2,Directed
+Louisiana,Appalachian State,2,Directed
+Louisiana,Middle Tennessee,2,Directed
+Louisiana-Monroe,Middle Tennessee,2,Directed
+Louisiana–Lafayette,Arkansas,2,Directed
+Louisiana–Lafayette,South Alabama,2,Directed
+Louisiana–Lafayette,Texas A&M,2,Directed
+Louisiana–Lafayette,UCF,2,Directed
+Louisiana–Monroe,Alabama,2,Directed
+Louisiana–Monroe,Memphis,2,Directed
+Louisiana–Monroe,Oklahoma,2,Directed
+Louisiana–Monroe,Ole Miss,2,Directed
+Louisiana–Monroe,South Alabama,2,Directed
+Louisiana Tech,Clemson,2,Directed
+Louisiana Tech,North Texas,2,Directed
+Louisiana Tech,Penn State,2,Directed
+Louisiana Tech,Western Kentucky,2,Directed
+Louisville,Clemson,2,Directed
+Louisville,Florida State,2,Directed
+Louisville,Syracuse,2,Directed
+Louisville,West Virginia,2,Directed
+Maine,Syracuse,2,Directed
+Marshall, West Virginia,2,Directed
+Marshall,East Carolina,2,Directed
+Marshall,FIU,2,Directed
+Marshall,Kansas State,2,Directed
+Marshall,Memphis,2,Directed
+Marshall,NC State,2,Directed
+Marshall,Toledo,2,Directed
+Marshall,Tulsa,2,Directed
+Marshall,UTEP,2,Directed
+Marshall,WKU,2,Directed
+Maryland,Boston College,2,Directed
+Maryland,Indiana,2,Directed
+Maryland,Michigan State,2,Directed
+Maryland,Penn State,2,Directed
+Maryland,Wisconsin,2,Directed
+Memphis,Louisville,2,Directed
+Memphis,Mississippi State,2,Directed
+Memphis,South Florida,2,Directed
+Memphis,Tennessee,2,Directed
+Miami,Virginia,2,Directed
+Miami (FL),Florida State,2,Directed
+Miami (FL),Georgia Tech,2,Directed
+Miami (OH),Akron,2,Directed
+Miami (OH),Boise State,2,Directed
+Miami (OH),Central Michigan,2,Directed
+Miami (OH),Missouri,2,Directed
+Miami (OH),Northwestern,2,Directed
+Miami (OH),Toledo,2,Directed
+Michigan,Notre Dame,2,Directed
+Michigan,Penn State,2,Directed
+Michigan State, Penn State,2,Directed
+Michigan State,California,2,Directed
+Michigan State,Illinois,2,Directed
+Michigan State,Indiana,2,Directed
+Michigan State,Minnesota,2,Directed
+Michigan State,Purdue,2,Directed
+Middle Tennessee,Alabama,2,Directed
+Middle Tennessee,BYU,2,Directed
+Middle Tennessee,Georgia Tech,2,Directed
+Middle Tennessee,Illinois,2,Directed
+Middle Tennessee,Memphis,2,Directed
+Middle Tennessee,North Texas,2,Directed
+Middle Tennessee,Vanderbilt,2,Directed
+Middle Tennessee,WKU,2,Directed
+Minnesota,Penn State,2,Directed
+Missouri, Kansas State,2,Directed
+Missouri, Nebraska,2,Directed
+Missouri, Oklahoma,2,Directed
+Missouri,Baylor,2,Directed
+Missouri,Michigan State,2,Directed
+Morgan State,Rutgers,2,Directed
+Murray State,Missouri,2,Directed
+Navy,Boston College,2,Directed
+Navy,Toledo,2,Directed
+NC State,Louisville,2,Directed
+NC State,Virginia,2,Directed
+NC State,Wake Forest,2,Directed
+Nebraska, Texas,2,Directed
+Nebraska,Iowa,2,Directed
+Nebraska,Iowa State,2,Directed
+Nebraska,Oklahoma,2,Directed
+Nebraska,Wisconsin,2,Directed
+Nevada,BYU,2,Directed
+Nevada,Missouri,2,Directed
+Nevada,New Mexico,2,Directed
+Nevada,Notre Dame,2,Directed
+Nevada,Toledo,2,Directed
+New Mexico, Boise State,2,Directed
+New Mexico,Fresno State,2,Directed
+New Mexico,New Mexico State,2,Directed
+New Mexico,Oregon State,2,Directed
+New Mexico,TCU,2,Directed
+New Mexico,Texas Tech,2,Directed
+New Mexico,Tulsa,2,Directed
+New Mexico,Wyoming,2,Directed
+New Mexico State,Arkansas State,2,Directed
+New Mexico State,BYU,2,Directed
+New Mexico State,California,2,Directed
+New Mexico State,Nevada,2,Directed
+New Mexico State,Troy,2,Directed
+Nicholls State,Louisiana,2,Directed
+Nicholls State,Louisiana Tech,2,Directed
+North Carolina,Notre Dame,2,Directed
+North Texas,Arkansas,2,Directed
+North Texas,FIU,2,Directed
+North Texas,Troy,2,Directed
+North Texas,UTEP,2,Directed
+Northern Illinois,Boston College,2,Directed
+Northern Illinois,Illinois,2,Directed
+Northern Illinois,Iowa State,2,Directed
+Northern Illinois,Northwestern,2,Directed
+Northern Illinois,San Diego State,2,Directed
+Northwestern, Penn State,2,Directed
+Northwestern,Indiana,2,Directed
+Northwestern,Iowa,2,Directed
+Notre Dame,Navy,2,Directed
+Notre Dame,Pittsburgh,2,Directed
+Notre Dame,Syracuse,2,Directed
+Ohio,Ball State,2,Directed
+Ohio,Central Michigan,2,Directed
+Ohio,Northern Illinois,2,Directed
+Ohio,Northwestern,2,Directed
+Ohio,Rutgers,2,Directed
+Oklahoma, Kansas State,2,Directed
+Oklahoma,Oklahoma State,2,Directed
+Oklahoma State,Iowa State,2,Directed
+Old Dominion,Marshall,2,Directed
+Old Dominion,NC State,2,Directed
+Old Dominion,Western Kentucky,2,Directed
+Ole Miss,Auburn,2,Directed
+Ole Miss,Memphis,2,Directed
+Ole Miss,Missouri,2,Directed
+Ole Miss,Texas A&M,2,Directed
+Ole Miss,Vanderbilt,2,Directed
+Oregon,California,2,Directed
+Oregon State, UCLA,2,Directed
+Oregon State, Utah,2,Directed
+Oregon State,Arizona State,2,Directed
+Penn State, Michigan State,2,Directed
+Penn State,Boston College,2,Directed
+Penn State,Iowa,2,Directed
+Penn State,Virginia,2,Directed
+Pittsburgh,Georgia Tech,2,Directed
+Pittsburgh,Virginia,2,Directed
+Portland State,California,2,Directed
+Purdue,Illinois,2,Directed
+Purdue,Nebraska,2,Directed
+Rice,Hawaii,2,Directed
+Rice,Nevada,2,Directed
+Rice,Texas A&M,2,Directed
+Rice,UCLA,2,Directed
+Rutgers, Michigan State,2,Directed
+Rutgers, Ohio State,2,Directed
+Rutgers, Virginia Tech,2,Directed
+Rutgers,Cincinnati,2,Directed
+Rutgers,Connecticut,2,Directed
+Rutgers,Illinois,2,Directed
+Rutgers,Indiana,2,Directed
+Rutgers,Louisville,2,Directed
+Rutgers,Maryland,2,Directed
+Rutgers,North Carolina,2,Directed
+Rutgers,Temple,2,Directed
+Sacramento State,California,2,Directed
+Sam Houston State,Baylor,2,Directed
+Sam Houston State,Texas A&M,2,Directed
+Samford,Baylor,2,Directed
+San Diego State, BYU,2,Directed
+San Diego State,Air Force,2,Directed
+San Diego State,Arizona,2,Directed
+San Diego State,Arizona State,2,Directed
+San Diego State,Boise State,2,Directed
+San Diego State,Cal Poly,2,Directed
+San Diego State,Nevada,2,Directed
+San Diego State,UNLV,2,Directed
+San Diego State,Utah,2,Directed
+San Diego State,Wyoming,2,Directed
+San Jose State,BYU,2,Directed
+San José State,Nebraska,2,Directed
+SE Missouri State,Kansas,2,Directed
+SMU, UCF,2,Directed
+SMU,Arkansas,2,Directed
+SMU,Cincinnati,2,Directed
+SMU,Houston,2,Directed
+SMU,Marshall,2,Directed
+SMU,South Florida,2,Directed
+SMU,TCU,2,Directed
+SMU,Tulsa,2,Directed
+South Alabama,Georgia Southern,2,Directed
+South Alabama,Louisiana Tech,2,Directed
+South Carolina,Arkansas,2,Directed
+South Carolina,Texas A&M,2,Directed
+South Dakota,Kansas State,2,Directed
+South Florida,Memphis,2,Directed
+South Florida,Rutgers,2,Directed
+South Florida,Southern Miss,2,Directed
+Southeast Missouri State,Arkansas State,2,Directed
+Southern,Louisiana,2,Directed
+Southern,Louisiana Tech,2,Directed
+Southern Illinois,Illinois,2,Directed
+Southern Miss, Boise State,2,Directed
+Southern Miss,Boise State,2,Directed
+Southern Miss,Louisiana Tech,2,Directed
+Southern Miss,Louisville,2,Directed
+Southern Miss,Middle Tennessee,2,Directed
+Southern Miss,North Texas,2,Directed
+Southern Miss,Rice,2,Directed
+Southern Miss,UCF,2,Directed
+Southern Utah,Nevada,2,Directed
+Stanford,USC,2,Directed
+Stanford,Washington,2,Directed
+Stony Brook,UMass,2,Directed
+SW Missouri State,Kansas,2,Directed
+Syracuse, Cincinnati,2,Directed
+Syracuse, Clemson,2,Directed
+Syracuse, Louisville,2,Directed
+Syracuse, West Virginia,2,Directed
+Syracuse,Cincinnati,2,Directed
+Syracuse,Connecticut,2,Directed
+Syracuse,Northwestern,2,Directed
+Syracuse,Virginia,2,Directed
+Syracuse,Washington,2,Directed
+TCU,West Virginia,2,Directed
+Temple,Boston College,2,Directed
+Temple,Buffalo,2,Directed
+Temple,Northern Illinois,2,Directed
+Temple,Notre Dame,2,Directed
+Temple,Rutgers,2,Directed
+Temple,Syracuse,2,Directed
+Temple,UCF,2,Directed
+Tennessee,Missouri,2,Directed
+Tennessee,Ole Miss,2,Directed
+Tennessee Tech,Northern Illinois,2,Directed
+Texas,Kansas State,2,Directed
+Texas A&M, Auburn,2,Directed
+Texas A&M, LSU,2,Directed
+Texas A&M, Texas Tech,2,Directed
+Texas State,Baylor,2,Directed
+Texas State,New Mexico,2,Directed
+Texas State,South Alabama,2,Directed
+Texas Tech,Colorado,2,Directed
+Texas Tech,Missouri,2,Directed
+The Citadel,Florida State,2,Directed
+Toledo,Buffalo,2,Directed
+Toledo,Iowa State,2,Directed
+Toledo,Kansas,2,Directed
+Toledo,Ohio,2,Directed
+Toledo,Syracuse,2,Directed
+Troy,Clemson,2,Directed
+Troy,FIU,2,Directed
+Troy,Louisiana–Monroe,2,Directed
+Tulane,Marshall,2,Directed
+Tulane,UTEP,2,Directed
+Tulsa,Hawaii,2,Directed
+Tulsa,Memphis,2,Directed
+Tulsa,UCF,2,Directed
+UAB,Middle Tennessee,2,Directed
+UAB,Texas A&M,2,Directed
+UC Davis,Nevada,2,Directed
+UCF,FIU,2,Directed
+UCF,Ohio,2,Directed
+UCF,Penn State,2,Directed
+UCF,South Florida,2,Directed
+UCF,Tulsa,2,Directed
+UCLA, Arizona State,2,Directed
+UCLA, Utah,2,Directed
+UCLA,Notre Dame,2,Directed
+UCLA,Oklahoma,2,Directed
+UCLA,Stanford,2,Directed
+UConn,Memphis,2,Directed
+UConn,SMU,2,Directed
+UConn,UCF,2,Directed
+UMass, Delaware,2,Directed
+UMass,FIU,2,Directed
+UMass,Hawaii,2,Directed
+UMass,Hofstra,2,Directed
+UMass,Miami (OH),2,Directed
+UMass,Richmond,2,Directed
+UNLV,Arizona,2,Directed
+UNLV,Boise State,2,Directed
+UNLV,Iowa State,2,Directed
+UNLV,Wisconsin,2,Directed
+USC, Oregon,2,Directed
+USC, Stanford,2,Directed
+USC,Arizona,2,Directed
+USC,Arizona State,2,Directed
+USC,California,2,Directed
+USC,Washington State,2,Directed
+UT Martin,Memphis,2,Directed
+Utah,Arizona,2,Directed
+Utah,BYU,2,Directed
+Utah,New Mexico,2,Directed
+Utah,Oregon State,2,Directed
+Utah,UCLA,2,Directed
+Utah,Washington,2,Directed
+Utah State,Alabama,2,Directed
+Utah State,Arkansas State,2,Directed
+Utah State,Hawaii,2,Directed
+Utah State,Nebraska,2,Directed
+Utah State,New Mexico,2,Directed
+Utah State,Oklahoma,2,Directed
+Utah State,San Diego State,2,Directed
+Utah State,USC,2,Directed
+Utah State,Wisconsin,2,Directed
+UTEP,Arizona,2,Directed
+UTEP,Arkansas,2,Directed
+UTEP,Buffalo,2,Directed
+UTEP,FIU,2,Directed
+UTEP,Houston,2,Directed
+UTEP,Marshall,2,Directed
+UTEP,Nevada,2,Directed
+UTEP,New Mexico State,2,Directed
+UTEP,San Jose State,2,Directed
+UTEP,Texas A&M,2,Directed
+UTSA,Arizona,2,Directed
+UTSA,Marshall,2,Directed
+UTSA,Southern Miss,2,Directed
+Vanderbilt,Alabama,2,Directed
+Vanderbilt,Missouri,2,Directed
+Villanova,Rutgers,2,Directed
+Villanova,UMass,2,Directed
+Virginia, Clemson,2,Directed
+Virginia, Florida State,2,Directed
+Virginia,BYU,2,Directed
+Virginia,Clemson,2,Directed
+Virginia,Duke,2,Directed
+Virginia,Indiana,2,Directed
+Virginia,North Carolina,2,Directed
+Virginia,Pittsburgh,2,Directed
+Virginia,Southern Miss,2,Directed
+Virginia,Wake Forest,2,Directed
+VMI,Ohio,2,Directed
+VMI,Virginia,2,Directed
+Wagner,Syracuse,2,Directed
+Washington, California,2,Directed
+Washington, Stanford,2,Directed
+Washington,Stanford,2,Directed
+Washington,Washington State,2,Directed
+West Virginia, Kansas State,2,Directed
+West Virginia, Oklahoma,2,Directed
+West Virginia, Virginia Tech,2,Directed
+West Virginia,Baylor,2,Directed
+West Virginia,Cincinnati,2,Directed
+West Virginia,Kansas State,2,Directed
+West Virginia,Oklahoma,2,Directed
+West Virginia,Pittsburgh,2,Directed
+Western Carolina,NC State,2,Directed
+Western Illinois,Missouri,2,Directed
+Western Illinois,Wisconsin,2,Directed
+Western Kentucky,Arkansas State,2,Directed
+Western Kentucky,Indiana,2,Directed
+Western Kentucky,North Texas,2,Directed
+Western Kentucky,Wisconsin,2,Directed
+Western Michigan,Illinois,2,Directed
+Western Michigan,Indiana,2,Directed
+Western Michigan,Kent State,2,Directed
+Western Michigan,Marshall,2,Directed
+William & Mary,UMass,2,Directed
+William & Mary,Virginia,2,Directed
+Wisconsin, Penn State,2,Directed
+Wisconsin, Purdue,2,Directed
+Wisconsin,Illinois,2,Directed
+Wisconsin,Iowa,2,Directed
+WKU,Alabama,2,Directed
+Wofford,Clemson,2,Directed
+Wyoming,Hawaii,2,Directed
+Wyoming,Nebraska,2,Directed
+Wyoming,Texas A&M,2,Directed
+Youngstown State,Michigan State,2,Directed
+Youngstown State,Penn State,2,Directed
+ (1-AA) Appalachian State,Marshall,1,Directed
+ (FCS) Appalachian State,NC State,1,Directed
+ (FCS) Bethune–Cookman,Florida State,1,Directed
+ (FCS) Bethune–Cookman,UCF,1,Directed
+ (FCS) Central Arkansas,Colorado,1,Directed
+ (FCS) Central Arkansas,Kansas State,1,Directed
+ (FCS) Central Arkansas,Louisiana Tech,1,Directed
+ (FCS) Central Arkansas,Ole Miss,1,Directed
+ (FCS) Charleston Southern,Florida State,1,Directed
+ (FCS) Chattanooga,Florida State,1,Directed
+ (FCS) Colgate,Syracuse,1,Directed
+ (FCS) Eastern Illinois,Northern Illinois,1,Directed
+ (FCS) Eastern Kentucky,NC State,1,Directed
+ (FCS) Eastern Washington,Toledo,1,Directed
+ (FCS) Eastern Washington,Washington,1,Directed
+ (FCS) Furman,Clemson,1,Directed
+ (FCS) Georgia Southern,Alabama,1,Directed
+ (FCS) Illinois State,Ball State,1,Directed
+ (FCS) Indiana State,Indiana,1,Directed
+ (FCS) Jacksonville State,Arkansas,1,Directed
+ (FCS) Jacksonville State,Georgia Tech,1,Directed
+ (FCS) Jacksonville State,Michigan State,1,Directed
+ (FCS) James Madison,NC State,1,Directed
+ (FCS) Kennesaw State,Georgia State,1,Directed
+ (FCS) Liberty,NC State,1,Directed
+ (FCS) Massachusetts,Boston College,1,Directed
+ (FCS) McNeese State,BYU,1,Directed
+ (FCS) McNeese State,Kansas,1,Directed
+ (FCS) McNeese State,Louisiana,1,Directed
+ (FCS) McNeese State,Nebraska,1,Directed
+ (FCS) Montana State,Arkansas State,1,Directed
+ (FCS) Montana State,SMU,1,Directed
+ (FCS) New Hampshire,San Diego State,1,Directed
+ (FCS) Northern Arizona,Arizona,1,Directed
+ (FCS) Northern Arizona,San Diego State,1,Directed
+ (FCS) Northern Iowa,Hawaii,1,Directed
+ (FCS) Northern Iowa,Wisconsin,1,Directed
+ (FCS) Portland State,Washington,1,Directed
+ (FCS) Richmond,NC State,1,Directed
+ (FCS) Richmond,Virginia,1,Directed
+ (FCS) Sam Houston State,Baylor,1,Directed
+ (FCS) Samford,Florida State,1,Directed
+ (FCS) South Carolina State,Indiana,1,Directed
+ (FCS) South Dakota,Wisconsin,1,Directed
+ (FCS) South Dakota State,Nebraska,1,Directed
+ (FCS) Southern Illinois,Ole Miss,1,Directed
+ (FCS) Stephen F. Austin,Baylor,1,Directed
+ (FCS) Stony Brook,Buffalo,1,Directed
+ (FCS) Stony Brook,Syracuse,1,Directed
+ (FCS) The Citadel,NC State,1,Directed
+ (FCS) Towson,Kent State,1,Directed
+ (FCS) UMass,Boston College,1,Directed
+ (FCS) Villanova,Boston College,1,Directed
+ (FCS) Villanova,Syracuse,1,Directed
+ (FCS) Weber State,California,1,Directed
+ (FCS) William & Mary,NC State,1,Directed
+ (FCS) William & Mary,Virginia,1,Directed
+ (FCS) Wofford,Baylor,1,Directed
+ (FCS) Wofford,Clemson,1,Directed
+ (FCS) Youngstown State,Illinois,1,Directed
+ (FCS) Youngstown State,West Virginia,1,Directed
+ (I-AA) Western Kentucky,Kansas State,1,Directed
+ Air Force,San Diego State,1,Directed
+ Alabama,Ole Miss,1,Directed
+ Alabama,UCLA,1,Directed
+ Arizona,California,1,Directed
+ Arizona,USC,1,Directed
+ Arizona State,Illinois,1,Directed
+ Arizona State,San Diego State,1,Directed
+ Arizona State,UCLA,1,Directed
+ Arizona State,USC,1,Directed
+ Arkansas,Ole Miss,1,Directed
+ Auburn,Georgia Tech,1,Directed
+ Baylor,Kansas State,1,Directed
+ Baylor,Oklahoma,1,Directed
+ Baylor,Texas A&M,1,Directed
+ Baylor,West Virginia,1,Directed
+ Boise State,BYU,1,Directed
+ Boise State,Hawaii,1,Directed
+ Boise State,Michigan State,1,Directed
+ Boise State,Nevada,1,Directed
+ Boston College,Florida State,1,Directed
+ Boston College,NC State,1,Directed
+ Boston College,Syracuse,1,Directed
+ Bowling Green,Miami (OH),1,Directed
+ Bowling Green,Northern Illinois,1,Directed
+ Bowling Green,Toledo,1,Directed
+ BYU,Hawaii,1,Directed
+ BYU,UCLA,1,Directed
+ BYU,Washington,1,Directed
+ California,Washington,1,Directed
+ Chattanooga (FCS),Alabama,1,Directed
+ Cincinnati,Toledo,1,Directed
+ Cincinnati,UCF,1,Directed
+ Clemson,Boston College,1,Directed
+ Clemson,Georgia Tech,1,Directed
+ Clemson,NC State,1,Directed
+ Clemson,Syracuse,1,Directed
+ Clemson,Texas A&M,1,Directed
+ Colgate,UMass,1,Directed
+ Colorado,Iowa State,1,Directed
+ Colorado,Oklahoma,1,Directed
+ Colorado State,UCLA,1,Directed
+ Connecticut,West Virginia,1,Directed
+ East Carolina,NC State,1,Directed
+ Florida,Arkansas,1,Directed
+ Florida,Missouri,1,Directed
+ Florida State,Oklahoma,1,Directed
+ Florida State,Virginia,1,Directed
+ Fresno State,Boise State,1,Directed
+ Fresno State,Hawaii,1,Directed
+ Fresno State,Louisiana Tech,1,Directed
+ Fresno State,USC,1,Directed
+ Georgia,Clemson,1,Directed
+ Georgia,Ole Miss,1,Directed
+ Georgia Tech,Clemson,1,Directed
+ Georgia Tech,Kansas,1,Directed
+ Georgia Tech,Notre Dame,1,Directed
+ Houston,Memphis,1,Directed
+ Houston,UCF,1,Directed
+ Houston,UCLA,1,Directed
+ Houston,UTEP,1,Directed
+ Illinois,Penn State,1,Directed
+ Iowa,Arizona,1,Directed
+ Iowa,Indiana,1,Directed
+ Iowa,Iowa State,1,Directed
+ Iowa,Michigan State,1,Directed
+ Iowa,Northwestern,1,Directed
+ Iowa,Penn State,1,Directed
+ Iowa,Wisconsin,1,Directed
+ Iowa State,Kansas State,1,Directed
+ Iowa State,Nebraska,1,Directed
+ Iowa State,Oklahoma,1,Directed
+ James Madison,UMass,1,Directed
+ Kansas,Colorado,1,Directed
+ Kansas State,Colorado,1,Directed
+ Kansas State,Oklahoma,1,Directed
+ Kansas State,Texas A&M,1,Directed
+ Kentucky,Texas A&M,1,Directed
+ Louisville,Illinois,1,Directed
+ Louisville,NC State,1,Directed
+ Louisville,Rutgers,1,Directed
+ Louisville,Syracuse,1,Directed
+ Louisville,Virginia,1,Directed
+ Louisville,West Virginia,1,Directed
+ LSU,Texas A&M,1,Directed
+ Maryland,Boston College,1,Directed
+ Maryland,Northern Illinois,1,Directed
+ Maryland,Virginia,1,Directed
+ Miami (FL),Georgia Tech,1,Directed
+ Michigan,Nebraska,1,Directed
+ Michigan,Northwestern,1,Directed
+ Michigan,Penn State,1,Directed
+ Michigan,UCLA,1,Directed
+ Michigan,Washington,1,Directed
+ Michigan State,Indiana,1,Directed
+ Michigan State,Northwestern,1,Directed
+ Michigan State,Notre Dame,1,Directed
+ Michigan State,Penn State,1,Directed
+ Michigan State,Wisconsin,1,Directed
+ Minnesota,Indiana,1,Directed
+ Minnesota,Michigan State,1,Directed
+ Minnesota,Penn State,1,Directed
+ Minnesota,Wisconsin,1,Directed
+ Mississippi State,Texas A&M,1,Directed
+ Missouri,Colorado,1,Directed
+ Missouri,Nebraska,1,Directed
+ Missouri,Texas A&M,1,Directed
+ Navy,Memphis,1,Directed
+ NC State,Clemson,1,Directed
+ NC State,Notre Dame,1,Directed
+ NC State,Syracuse,1,Directed
+ NC State,Virginia,1,Directed
+ Nebraska,Colorado,1,Directed
+ Nebraska,Iowa State,1,Directed
+ Nebraska,Kansas State,1,Directed
+ Nebraska,Michigan State,1,Directed
+ Nebraska,Oklahoma,1,Directed
+ Nebraska,Penn State,1,Directed
+ Nebraska,Texas A&M,1,Directed
+ Nebraska,UCLA,1,Directed
+ Nebraska,Wisconsin,1,Directed
+ Nevada,Hawaii,1,Directed
+ North Carolina,Virginia,1,Directed
+ Northern Illinois,Toledo,1,Directed
+ Northwestern,Penn State,1,Directed
+ Northwestern,Wisconsin,1,Directed
+ Notre Dame,Michigan State,1,Directed
+ Notre Dame,Nebraska,1,Directed
+ Ohio,Miami (OH),1,Directed
+ Ohio State,Northwestern,1,Directed
+ Ohio State,UCLA,1,Directed
+ Oklahoma,Colorado,1,Directed
+ Oklahoma,Missouri,1,Directed
+ Oklahoma,UCLA,1,Directed
+ Oklahoma State,Arizona,1,Directed
+ Oklahoma State,Baylor,1,Directed
+ Oklahoma State,Iowa State,1,Directed
+ Oklahoma State,Nebraska,1,Directed
+ Ole Miss,Arkansas,1,Directed
+ Ole Miss,Memphis,1,Directed
+ Ole Miss†,Arkansas,1,Directed
+ Oregon,Boise State,1,Directed
+ Oregon,Michigan State,1,Directed
+ Oregon,Nebraska,1,Directed
+ Oregon,Oregon State,1,Directed
+ Oregon,UCLA,1,Directed
+ Oregon State,USC,1,Directed
+ Oregon State,Washington,1,Directed
+ Penn State,Alabama,1,Directed
+ Penn State,Illinois,1,Directed
+ Penn State,Notre Dame,1,Directed
+ Penn State,Wisconsin,1,Directed
+ Pittsburgh,Toledo,1,Directed
+ Purdue,Northwestern,1,Directed
+ Purdue,Notre Dame,1,Directed
+ Purdue,Penn State,1,Directed
+ Rhode Island,UMass,1,Directed
+ Rutgers,Syracuse,1,Directed
+ Rutgers,West Virginia,1,Directed
+ San Diego State,South Alabama,1,Directed
+ South Carolina,Clemson,1,Directed
+ South Carolina,Virginia,1,Directed
+ Southern Miss,Alabama,1,Directed
+ Stanford,San Diego State,1,Directed
+ TCU,Iowa State,1,Directed
+ TCU,Southern Miss,1,Directed
+ Tennessee,Arkansas,1,Directed
+ Tennessee,California,1,Directed
+ Tennessee,Texas A&M,1,Directed
+ Tennessee,UCLA,1,Directed
+ Texas,BYU,1,Directed
+ Texas,Missouri,1,Directed
+ Texas,Texas A&M,1,Directed
+ Texas A&M,Baylor,1,Directed
+ Texas A&M,Colorado,1,Directed
+ Texas A&M,Missouri,1,Directed
+ Texas A&M,Notre Dame,1,Directed
+ Texas A&M,Ole Miss,1,Directed
+ Texas Tech,Kansas State,1,Directed
+ Texas Tech,Missouri,1,Directed
+ Texas Tech,West Virginia,1,Directed
+ Towson,UMass,1,Directed
+ Tulsa,Arkansas,1,Directed
+ UCLA,Arizona,1,Directed
+ UCLA,Memphis,1,Directed
+ UCLA,Texas A&M,1,Directed
+ USC,Arizona,1,Directed
+ USC,Boston College,1,Directed
+ USC,California,1,Directed
+ USC,Kansas State,1,Directed
+ USC,Notre Dame,1,Directed
+ USC,Washington,1,Directed
+ Utah,Arizona,1,Directed
+ Utah,BYU,1,Directed
+ Utah,Colorado,1,Directed
+ Utah,Notre Dame,1,Directed
+ Utah,USC,1,Directed
+ Utah State,Boise State,1,Directed
+ Villanova,UMass,1,Directed
+ Virginia,Clemson,1,Directed
+ Virginia,NC State,1,Directed
+ Virginia Tech,Georgia Tech,1,Directed
+ Virginia Tech,West Virginia,1,Directed
+ Wake Forest,NC State,1,Directed
+ Wake Forest,Virginia,1,Directed
+ Washington,California,1,Directed
+ Washington,Oregon State,1,Directed
+ Washington,USC,1,Directed
+ Washington State,Arizona,1,Directed
+ Washington State,California,1,Directed
+ Washington State,Colorado,1,Directed
+ Washington State,USC,1,Directed
+ West Virginia,Colorado,1,Directed
+ West Virginia,Iowa State,1,Directed
+ West Virginia,Oklahoma,1,Directed
+ West Virginia,Syracuse,1,Directed
+ William & Mary,UMass,1,Directed
+ Wisconsin,Illinois,1,Directed
+ Wisconsin,Indiana,1,Directed
+ Wisconsin,Oregon State,1,Directed
+(FCS) The Citadel,Alabama,1,Directed
+(FCS) UC Davis,Hawaii,1,Directed
+/10 Purdue,Michigan State,1,Directed
+Abilene Christian,Baylor,1,Directed
+Abilene Christian,Georgia State,1,Directed
+Air Force,Hawaii,1,Directed
+Air Force,Michigan State,1,Directed
+Air Force,Nevada,1,Directed
+Air Force,Oklahoma,1,Directed
+Akron,FIU,1,Directed
+Akron,Iowa State,1,Directed
+Akron,Oklahoma,1,Directed
+Akron,Syracuse,1,Directed
+Akron,Troy,1,Directed
+Akron[],Penn State,1,Directed
+Alabama, Oklahoma,1,Directed
+Alabama, Ole Miss,1,Directed
+Alabama, Texas A&M,1,Directed
+Alabama, UCLA,1,Directed
+Alabama,Auburn,1,Directed
+Alabama,Hawaii,1,Directed
+Alabama,Louisiana–Monroe,1,Directed
+Alabama,LSU,1,Directed
+Alabama,Mississippi State,1,Directed
+Alabama,Northern Illinois,1,Directed
+Alabama,Oklahoma,1,Directed
+Alabama,Ole Miss,1,Directed
+Alabama,South Carolina,1,Directed
+Alabama A&M,Georgia Tech,1,Directed
+Alabama A&M,Middle Tennessee,1,Directed
+Alabama A&M,South Alabama,1,Directed
+Alabama State,South Alabama,1,Directed
+Alabama State,Troy,1,Directed
+Albany,Buffalo,1,Directed
+Albany,FIU,1,Directed
+Alcorn State,Arkansas,1,Directed
+Alcorn State,Arkansas State,1,Directed
+Alcorn State,Troy,1,Directed
+Appalachian State,Clemson,1,Directed
+Appalachian State,Hawaii,1,Directed
+Appalachian State,Kansas,1,Directed
+Appalachian State,Penn State,1,Directed
+Appalachian State,Southern Miss,1,Directed
+Appalachian State,Troy,1,Directed
+Appalachian State,UMass,1,Directed
+Arizona, California,1,Directed
+Arizona, Colorado,1,Directed
+Arizona, LSU,1,Directed
+Arizona, Ohio State,1,Directed
+Arizona, Purdue,1,Directed
+Arizona, TCU,1,Directed
+Arizona, Washington,1,Directed
+Arizona, Washington State,1,Directed
+Arizona,Colorado,1,Directed
+Arizona,Houston,1,Directed
+Arizona,Oregon,1,Directed
+Arizona,Utah,1,Directed
+Arizona State,Hawaii,1,Directed
+Arizona State,Missouri,1,Directed
+Arizona State,Nebraska,1,Directed
+Arizona State,Wisconsin,1,Directed
+Arkansas, Florida,1,Directed
+Arkansas, Kentucky,1,Directed
+Arkansas, Mississippi State,1,Directed
+Arkansas, South Carolina,1,Directed
+Arkansas, TCU,1,Directed
+Arkansas, Texas A&M,1,Directed
+Arkansas, USC,1,Directed
+Arkansas,Auburn,1,Directed
+Arkansas,Florida,1,Directed
+Arkansas,Kentucky,1,Directed
+Arkansas,Louisiana–Monroe,1,Directed
+Arkansas,North Texas,1,Directed
+Arkansas,South Carolina,1,Directed
+Arkansas,Texas Tech,1,Directed
+Arkansas,Toledo,1,Directed
+Arkansas,USC,1,Directed
+Arkansas–Monticello,South Alabama,1,Directed
+Arkansas–Pine Bluff,FIU,1,Directed
+Arkansas Pine Bluff,UTEP,1,Directed
+Arkansas State, Missouri,1,Directed
+Arkansas State,Baylor,1,Directed
+Arkansas State,Central Arkansas,1,Directed
+Arkansas State,FIU,1,Directed
+Arkansas State,Indiana,1,Directed
+Arkansas State,Louisiana–Lafayette,1,Directed
+Arkansas State,Louisville,1,Directed
+Arkansas State,NC State,1,Directed
+Arkansas State,New Mexico State,1,Directed
+Arkansas State,Oklahoma,1,Directed
+Arkansas State,SMU,1,Directed
+Arkansas State,South Alabama,1,Directed
+Arkansas State,Texas A&M,1,Directed
+Arkansas State,USC,1,Directed
+Arkansas State,WKU,1,Directed
+Army,Georgia Tech,1,Directed
+Army,Iowa State,1,Directed
+Army,Kent State,1,Directed
+Army,Miami (OH),1,Directed
+Army,Northern Illinois,1,Directed
+Army,Notre Dame,1,Directed
+Army,Oklahoma,1,Directed
+Army,Penn State,1,Directed
+Army,San Diego State,1,Directed
+Army,Texas A&M,1,Directed
+Army,Western Kentucky,1,Directed
+Army Prep,South Alabama,1,Directed
+at Ball State,Toledo,1,Directed
+Auburn,Arkansas,1,Directed
+Auburn,Ole Miss,1,Directed
+Auburn,Syracuse,1,Directed
+Auburn,USC,1,Directed
+Austin Peay,Miami (OH),1,Directed
+Austin Peay,Middle Tennessee,1,Directed
+Austin Peay,Southern Miss,1,Directed
+Austin Peay,Troy,1,Directed
+Austin Peay,UCF,1,Directed
+Austin Peay,Wisconsin,1,Directed
+Ball State, (FCS) New Hampshire,1,Directed
+Ball State, Western Michigan,1,Directed
+Ball State,Akron,1,Directed
+Ball State,Buffalo,1,Directed
+Ball State,Georgia State,1,Directed
+Ball State,Indiana State,1,Directed
+Ball State,Kansas State,1,Directed
+Ball State,Liberty,1,Directed
+Ball State,Marshall,1,Directed
+Ball State,Nebraska,1,Directed
+Ball State,North Dakota State,1,Directed
+Ball State,North Texas,1,Directed
+Ball State,Notre Dame,1,Directed
+Ball State,Oklahoma,1,Directed
+Ball State,Temple,1,Directed
+Ball State,Texas A&M,1,Directed
+Ball State,UMass,1,Directed
+Baylor, Kansas State,1,Directed
+Baylor, Missouri,1,Directed
+Baylor, Nebraska,1,Directed
+Baylor, TCU,1,Directed
+Baylor, Texas Tech,1,Directed
+Baylor, Wake Forest,1,Directed
+Baylor, West Virginia,1,Directed
+Baylor,Army,1,Directed
+Baylor,California,1,Directed
+Baylor,Connecticut,1,Directed
+Baylor,Duke,1,Directed
+Baylor,Liberty,1,Directed
+Baylor,Minnesota,1,Directed
+Baylor,UAB,1,Directed
+Baylor,UTSA,1,Directed
+Baylor,West Virginia,1,Directed
+Bethune–Cookman,Nebraska,1,Directed
+Blue Vs. White Spring Game,Middle Tennessee,1,Directed
+Boise State, Boston College,1,Directed
+Boise State,Air Force,1,Directed
+Boise State,BYU,1,Directed
+Boise State,Louisiana Tech,1,Directed
+Boise State,New Mexico,1,Directed
+Boise State,TCU,1,Directed
+Boise State,Virginia,1,Directed
+Boise State,Washington State,1,Directed
+Boston College, Louisville,1,Directed
+Boston College, Miami,1,Directed
+Boston College, Miami (FL),1,Directed
+Boston College, Notre Dame,1,Directed
+Boston College,Clemson,1,Directed
+Boston College,Colorado State,1,Directed
+Boston College,Duke,1,Directed
+Boston College,Louisville,1,Directed
+Boston College,Maryland,1,Directed
+Boston College,Miami (FL),1,Directed
+Boston College,North Carolina,1,Directed
+Boston College,Northwestern,1,Directed
+Boston College,UCF,1,Directed
+Boston College,USC,1,Directed
+Bowling Green,Boston College,1,Directed
+Bowling Green,Georgia Tech,1,Directed
+Bowling Green,Indiana,1,Directed
+Bowling Green,Kent State,1,Directed
+Bowling Green,Memphis,1,Directed
+Bowling Green,Middle Tennessee,1,Directed
+Bowling Green,Missouri,1,Directed
+Bowling Green,Ohio,1,Directed
+Bowling Green,Oklahoma,1,Directed
+Bowling Green,Troy,1,Directed
+Bowling Green,West Virginia,1,Directed
+Bowling Green,Western Kentucky,1,Directed
+Bryant,UMass,1,Directed
+Buffalo, Baylor,1,Directed
+Buffalo,Albany,1,Directed
+Buffalo,Army,1,Directed
+Buffalo,Colgate,1,Directed
+Buffalo,Lehigh,1,Directed
+Buffalo,Massachusetts,1,Directed
+Buffalo,Missouri,1,Directed
+Buffalo,Temple,1,Directed
+Buffalo,Wisconsin,1,Directed
+Butler,FIU,1,Directed
+BYU, Boston College,1,Directed
+BYU, Oregon State,1,Directed
+BYU, TCU,1,Directed
+BYU, USC,1,Directed
+BYU, Wisconsin,1,Directed
+BYU,Air Force,1,Directed
+BYU,Arizona,1,Directed
+BYU,Boston College,1,Directed
+BYU,California,1,Directed
+BYU,Colorado State,1,Directed
+BYU,Georgia Tech,1,Directed
+BYU,Mississippi State,1,Directed
+BYU,Northern Illinois,1,Directed
+BYU,Stanford,1,Directed
+BYU,Syracuse,1,Directed
+BYU,TCU,1,Directed
+BYU,UCF,1,Directed
+BYU,UMass,1,Directed
+BYU,USC,1,Directed
+BYU,Virginia,1,Directed
+BYU,Wisconsin,1,Directed
+Cal Poly,Kent State,1,Directed
+Cal Poly,Nevada,1,Directed
+Cal Poly,Northern Illinois,1,Directed
+Cal Poly,Ohio,1,Directed
+Cal Poly,San Diego State,1,Directed
+Cal Poly,Toledo,1,Directed
+Cal Poly,Wisconsin,1,Directed
+California, Northwestern,1,Directed
+California, Ohio State,1,Directed
+California, Washington State,1,Directed
+California,Air Force,1,Directed
+California,Arizona State,1,Directed
+California,Colorado State,1,Directed
+California,San Diego State,1,Directed
+Central Arkansas,Arkansas State,1,Directed
+Central Arkansas,Louisiana Tech,1,Directed
+Central Connecticut,Ball State,1,Directed
+Central Connecticut,Syracuse,1,Directed
+Central Connecticut,UMass,1,Directed
+Central Florida,Boston College,1,Directed
+Central Florida,Kent State,1,Directed
+Central Florida,Miami (OH),1,Directed
+Central Florida,Northern Illinois,1,Directed
+Central Florida,West Virginia,1,Directed
+Central Michigan,Arizona,1,Directed
+Central Michigan,Boise State,1,Directed
+Central Michigan,Buffalo,1,Directed
+Central Michigan,Clemson,1,Directed
+Central Michigan,Kent State,1,Directed
+Central Michigan,Marshall,1,Directed
+Central Michigan,Miami (OH),1,Directed
+Central Michigan,Northwestern,1,Directed
+Central Michigan,Ohio,1,Directed
+Central Michigan,Penn State,1,Directed
+Central Michigan,UCF,1,Directed
+Central Michigan,Virginia,1,Directed
+Charleston Southern,Alabama,1,Directed
+Charleston Southern,Colorado,1,Directed
+Charleston Southern,Florida State,1,Directed
+Charleston Southern,Illinois,1,Directed
+Charleston Southern,Indiana,1,Directed
+Charleston Southern,Miami (OH),1,Directed
+Charleston Southern,Troy,1,Directed
+Charleston Southern,UCF,1,Directed
+Charlotte,Kansas State,1,Directed
+Charlotte,Marshall,1,Directed
+Charlotte,Southern Miss,1,Directed
+Charlotte,UMass,1,Directed
+Charlotte,Western Kentucky,1,Directed
+Chattanooga,Arkansas,1,Directed
+Chattanooga,Florida State,1,Directed
+Chattanooga,Nebraska,1,Directed
+Chattanooga,Oklahoma,1,Directed
+Chattanooga,West Virginia,1,Directed
+Cincinnati,BYU,1,Directed
+Cincinnati,Hawaii,1,Directed
+Cincinnati,Illinois,1,Directed
+Cincinnati,Indiana,1,Directed
+Cincinnati,NC State,1,Directed
+Cincinnati,Oklahoma,1,Directed
+Cincinnati,Penn State,1,Directed
+Cincinnati,Southern Miss,1,Directed
+Cincinnati,Syracuse,1,Directed
+Cincinnati,UCF,1,Directed
+Cincinnati,Wisconsin,1,Directed
+Clemson, Boston College,1,Directed
+Clemson, Georgia,1,Directed
+Clemson, Maryland,1,Directed
+Clemson, NC State,1,Directed
+Clemson, South Carolina,1,Directed
+Clemson, TCU,1,Directed
+Clemson, Virginia Tech,1,Directed
+Clemson,NC State,1,Directed
+Clemson,North Carolina,1,Directed
+Clemson,Pittsburgh,1,Directed
+Coastal Carolina,Arkansas,1,Directed
+Coastal Carolina,Arkansas State,1,Directed
+Coastal Carolina,Clemson,1,Directed
+Coastal Carolina,Kent State,1,Directed
+Coastal Carolina,Penn State,1,Directed
+Coastal Carolina,South Alabama,1,Directed
+Coastal Carolina,Toledo,1,Directed
+Coastal Carolina,Troy,1,Directed
+Coastal Carolina,West Virginia,1,Directed
+Colgate,Ball State,1,Directed
+Colgate,Buffalo,1,Directed
+Colgate,Syracuse,1,Directed
+Colgate,UMass,1,Directed
+Colorado, Arizona State,1,Directed
+Colorado, Kansas,1,Directed
+Colorado, Kansas State,1,Directed
+Colorado, Missouri,1,Directed
+Colorado, Nebraska,1,Directed
+Colorado, Oklahoma,1,Directed
+Colorado, UCLA,1,Directed
+Colorado, Utah,1,Directed
+Colorado, Washington State,1,Directed
+Colorado,Colorado State,1,Directed
+Colorado,Fresno State,1,Directed
+Colorado,Montana State,1,Directed
+Colorado,Oregon,1,Directed
+Colorado,Sacramento State,1,Directed
+Colorado,Texas Tech,1,Directed
+Colorado,Toledo,1,Directed
+Colorado,West Virginia,1,Directed
+Colorado State,California,1,Directed
+Colorado State,Colorado,1,Directed
+Colorado State,Miami (OH),1,Directed
+Colorado State,USC,1,Directed
+Colorado State,UTEP,1,Directed
+Connecticut,Middle Tennessee,1,Directed
+Connecticut,NC State,1,Directed
+Connecticut,Virginia,1,Directed
+Delaware,UMass,1,Directed
+Delaware State,Buffalo,1,Directed
+Delaware State,Florida State,1,Directed
+Delaware State,Missouri,1,Directed
+Delaware State,West Virginia,1,Directed
+Drake,Iowa State,1,Directed
+Duke,Alabama,1,Directed
+Duke,Boston College,1,Directed
+Duke,Kansas,1,Directed
+Duke,Notre Dame,1,Directed
+Duquesne,Buffalo,1,Directed
+Duquesne,Hawaii,1,Directed
+Duquesne,UMass,1,Directed
+East Carolina,BYU,1,Directed
+East Carolina,NC State,1,Directed
+East Carolina,SMU,1,Directed
+East Carolina,Syracuse,1,Directed
+East Carolina,UTEP,1,Directed
+East Carolina,Virginia,1,Directed
+East Tennessee State,NC State,1,Directed
+Eastern Illinois,Arkansas,1,Directed
+Eastern Illinois,BYU,1,Directed
+Eastern Illinois,Kansas State,1,Directed
+Eastern Illinois,Missouri,1,Directed
+Eastern Illinois,Northern Illinois,1,Directed
+Eastern Illinois,Northwestern,1,Directed
+Eastern Illinois,Penn State,1,Directed
+Eastern Illinois,San Diego State,1,Directed
+Eastern Illinois,Toledo,1,Directed
+Eastern Kentucky,Ball State,1,Directed
+Eastern Kentucky,Indiana,1,Directed
+Eastern Kentucky,Kansas State,1,Directed
+Eastern Kentucky,Marshall,1,Directed
+Eastern Kentucky,NC State,1,Directed
+Eastern Kentucky,Oregon State,1,Directed
+Eastern Kentucky,UCF,1,Directed
+Eastern Michigan,Arkansas,1,Directed
+Eastern Michigan,Louisiana,1,Directed
+Eastern Michigan,Missouri,1,Directed
+Eastern Michigan,Rutgers,1,Directed
+Eastern Michigan,San Diego State,1,Directed
+Eastern Michigan,Virginia,1,Directed
+Eastern Washington,Boise State,1,Directed
+Eastern Washington,BYU,1,Directed
+Eastern Washington,California,1,Directed
+Eastern Washington,Colorado,1,Directed
+Eastern Washington,San Diego State,1,Directed
+Eastern Washington,Washington,1,Directed
+Eastern Washington,West Virginia,1,Directed
+Eastern Washington (FCS),Nevada,1,Directed
+Elon,Georgia Tech,1,Directed
+Elon,Toledo,1,Directed
+FIU, Bethune-Cookman,1,Directed
+FIU, Florida Atlantic,1,Directed
+FIU, Georgia Southern,1,Directed
+FIU, Louisville,1,Directed
+FIU, Maine,1,Directed
+FIU, Marshall,1,Directed
+FIU, South Florida,1,Directed
+FIU, Western Kentucky,1,Directed
+FIU,Arkansas,1,Directed
+FIU,Bowling Green,1,Directed
+FIU,Carson–Newman,1,Directed
+FIU,Duke,1,Directed
+FIU,East Carolina,1,Directed
+FIU,Gardner–Webb,1,Directed
+FIU,Kansas,1,Directed
+FIU,Kansas State,1,Directed
+FIU,Louisiana–Monroe,1,Directed
+FIU,Louisville,1,Directed
+FIU,Maryland,1,Directed
+FIU,McNeese State,1,Directed
+FIU,North Texas,1,Directed
+FIU,Old Dominion,1,Directed
+FIU,Pittsburgh,1,Directed
+FIU,Rice,1,Directed
+FIU,Rutgers,1,Directed
+FIU,Stephen F. Austin,1,Directed
+FIU,Texas A&M,1,Directed
+FIU,Toledo,1,Directed
+FIU,UAB,1,Directed
+FIU,UTEP,1,Directed
+FIU,Western Kentucky,1,Directed
+Florida,Alabama,1,Directed
+Florida,Missouri,1,Directed
+Florida A&M,Arkansas,1,Directed
+Florida A&M,FIU,1,Directed
+Florida A&M,Illinois,1,Directed
+Florida A&M,Oklahoma,1,Directed
+Florida A&M,Troy,1,Directed
+Florida Atlantic,Buffalo,1,Directed
+Florida Atlantic,Clemson,1,Directed
+Florida Atlantic,Kansas,1,Directed
+Florida Atlantic,Kansas State,1,Directed
+Florida Atlantic,Louisiana,1,Directed
+Florida Atlantic,Oklahoma,1,Directed
+Florida Atlantic,South Alabama,1,Directed
+Florida Atlantic,UTEP,1,Directed
+Florida Atlantic,Western Kentucky,1,Directed
+Florida Atlantic,Wisconsin,1,Directed
+Florida International,Kansas,1,Directed
+Florida International,Louisiana,1,Directed
+Florida International,Penn State,1,Directed
+Florida International,Rutgers,1,Directed
+Florida International,Western Kentucky,1,Directed
+Florida State, Boston College,1,Directed
+Florida State, Georgia Tech,1,Directed
+Florida State, Virginia Tech,1,Directed
+Florida State,Florida,1,Directed
+Florida State,Louisville,1,Directed
+Florida State,Notre Dame,1,Directed
+Florida State,South Florida,1,Directed
+Florida State,Syracuse,1,Directed
+Fork Union Military Academy,South Alabama,1,Directed
+Fresno State,BYU,1,Directed
+Fresno State,Louisiana Tech,1,Directed
+Fresno State,Oklahoma,1,Directed
+Fresno State,Oregon State,1,Directed
+Fresno State,Texas A&M,1,Directed
+Fresno State,Toledo,1,Directed
+Fresno State,UCLA,1,Directed
+Fresno State,USC,1,Directed
+Fresno State,UTEP,1,Directed
+Fresno State,Wisconsin,1,Directed
+Furman,Michigan State,1,Directed
+Furman,Missouri,1,Directed
+Furman,NC State,1,Directed
+Gardner-Webb,Georgia Tech,1,Directed
+Gardner-Webb,NC State,1,Directed
+Gardner–Webb,Buffalo,1,Directed
+Gardner–Webb,Marshall,1,Directed
+Gardner–Webb,South Alabama,1,Directed
+Georgetown,FIU,1,Directed
+Georgia,Colorado,1,Directed
+Georgia Military College,South Alabama,1,Directed
+Georgia Southern,Arkansas State,1,Directed
+Georgia Southern,Clemson,1,Directed
+Georgia Southern,Indiana,1,Directed
+Georgia Southern,NC State,1,Directed
+Georgia Southern,Ole Miss,1,Directed
+Georgia Southern,Troy,1,Directed
+Georgia Southern,UMass,1,Directed
+Georgia State, (FCS) Liberty,1,Directed
+Georgia State, New Hampshire,1,Directed
+Georgia State, Old Dominion,1,Directed
+Georgia State, Villanova,1,Directed
+Georgia State,Air Force,1,Directed
+Georgia State,Ball State,1,Directed
+Georgia State,Charlotte,1,Directed
+Georgia State,Chattanooga,1,Directed
+Georgia State,Clemson,1,Directed
+Georgia State,Coastal Carolina,1,Directed
+Georgia State,Georgia Southern,1,Directed
+Georgia State,Idaho,1,Directed
+Georgia State,Jacksonville State,1,Directed
+Georgia State,Louisiana–Monroe,1,Directed
+Georgia State,Memphis,1,Directed
+Georgia State,NC State,1,Directed
+Georgia State,New Mexico State,1,Directed
+Georgia State,Penn State,1,Directed
+Georgia State,Richmond,1,Directed
+Georgia State,Samford,1,Directed
+Georgia State,South Carolina State,1,Directed
+Georgia State,Tennessee State,1,Directed
+Georgia State,UTSA,1,Directed
+Georgia State,Washington,1,Directed
+Georgia State,Western Michigan,1,Directed
+Georgia State,Wisconsin,1,Directed
+Georgia State,WKU,1,Directed
+Georgia Tech, Boston College,1,Directed
+Georgia Tech, Maryland,1,Directed
+Georgia Tech, Miami,1,Directed
+Georgia Tech, Miami (FL),1,Directed
+Georgia Tech, Notre Dame,1,Directed
+Georgia Tech, Virginia,1,Directed
+Georgia Tech,Middle Tennessee,1,Directed
+Georgia Tech,North Carolina,1,Directed
+Georgia Tech,Pittsburgh,1,Directed
+Georgia Tech,Wake Forest,1,Directed
+Grambling State,Arizona,1,Directed
+Grambling State,California,1,Directed
+Grambling State,Louisiana,1,Directed
+Grambling State,Nevada,1,Directed
+Hargrave Military Academy,South Alabama,1,Directed
+Hawai'i,Colorado,1,Directed
+Hawai<U+BB>i,Oregon State,1,Directed
+Hawai<U+BB>i,San Diego State,1,Directed
+Hawai<U+BB>i,Washington,1,Directed
+Hawaii, Alabama,1,Directed
+Hawaii, Cincinnati,1,Directed
+Hawaii, Utah State,1,Directed
+Hawaii, Washington,1,Directed
+Hawaii, Wisconsin,1,Directed
+Hawaii,Air Force,1,Directed
+Hawaii,Alabama,1,Directed
+Hawaii,Arizona,1,Directed
+Hawaii,Colorado,1,Directed
+Hawaii,Florida Atlantic,1,Directed
+Hawaii,Louisiana Tech,1,Directed
+Hawaii,Michigan State,1,Directed
+Hawaii,Notre Dame,1,Directed
+Hawaii,Portland State,1,Directed
+Hawaii,Rice,1,Directed
+Hawaii,San José State,1,Directed
+Hawaii,Tulane,1,Directed
+Hawaii,Tulsa,1,Directed
+Hawaii,UCLA,1,Directed
+Henderson State,South Alabama,1,Directed
+Holy Cross,FIU,1,Directed
+Houston,Alabama,1,Directed
+Houston,BYU,1,Directed
+Houston,Hawaii,1,Directed
+Houston,Oklahoma,1,Directed
+Houston,UCLA,1,Directed
+Houston,UTEP,1,Directed
+Houston Baptist,SMU,1,Directed
+Houston Baptist,UTEP,1,Directed
+Houston Baptist,Western Kentucky,1,Directed
+Howard,Boston College,1,Directed
+Huntingdon,South Alabama,1,Directed
+Idaho,Florida State,1,Directed
+Idaho,Michigan State,1,Directed
+Idaho,Middle Tennessee,1,Directed
+Idaho,Missouri,1,Directed
+Idaho,Nebraska,1,Directed
+Idaho,Ole Miss,1,Directed
+Idaho,Oregon State,1,Directed
+Idaho,South Alabama,1,Directed
+Idaho,Texas A&M,1,Directed
+Idaho,Troy,1,Directed
+Idaho,Virginia,1,Directed
+Idaho,West Virginia,1,Directed
+Idaho State,California,1,Directed
+Idaho State,Colorado,1,Directed
+Idaho State,Nebraska,1,Directed
+Idaho State,Oklahoma,1,Directed
+Idaho State,San Diego State,1,Directed
+Idaho State,Washington,1,Directed
+Illinois, Minnesota,1,Directed
+Illinois, Northwestern,1,Directed
+Illinois, Purdue,1,Directed
+Illinois,Fresno State,1,Directed
+Illinois,Louisiana Tech,1,Directed
+Illinois,North Carolina,1,Directed
+Illinois,Ohio,1,Directed
+Illinois,Ohio State,1,Directed
+Illinois,San Jose State,1,Directed
+Illinois,Southern Miss,1,Directed
+Illinois,Syracuse,1,Directed
+Illinois,Washington,1,Directed
+Illinois,Western Michigan,1,Directed
+Illinois State,Iowa State,1,Directed
+Illinois State,Kansas State,1,Directed
+Illinois State,Marshall,1,Directed
+Illinois State,Missouri,1,Directed
+Illinois State,Northern Illinois,1,Directed
+Illinois State,Northwestern,1,Directed
+Incarnate Word,UTEP,1,Directed
+Indiana, Illinois,1,Directed
+Indiana, Nebraska,1,Directed
+Indiana, Purdue,1,Directed
+Indiana,Central Michigan,1,Directed
+Indiana,Connecticut,1,Directed
+Indiana,Kentucky,1,Directed
+Indiana,Maryland,1,Directed
+Indiana,Missouri,1,Directed
+Indiana,Navy,1,Directed
+Indiana,Ohio State,1,Directed
+Indiana,Southern Illinois,1,Directed
+Indiana,Utah,1,Directed
+Indiana,Wake Forest,1,Directed
+Indiana,Washington,1,Directed
+Indiana State,Miami (OH),1,Directed
+Indiana State,Penn State,1,Directed
+Iowa,Indiana,1,Directed
+Iowa,Nebraska,1,Directed
+Iowa,Northwestern,1,Directed
+Iowa State, (FCS) North Dakota State,1,Directed
+Iowa State, Colorado,1,Directed
+Iowa State, Iowa,1,Directed
+Iowa State, Kansas,1,Directed
+Iowa State, TCU,1,Directed
+Iowa State, Texas A&M,1,Directed
+Iowa State, Utah,1,Directed
+Iowa State, West Virginia,1,Directed
+Iowa State,Boise State,1,Directed
+Iowa State,Connecticut,1,Directed
+Iowa State,Kent State,1,Directed
+Iowa State,Northern Illinois,1,Directed
+Iowa State,Northern Iowa,1,Directed
+Iowa State,TCU,1,Directed
+Jackson State,Middle Tennessee,1,Directed
+Jacksonville State,Florida State,1,Directed
+Jacksonville State,Kansas,1,Directed
+Jacksonville State,Memphis,1,Directed
+Kansas, (FCS) Nicholls,1,Directed
+Kansas, (FCS) South Dakota State,1,Directed
+Kansas, Nebraska,1,Directed
+Kansas, UCLA,1,Directed
+Kansas,Bowling Green,1,Directed
+Kansas,Central Michigan,1,Directed
+Kansas,Georgia Tech,1,Directed
+Kansas,North Dakota State,1,Directed
+Kansas,Northern Illinois,1,Directed
+Kansas,Rice,1,Directed
+Kansas,Rutgers,1,Directed
+Kansas,Southern Miss,1,Directed
+Kansas,TCU,1,Directed
+Kansas,Toledo,1,Directed
+Kansas State, (FCS) North Dakota State,1,Directed
+Kansas State, Auburn,1,Directed
+Kansas State, Louisville,1,Directed
+Kansas State, Mississippi State,1,Directed
+Kansas State, Missouri,1,Directed
+Kansas State, Oklahoma State,1,Directed
+Kansas State, Texas Tech,1,Directed
+Kansas State,Fresno State,1,Directed
+Kansas State,Louisiana,1,Directed
+Kansas State,Marshall,1,Directed
+Kansas State,Texas Tech,1,Directed
+Kansas State,UCLA,1,Directed
+Kent State, (FCS) North Carolina A&T,1,Directed
+Kent State, Northern Illinois,1,Directed
+Kent State, Western Michigan,1,Directed
+Kent State,Army,1,Directed
+Kent State,Baylor,1,Directed
+Kent State,Clemson,1,Directed
+Kent State,Connecticut,1,Directed
+Kent State,Eastern Michigan,1,Directed
+Kent State,Kansas State,1,Directed
+Kent State,Louisiana,1,Directed
+Kent State,Louisiana–Lafayette,1,Directed
+Kent State,Massachusetts,1,Directed
+Kent State,Michigan State,1,Directed
+Kent State,Minnesota,1,Directed
+Kent State,Rutgers,1,Directed
+Kent State,Temple,1,Directed
+Kent State,UCF,1,Directed
+Kent State,Virginia,1,Directed
+Kent State,West Virginia,1,Directed
+Kentucky,Arkansas,1,Directed
+Kentucky,Missouri,1,Directed
+Kentucky Wesleyan,South Alabama,1,Directed
+Lamar,Baylor,1,Directed
+Lamar,Hawaii,1,Directed
+Lamar,Louisiana,1,Directed
+Lamar,Louisiana Tech,1,Directed
+Lamar,South Alabama,1,Directed
+Lamar,Texas A&M,1,Directed
+Liberty,SMU,1,Directed
+Liberty,UMass,1,Directed
+Liberty,Virginia,1,Directed
+Liberty,West Virginia,1,Directed
+Louisburg College,South Alabama,1,Directed
+Louisiana, Oklahoma State,1,Directed
+Louisiana,Akron,1,Directed
+Louisiana,Alabama,1,Directed
+Louisiana,Arkansas State,1,Directed
+Louisiana,Boise State,1,Directed
+Louisiana,Coastal Carolina,1,Directed
+Louisiana,Florida International,1,Directed
+Louisiana,Georgia Southern,1,Directed
+Louisiana,Idaho,1,Directed
+Louisiana,Louisiana Tech,1,Directed
+Louisiana,McNeese State,1,Directed
+Louisiana,New Mexico State,1,Directed
+Louisiana,North Texas,1,Directed
+Louisiana,Ohio,1,Directed
+Louisiana,Texas A&M,1,Directed
+Louisiana,UCF,1,Directed
+Louisiana,UTEP,1,Directed
+Louisiana,Western Kentucky,1,Directed
+Louisiana-Lafayette,FIU,1,Directed
+Louisiana-Lafayette,Illinois,1,Directed
+Louisiana-Lafayette,Middle Tennessee,1,Directed
+Louisiana-Lafayette,Ohio,1,Directed
+Louisiana-Lafayette,Southern Miss,1,Directed
+Louisiana-Monroe,Arkansas,1,Directed
+Louisiana-Monroe,FIU,1,Directed
+Louisiana-Monroe,Florida State,1,Directed
+Louisiana-Monroe,Ole Miss,1,Directed
+Louisiana-Monroe,UCF,1,Directed
+Louisiana–Lafayette,Arizona,1,Directed
+Louisiana–Lafayette,Boise State,1,Directed
+Louisiana–Lafayette,Middle Tennessee,1,Directed
+Louisiana–Lafayette,Nebraska,1,Directed
+Louisiana–Lafayette,Ole Miss,1,Directed
+Louisiana–Lafayette,Southern Miss,1,Directed
+Louisiana–Lafayette,Western Kentucky,1,Directed
+Louisiana–Monroe,Baylor,1,Directed
+Louisiana–Monroe,Clemson,1,Directed
+Louisiana–Monroe,Florida State,1,Directed
+Louisiana–Monroe,Georgia State,1,Directed
+Louisiana–Monroe,Hawaii,1,Directed
+Louisiana–Monroe,Kansas State,1,Directed
+Louisiana–Monroe,Middle Tennessee,1,Directed
+Louisiana–Monroe,New Mexico,1,Directed
+Louisiana–Monroe,UCF,1,Directed
+Louisiana Tech, Boise State,1,Directed
+Louisiana Tech, Hawaii,1,Directed
+Louisiana Tech, Nevada,1,Directed
+Louisiana Tech,Arkansas,1,Directed
+Louisiana Tech,California,1,Directed
+Louisiana Tech,Florida Atlantic,1,Directed
+Louisiana Tech,Hawai<U+BB>i,1,Directed
+Louisiana Tech,Houston,1,Directed
+Louisiana Tech,Idaho,1,Directed
+Louisiana Tech,Marshall,1,Directed
+Louisiana Tech,Middle Tennessee,1,Directed
+Louisiana Tech,Mississippi State,1,Directed
+Louisiana Tech,Navy,1,Directed
+Louisiana Tech,NC State,1,Directed
+Louisiana Tech,Nebraska,1,Directed
+Louisiana Tech,Northwestern State,1,Directed
+Louisiana Tech,Oklahoma,1,Directed
+Louisiana Tech,Ole Miss,1,Directed
+Louisiana Tech,Rice,1,Directed
+Louisiana Tech,Stephen F. Austin,1,Directed
+Louisiana Tech,Tulane,1,Directed
+Louisiana Tech,Tulsa,1,Directed
+Louisiana Tech,UAB,1,Directed
+Louisiana Tech,UCF,1,Directed
+Louisiana Tech,Utah State,1,Directed
+Louisiana Tech,UTEP,1,Directed
+Louisville,Oregon State,1,Directed
+Louisville,Rutgers,1,Directed
+Louisville,Virginia,1,Directed
+LSU,Arkansas,1,Directed
+Maine,Nebraska,1,Directed
+Maine,Toledo,1,Directed
+Marshall, Louisville,1,Directed
+Marshall, Virginia Tech,1,Directed
+Marshall,Akron,1,Directed
+Marshall,Central Florida,1,Directed
+Marshall,Charlotte,1,Directed
+Marshall,Cincinnati,1,Directed
+Marshall,Miami (OH),1,Directed
+Marshall,Michigan State,1,Directed
+Marshall,New Hampshire,1,Directed
+Marshall,SMU,1,Directed
+Marshall,Southern Mississippi,1,Directed
+Marshall,Troy,1,Directed
+Marshall,Western Kentucky,1,Directed
+Marshall,Western Michigan,1,Directed
+Marshall,Wisconsin,1,Directed
+Maryland,California,1,Directed
+Maryland,Middle Tennessee,1,Directed
+Maryland,Nebraska,1,Directed
+Maryland,Rutgers,1,Directed
+Massachusetts,Ball State,1,Directed
+Massachusetts,Buffalo,1,Directed
+Massachusetts,Colorado,1,Directed
+Massachusetts,Miami (OH),1,Directed
+Massachusetts,NC State,1,Directed
+Massachusetts,Northern Illinois,1,Directed
+Massachusetts,Penn State,1,Directed
+Massachusetts,Toledo,1,Directed
+Massachusetts,Wisconsin,1,Directed
+McNeese State,Kansas State,1,Directed
+McNeese State,Missouri,1,Directed
+McNeese State,Nebraska,1,Directed
+McNeese State,Southern Miss,1,Directed
+McNeese State,Texas A&M,1,Directed
+McNeese State,Toledo,1,Directed
+Memphis, Louisville,1,Directed
+Memphis, Mississippi State,1,Directed
+Memphis, Ole Miss,1,Directed
+Memphis, Tennessee,1,Directed
+Memphis, UCF,1,Directed
+Memphis,Central Florida,1,Directed
+Memphis,Duke,1,Directed
+Memphis,Iowa State,1,Directed
+Memphis,Missouri,1,Directed
+Memphis,Navy,1,Directed
+Memphis,Rice,1,Directed
+Memphis,Temple,1,Directed
+Memphis,Tennessee–Martin,1,Directed
+Memphis,UCLA,1,Directed
+Memphis,UTEP,1,Directed
+Mercer,Alabama,1,Directed
+Mercer,Georgia Tech,1,Directed
+Mercer,Memphis,1,Directed
+Miami,Boston College,1,Directed
+Miami,Georgia Tech,1,Directed
+Miami,NC State,1,Directed
+Miami (FL),Kansas State,1,Directed
+Miami (FL),Nebraska,1,Directed
+Miami (FL),Notre Dame,1,Directed
+Miami (FL),Oklahoma,1,Directed
+Miami (FL),Virginia,1,Directed
+Miami (OH), Ball State,1,Directed
+Miami (OH),Central Florida,1,Directed
+Miami (OH),Colorado,1,Directed
+Miami (OH),Eastern Illinois,1,Directed
+Miami (OH),Eastern Kentucky,1,Directed
+Miami (OH),Eastern Michigan,1,Directed
+Miami (OH),Hawaii,1,Directed
+Miami (OH),Illinois,1,Directed
+Miami (OH),Iowa,1,Directed
+Miami (OH),Notre Dame,1,Directed
+Miami (OH),Syracuse,1,Directed
+Miami (OH),Temple,1,Directed
+Miami (OH),Vanderbilt,1,Directed
+Miami (OH),Western Kentucky,1,Directed
+Miami (OH),Wisconsin,1,Directed
+Miami (OH),WKU,1,Directed
+Miami(OH),Northern Illinois,1,Directed
+Michigan,Illinois,1,Directed
+Michigan,Michigan State,1,Directed
+Michigan,Rutgers,1,Directed
+Michigan,Wisconsin,1,Directed
+Michigan State, Iowa,1,Directed
+Michigan State, Nebraska,1,Directed
+Michigan State, Wisconsin,1,Directed
+Michigan State,BYU,1,Directed
+Michigan State,Hawaii,1,Directed
+Michigan State,Iowa,1,Directed
+Michigan State,Louisiana Tech,1,Directed
+Michigan State,Michigan,1,Directed
+Michigan State,Nebraska,1,Directed
+Michigan State,Ohio State,1,Directed
+Michigan State,Rutgers,1,Directed
+Middle Tennessee,East Carolina,1,Directed
+Middle Tennessee,Florida International,1,Directed
+Middle Tennessee,Hawaii,1,Directed
+Middle Tennessee,Louisiana,1,Directed
+Middle Tennessee,Louisiana-Lafayette,1,Directed
+Middle Tennessee,Louisiana–Lafayette,1,Directed
+Middle Tennessee,Louisiana–Monroe,1,Directed
+Middle Tennessee,Louisiana Tech,1,Directed
+Middle Tennessee,McNeese State,1,Directed
+Middle Tennessee,Minnesota,1,Directed
+Middle Tennessee,Mississippi State,1,Directed
+Middle Tennessee,Missouri,1,Directed
+Middle Tennessee,NC State,1,Directed
+Middle Tennessee,Oklahoma,1,Directed
+Middle Tennessee,Southeast Missouri State,1,Directed
+Middle Tennessee,UAB,1,Directed
+Middle Tennessee,UTEP,1,Directed
+Middle Tennessee,UTSA,1,Directed
+Middle Tennessee,Virginia,1,Directed
+Middle Tennessee,Western Kentucky,1,Directed
+Middle Tennessee State,Clemson,1,Directed
+Milford Academy,South Alabama,1,Directed
+Minnesota,California,1,Directed
+Minnesota,Indiana,1,Directed
+Minnesota,Toledo,1,Directed
+Minnesota,USC,1,Directed
+Mississippi State,BYU,1,Directed
+Mississippi State,Georgia Tech,1,Directed
+Mississippi State,Louisiana Tech,1,Directed
+Mississippi State,Texas A&M,1,Directed
+Mississippi State,West Virginia,1,Directed
+Mississippi Valley State,Arkansas State,1,Directed
+Mississippi Valley State,Louisiana Tech,1,Directed
+Mississippi Valley State,New Mexico,1,Directed
+Mississippi Valley State,South Alabama,1,Directed
+Missouri, Alabama,1,Directed
+Missouri, Auburn,1,Directed
+Missouri, Colorado,1,Directed
+Missouri, Florida,1,Directed
+Missouri, Kentucky,1,Directed
+Missouri, Mississippi State,1,Directed
+Missouri, South Carolina,1,Directed
+Missouri,Alabama,1,Directed
+Missouri,Bowling Green,1,Directed
+Missouri,Clemson,1,Directed
+Missouri,Kentucky,1,Directed
+Missouri,Middle Tennessee,1,Directed
+Missouri,New Mexico,1,Directed
+Missouri,Oklahoma,1,Directed
+Missouri,Purdue,1,Directed
+Missouri,South Carolina,1,Directed
+Missouri,Syracuse,1,Directed
+Missouri,Tennessee,1,Directed
+Missouri,Texas A&M,1,Directed
+Missouri,Vanderbilt,1,Directed
+Missouri,West Virginia,1,Directed
+Missouri S&T,South Alabama,1,Directed
+Missouri State,Arkansas State,1,Directed
+Missouri State,Memphis,1,Directed
+Missouri State,Missouri,1,Directed
+Monmouth,Kent State,1,Directed
+Montana,Washington,1,Directed
+Montana State,Kansas State,1,Directed
+Montana State,Michigan State,1,Directed
+Montana State,Texas A&M,1,Directed
+Morgan State,Buffalo,1,Directed
+Morgan State,Marshall,1,Directed
+Morgan State,Western Kentucky,1,Directed
+Murray State,Florida State,1,Directed
+Murray State,Illinois,1,Directed
+Murray State,Indiana,1,Directed
+Murray State,Kent State,1,Directed
+Murray State,Memphis,1,Directed
+Murray State,NC State,1,Directed
+Murray State,Northern Illinois,1,Directed
+Murray State,Western Kentucky,1,Directed
+Navy,Ball State,1,Directed
+Navy,Georgia Tech,1,Directed
+Navy,Hawaii,1,Directed
+Navy,Penn State,1,Directed
+Navy,SMU,1,Directed
+Navy,UCF,1,Directed
+Navy,Western Kentucky,1,Directed
+NC State, Clemson†,1,Directed
+NC State, Maryland,1,Directed
+NC State, Miami (FL),1,Directed
+NC State, North Carolina,1,Directed
+NC State, Ohio State,1,Directed
+NC State, South Florida,1,Directed
+NC State, Virginia Tech,1,Directed
+NC State,Akron,1,Directed
+NC State,Duke,1,Directed
+NC State,East Carolina,1,Directed
+NC State,ECU,1,Directed
+NC State,Miami (FL),1,Directed
+NC State,North Carolina,1,Directed
+NC State,South Carolina,1,Directed
+NC State,Southern Miss,1,Directed
+NC State,Syracuse,1,Directed
+NC State,UCF,1,Directed
+NC State,Virginia Tech,1,Directed
+Nebraska, Colorado,1,Directed
+Nebraska, Iowa,1,Directed
+Nebraska, Michigan State,1,Directed
+Nebraska, Missouri,1,Directed
+Nebraska, Ohio State,1,Directed
+Nebraska, Texas Tech,1,Directed
+Nebraska, UCLA,1,Directed
+Nebraska, USC,1,Directed
+Nebraska, Wisconsin,1,Directed
+Nebraska,BYU,1,Directed
+Nebraska,Colorado,1,Directed
+Nebraska,Illinois,1,Directed
+Nebraska,Kansas,1,Directed
+Nebraska,Minnesota,1,Directed
+Nebraska,Missouri,1,Directed
+Nebraska,Northern Illinois,1,Directed
+Nebraska,Oklahoma State,1,Directed
+Nebraska,Penn State,1,Directed
+Nebraska,Purdue,1,Directed
+Nebraska,Southern Miss,1,Directed
+Nebraska,Texas,1,Directed
+Nebraska,Texas A&M,1,Directed
+Nebraska,Texas Tech,1,Directed
+Nebraska,Troy,1,Directed
+Nebraska,Virginia Tech,1,Directed
+Nevada, Arizona,1,Directed
+Nevada, Colorado State,1,Directed
+Nevada, Texas Tech,1,Directed
+Nevada,Air Force,1,Directed
+Nevada,Arizona,1,Directed
+Nevada,Colorado State,1,Directed
+Nevada,Florida State,1,Directed
+Nevada,Idaho State,1,Directed
+Nevada,Nebraska,1,Directed
+Nevada,New Mexico State,1,Directed
+Nevada,Northwestern,1,Directed
+Nevada,South Florida,1,Directed
+Nevada,Texas A&M,1,Directed
+Nevada,UCLA,1,Directed
+Nevada,UNLV,1,Directed
+Nevada,Washington State,1,Directed
+Nevada,Wyoming,1,Directed
+New Hampshire,Colorado,1,Directed
+New Hampshire,Kent State,1,Directed
+New Hampshire,UMass,1,Directed
+New Haven,UMass,1,Directed
+New Mexico, (FCS) Sam Houston State,1,Directed
+New Mexico, Arizona State,1,Directed
+New Mexico, BYU,1,Directed
+New Mexico, TCU,1,Directed
+New Mexico,Arizona,1,Directed
+New Mexico,Arkansas,1,Directed
+New Mexico,Baylor,1,Directed
+New Mexico,Missouri,1,Directed
+New Mexico,NC State,1,Directed
+New Mexico,Nevada,1,Directed
+New Mexico,Portland State,1,Directed
+New Mexico,Rutgers,1,Directed
+New Mexico,San Jose State,1,Directed
+New Mexico,Utah State,1,Directed
+New Mexico,UTSA,1,Directed
+New Mexico,Washington State,1,Directed
+New Mexico,Wisconsin,1,Directed
+New Mexico State,Colorado,1,Directed
+New Mexico State,Kansas,1,Directed
+New Mexico State,Kansas State,1,Directed
+New Mexico State,Middle Tennessee,1,Directed
+New Mexico State,Nebraska,1,Directed
+New Mexico State,Ole Miss,1,Directed
+New Mexico State,Oregon State,1,Directed
+New Mexico State,San Diego State,1,Directed
+New Mexico State,South Alabama,1,Directed
+New Mexico State,Texas A&M,1,Directed
+New Mexico State,UCLA,1,Directed
+Nicholls State,Arkansas,1,Directed
+Nicholls State,Colorado,1,Directed
+Nicholls State,Indiana,1,Directed
+Nicholls State,Memphis,1,Directed
+Nicholls State,Nebraska,1,Directed
+Nicholls State,Nevada,1,Directed
+Nicholls State,Oregon State,1,Directed
+Nicholls State,San Diego State,1,Directed
+Nicholls State,Texas A&M,1,Directed
+Norfolk State,Buffalo,1,Directed
+Norfolk State,Marshall,1,Directed
+Norfolk State,West Virginia,1,Directed
+North Carolina,California,1,Directed
+North Carolina,Oklahoma,1,Directed
+North Carolina,Syracuse,1,Directed
+North Carolina,Wisconsin,1,Directed
+North Carolina A&T,Louisiana,1,Directed
+North Carolina Central,FIU,1,Directed
+North Carolina Central,Rutgers,1,Directed
+North Carolina State,Boston College,1,Directed
+North Dakota,Northern Illinois,1,Directed
+North Dakota,San Diego State,1,Directed
+North Dakota,Washington,1,Directed
+North Dakota State,Iowa State,1,Directed
+North Texas,Arizona,1,Directed
+North Texas,Baylor,1,Directed
+North Texas,Boise State,1,Directed
+North Texas,Colorado,1,Directed
+North Texas,Indiana,1,Directed
+North Texas,Louisiana Tech,1,Directed
+North Texas,Marshall,1,Directed
+North Texas,SMU,1,Directed
+North Texas,Southern Miss,1,Directed
+North Texas,Western Kentucky,1,Directed
+Northeastern,Ball State,1,Directed
+Northeastern,Boston College,1,Directed
+Northeastern,Northwestern,1,Directed
+Northeastern,Syracuse,1,Directed
+Northern Arizona,Ole Miss,1,Directed
+Northern Arizona,Oregon State,1,Directed
+Northern Colorado,Colorado,1,Directed
+Northern Colorado,Hawaii,1,Directed
+Northern Colorado,Kansas,1,Directed
+Northern Colorado,Michigan State,1,Directed
+Northern Illinois, (FCS) Western Illinois,1,Directed
+Northern Illinois,Arkansas,1,Directed
+Northern Illinois,at Marshall,1,Directed
+Northern Illinois,Eastern Michigan,1,Directed
+Northern Illinois,Florida State,1,Directed
+Northern Illinois,Idaho,1,Directed
+Northern Illinois,Kansas,1,Directed
+Northern Illinois,Miami (OH),1,Directed
+Northern Illinois,Navy,1,Directed
+Northern Illinois,Southern Illinois,1,Directed
+Northern Illinois,Utah,1,Directed
+Northern Illinois,Western Illinois,1,Directed
+Northern Illinois,Western Michigan,1,Directed
+Northern Iowa,Boise State,1,Directed
+Northern Iowa,BYU,1,Directed
+Northwestern, Minnesota,1,Directed
+Northwestern, Purdue,1,Directed
+Northwestern,Air Force,1,Directed
+Northwestern,Arizona State,1,Directed
+Northwestern,Bowling Green,1,Directed
+Northwestern,Duke,1,Directed
+Northwestern,Hawaii,1,Directed
+Northwestern,Miami (Ohio),1,Directed
+Northwestern,Michigan,1,Directed
+Northwestern,Minnesota,1,Directed
+Northwestern,Nebraska,1,Directed
+Northwestern,Nevada,1,Directed
+Northwestern,New Hampshire,1,Directed
+Northwestern,Syracuse,1,Directed
+Northwestern,TCU,1,Directed
+Northwestern State,Louisiana,1,Directed
+Northwestern State,Louisiana Tech,1,Directed
+Northwestern State,Nevada,1,Directed
+Northwestern State,Ole Miss,1,Directed
+Northwestern State,SMU,1,Directed
+Northwestern State,Texas A&M,1,Directed
+Northwestern State,UCF,1,Directed
+Notre Dame, Boston College,1,Directed
+Notre Dame, Florida State,1,Directed
+Notre Dame, Georgia,1,Directed
+Notre Dame, Louisville,1,Directed
+Notre Dame, Michigan,1,Directed
+Notre Dame, Nebraska,1,Directed
+Notre Dame, Oklahoma,1,Directed
+Notre Dame, Purdue,1,Directed
+Notre Dame, Stanford,1,Directed
+Notre Dame, Tennessee,1,Directed
+Notre Dame,Air Force,1,Directed
+Notre Dame,BYU,1,Directed
+Notre Dame,Connecticut,1,Directed
+Notre Dame,Duke,1,Directed
+Notre Dame,Georgia Tech,1,Directed
+Notre Dame,Michigan,1,Directed
+Notre Dame,NC State,1,Directed
+Notre Dame,Northwestern,1,Directed
+Notre Dame,Penn State,1,Directed
+Notre Dame,South Florida,1,Directed
+Notre Dame,Stanford,1,Directed
+Notre Dame,Texas A&M,1,Directed
+Notre Dame,Tulsa,1,Directed
+Notre Dame,Virginia Tech,1,Directed
+Ohio, Miami (OH),1,Directed
+Ohio, Toledo,1,Directed
+Ohio,Akron,1,Directed
+Ohio,Minnesota,1,Directed
+Ohio,Missouri,1,Directed
+Ohio,NC State,1,Directed
+Ohio,Northeastern,1,Directed
+Ohio,UCF,1,Directed
+Ohio,UConn,1,Directed
+Ohio,West Virginia,1,Directed
+Ohio,Western Michigan,1,Directed
+Ohio,Wyoming,1,Directed
+Ohio State,Nebraska,1,Directed
+Ohio State,Penn State,1,Directed
+Oklahoma, Baylor,1,Directed
+Oklahoma, Notre Dame,1,Directed
+Oklahoma, Ohio State,1,Directed
+Oklahoma,Iowa State,1,Directed
+Oklahoma,TCU,1,Directed
+Oklahoma,Texas Tech,1,Directed
+Oklahoma State,Colorado,1,Directed
+Oklahoma State,Missouri,1,Directed
+Oklahoma State,Southern Miss,1,Directed
+Oklahoma State,Troy,1,Directed
+Old Dominion,FIU,1,Directed
+Old Dominion,Middle Tennessee,1,Directed
+Old Dominion,Southern Miss,1,Directed
+Old Dominion,UTEP,1,Directed
+Ole Miss, (FCS) Jacksonville State,1,Directed
+Ole Miss, Arkansas,1,Directed
+Ole Miss, Florida,1,Directed
+Ole Miss, Georgia,1,Directed
+Ole Miss, Mississippi State,1,Directed
+Ole Miss, Missouri,1,Directed
+Ole Miss, Tennessee,1,Directed
+Ole Miss, Texas,1,Directed
+Ole Miss, Texas A&M,1,Directed
+Ole Miss,BYU,1,Directed
+Ole Miss,Georgia,1,Directed
+Ole Miss,Louisiana Tech,1,Directed
+Ole Miss,Mississippi State,1,Directed
+Ole Miss,South Carolina,1,Directed
+Ole Miss,Texas Tech,1,Directed
+Ole Miss,Wake Forest,1,Directed
+Ole Miss,Wyoming,1,Directed
+Oregon,Oklahoma,1,Directed
+Oregon,UCLA,1,Directed
+Oregon,USC,1,Directed
+Oregon,Washington,1,Directed
+Oregon,Wisconsin,1,Directed
+Oregon State, (FCS) Eastern Washington,1,Directed
+Oregon State, California,1,Directed
+Oregon State, Cincinnati,1,Directed
+Oregon State, USC,1,Directed
+Oregon State, Washington,1,Directed
+Oregon State,BYU,1,Directed
+Oregon State,Minnesota,1,Directed
+Oregon State,Nevada,1,Directed
+Oregon State,Oregon,1,Directed
+Oregon State,Sacramento State,1,Directed
+Oregon State,Stanford,1,Directed
+Oregon State,Wisconsin,1,Directed
+Oregon State[],Penn State,1,Directed
+Penn State, Alabama,1,Directed
+Penn State, Iowa,1,Directed
+Penn State, Miami,1,Directed
+Penn State, Minnesota,1,Directed
+Penn State, Nebraska,1,Directed
+Penn State, Purdue,1,Directed
+Penn State,Indiana,1,Directed
+Penn State,Maryland,1,Directed
+Penn State,Ohio,1,Directed
+Penn State,Toledo,1,Directed
+Penn State,UCF,1,Directed
+Pikeville,South Alabama,1,Directed
+Pittsburgh,Boston College,1,Directed
+Pittsburgh,Michigan State,1,Directed
+Pittsburgh,NC State,1,Directed
+Pittsburgh,Nebraska,1,Directed
+Pittsburgh,Ohio,1,Directed
+Pittsburgh,Penn State,1,Directed
+Pittsburgh,UCF,1,Directed
+Pittsburgh,West Virginia,1,Directed
+Portland State,Boise State,1,Directed
+Portland State,BYU,1,Directed
+Portland State,Nevada,1,Directed
+Portland State,San Diego State,1,Directed
+Portland State,Washington,1,Directed
+Prairie View A&M,Southern Miss,1,Directed
+Prairie View A&M,Texas A&M,1,Directed
+Presbyterian,Georgia Tech,1,Directed
+Presbyterian,Miami (OH),1,Directed
+Presbyterian,NC State,1,Directed
+Presbyterian,Northern Illinois,1,Directed
+Presbyterian,Ole Miss,1,Directed
+Presbyterian,South Alabama,1,Directed
+Purdue,Hawaii,1,Directed
+Purdue,Marshall,1,Directed
+Purdue,Northwestern,1,Directed
+Purdue,Rutgers,1,Directed
+Purdue†,Michigan State,1,Directed
+Rhode Island,Boston College,1,Directed
+Rhode Island,Buffalo,1,Directed
+Rhode Island,Kansas,1,Directed
+Rhode Island,Marshall,1,Directed
+Rice,Boise State,1,Directed
+Rice,FIU,1,Directed
+Rice,Florida State,1,Directed
+Rice,Memphis,1,Directed
+Rice,Michigan State,1,Directed
+Rice,Nebraska,1,Directed
+Rice,Northwestern,1,Directed
+Rice,Notre Dame,1,Directed
+Rice,Oklahoma,1,Directed
+Rice,UCF,1,Directed
+Rice,Western Kentucky,1,Directed
+Richmond,NC State,1,Directed
+Richmond,UMass,1,Directed
+Rutgers, Cincinnati,1,Directed
+Rutgers, Miami,1,Directed
+Rutgers, Miami (FL),1,Directed
+Rutgers, Michigan,1,Directed
+Rutgers, Notre Dame,1,Directed
+Rutgers, Penn State,1,Directed
+Rutgers, Washington,1,Directed
+Rutgers,Buffalo,1,Directed
+Rutgers,California,1,Directed
+Rutgers,Eastern Michigan,1,Directed
+Rutgers,Houston,1,Directed
+Rutgers,Iowa,1,Directed
+Rutgers,Kansas,1,Directed
+Rutgers,Kent State,1,Directed
+Rutgers,New Hampshire,1,Directed
+Rutgers,Notre Dame,1,Directed
+Rutgers,NR/ Fresno State,1,Directed
+Rutgers,South Florida,1,Directed
+Rutgers,Tulane,1,Directed
+Rutgers,UCF,1,Directed
+Rutgers,Villanova,1,Directed
+Rutgers,Washington,1,Directed
+Rutgers,Washington State,1,Directed
+Sacramento State,Boise State,1,Directed
+Sacramento State,Nevada,1,Directed
+Sacramento State,New Mexico,1,Directed
+Sacramento State,Oregon State,1,Directed
+Sacramento State,San Diego State,1,Directed
+Sacramento State,UTEP,1,Directed
+Sacramento State,Washington,1,Directed
+Saint Peter's,FIU,1,Directed
+Sam Houston State,Kansas,1,Directed
+Sam Houston State,Northern Illinois,1,Directed
+Sam Houston State,UTEP,1,Directed
+Samford,Arkansas,1,Directed
+Samford,Florida State,1,Directed
+Samford,Ole Miss,1,Directed
+Samford,San Diego State,1,Directed
+Samford,UCF,1,Directed
+San Diego,San Diego State,1,Directed
+San Diego State, (FCS) Eastern Illinois,1,Directed
+San Diego State, Boise State,1,Directed
+San Diego State, Cincinnati,1,Directed
+San Diego State, Colorado State,1,Directed
+San Diego State, Fresno State,1,Directed
+San Diego State, Illinois,1,Directed
+San Diego State, TCU,1,Directed
+San Diego State,California,1,Directed
+San Diego State,Colorado,1,Directed
+San Diego State,Fresno State,1,Directed
+San Diego State,Missouri,1,Directed
+San Diego State,Notre Dame,1,Directed
+San Diego State,Penn State,1,Directed
+San Diego State,San Jose State,1,Directed
+San Diego State,South Alabama,1,Directed
+San Diego State,UTEP,1,Directed
+San Diego State,Washington,1,Directed
+San Diego State,Wisconsin,1,Directed
+San Jose State,Alabama,1,Directed
+San Jose State,Colorado,1,Directed
+San Jose State,Illinois,1,Directed
+San Jose State,Iowa State,1,Directed
+San Jose State,Kansas State,1,Directed
+San Jose State,New Mexico,1,Directed
+San Jose State,Oregon State,1,Directed
+San Jose State,UCLA,1,Directed
+San Jose State,Wisconsin,1,Directed
+Savannah State,BYU,1,Directed
+Savannah State,Florida State,1,Directed
+Savannah State,Middle Tennessee,1,Directed
+Savannah State,Southern Miss,1,Directed
+Savannah State,Troy,1,Directed
+SE Louisiana,Southern Miss,1,Directed
+SE Missouri State,Arkansas,1,Directed
+SE Missouri State,Ball State,1,Directed
+SE Missouri State,Kent State,1,Directed
+SE Missouri State,Marshall,1,Directed
+SE Missouri State,Ohio,1,Directed
+SE Missouri State,Ole Miss,1,Directed
+SMU, (FCS) James Madison,1,Directed
+SMU, Baylor,1,Directed
+SMU, TCU,1,Directed
+SMU, Temple,1,Directed
+SMU, Texas A&M,1,Directed
+SMU,Arkansas State,1,Directed
+SMU,Boise State,1,Directed
+SMU,East Carolina,1,Directed
+SMU,Louisiana Tech,1,Directed
+SMU,NC State,1,Directed
+SMU,Rutgers,1,Directed
+South Alabama, Oklahoma State,1,Directed
+South Alabama,Appalachian State,1,Directed
+South Alabama,Cal Poly,1,Directed
+South Alabama,FIU,1,Directed
+South Alabama,Hawaii,1,Directed
+South Alabama,Idaho,1,Directed
+South Alabama,Kent State,1,Directed
+South Alabama,Louisiana–Lafayette,1,Directed
+South Alabama,Louisiana–Monroe,1,Directed
+South Alabama,Memphis,1,Directed
+South Alabama,Middle Tennessee,1,Directed
+South Alabama,Mississippi State,1,Directed
+South Alabama,Navy,1,Directed
+South Alabama,Nebraska,1,Directed
+South Alabama,Southern Utah,1,Directed
+South Alabama,UTSA,1,Directed
+South Carolina,Missouri,1,Directed
+South Carolina,Ole Miss,1,Directed
+South Carolina State,Arizona,1,Directed
+South Carolina State,Georgia Tech,1,Directed
+South Carolina State,Texas A&M,1,Directed
+South Dakota,Kansas,1,Directed
+South Dakota,New Mexico,1,Directed
+South Dakota,UCF,1,Directed
+South Dakota State,Illinois,1,Directed
+South Dakota State,Iowa State,1,Directed
+South Dakota State,Kansas,1,Directed
+South Dakota State,Nebraska,1,Directed
+South Florida,Arkansas,1,Directed
+South Florida,Ball State,1,Directed
+South Florida,Baylor,1,Directed
+South Florida,Florida State,1,Directed
+South Florida,Michigan State,1,Directed
+South Florida,Northern Illinois,1,Directed
+South Florida,Oklahoma,1,Directed
+South Florida,Penn State,1,Directed
+South Florida,UCF,1,Directed
+South Florida,West Virginia,1,Directed
+South Florida,Wisconsin,1,Directed
+Southeast Missouri,Missouri,1,Directed
+Southeast Missouri State,Memphis,1,Directed
+Southeast Missouri State (FCS),Missouri,1,Directed
+Southeastern Louisiana,Kansas,1,Directed
+Southeastern Louisiana,Louisiana,1,Directed
+Southeastern Louisiana,Louisiana Tech,1,Directed
+Southeastern Louisiana,Missouri,1,Directed
+Southeastern Louisiana,Ole Miss,1,Directed
+Southeastern Louisiana,Southern Miss,1,Directed
+Southern,New Mexico,1,Directed
+Southern,Southern Miss,1,Directed
+Southern Illinois,Baylor,1,Directed
+Southern Illinois,Indiana,1,Directed
+Southern Illinois,Kansas,1,Directed
+Southern Illinois,Marshall,1,Directed
+Southern Illinois,Memphis,1,Directed
+Southern Illinois,Miami (OH),1,Directed
+Southern Illinois,Northern Illinois,1,Directed
+Southern Illinois,Northwestern,1,Directed
+Southern Miss, California,1,Directed
+Southern Miss, Louisville,1,Directed
+Southern Miss, Marshall,1,Directed
+Southern Miss, Nebraska,1,Directed
+Southern Miss,Arkansas,1,Directed
+Southern Miss,at Tulsa,1,Directed
+Southern Miss,California,1,Directed
+Southern Miss,Charlotte,1,Directed
+Southern Miss,Cincinnati,1,Directed
+Southern Miss,FIU,1,Directed
+Southern Miss,Florida Atlantic,1,Directed
+Southern Miss,Kansas,1,Directed
+Southern Miss,Kentucky,1,Directed
+Southern Miss,Louisiana–Monroe,1,Directed
+Southern Miss,Mississippi State,1,Directed
+Southern Miss,NC State,1,Directed
+Southern Miss,Penn State,1,Directed
+Southern Miss,SMU,1,Directed
+Southern Miss,TCU,1,Directed
+Southern Miss,Texas State,1,Directed
+Southern Miss,Troy,1,Directed
+Southern Utah,Arizona,1,Directed
+Southern Utah,Arkansas State,1,Directed
+Southern Utah,BYU,1,Directed
+Southern Utah,California,1,Directed
+Southern Utah,Oregon State,1,Directed
+Southern Utah,San Diego State,1,Directed
+Southwest Missouri State,Arkansas,1,Directed
+Stanford,Arizona,1,Directed
+Stanford,Boston College,1,Directed
+Stephen F. Austin,Arizona,1,Directed
+Stephen F. Austin,Kansas State,1,Directed
+Stephen F. Austin,Texas A&M,1,Directed
+Stony Brook,Buffalo,1,Directed
+Stony Brook,UTEP,1,Directed
+SW Texas State,Missouri,1,Directed
+Syracuse, Duke,1,Directed
+Syracuse, Iowa,1,Directed
+Syracuse, LSU,1,Directed
+Syracuse, Miami,1,Directed
+Syracuse, Miami (FL),1,Directed
+Syracuse, Penn State,1,Directed
+Syracuse, Pittsburgh,1,Directed
+Syracuse, Virginia,1,Directed
+Syracuse, Virginia Tech,1,Directed
+Syracuse,Akron,1,Directed
+Syracuse,BYU,1,Directed
+Syracuse,Georgia Tech,1,Directed
+Syracuse,Illinois,1,Directed
+Syracuse,Maryland,1,Directed
+Syracuse,Miami (OH),1,Directed
+Syracuse,Middle Tennessee,1,Directed
+Syracuse,Minnesota,1,Directed
+Syracuse,North Carolina,1,Directed
+Syracuse,Notre Dame,1,Directed
+Syracuse,Penn State,1,Directed
+Syracuse,USC,1,Directed
+Syracuse,Wake Forest,1,Directed
+TCU,BYU,1,Directed
+TCU,Kansas,1,Directed
+TCU,Kansas State,1,Directed
+TCU,Nebraska,1,Directed
+TCU,Oklahoma,1,Directed
+Temple,Clemson,1,Directed
+Temple,Kent State,1,Directed
+Temple,Memphis,1,Directed
+Temple,Miami (OH),1,Directed
+Temple,SMU,1,Directed
+Temple,Toledo,1,Directed
+Temple,Virginia,1,Directed
+Temple,West Virginia,1,Directed
+Temple,Wisconsin,1,Directed
+Temple[],Penn State,1,Directed
+Tennessee,Arkansas,1,Directed
+Tennessee,Notre Dame,1,Directed
+Tennessee,Oklahoma,1,Directed
+Tennessee-Martin,Southern Miss,1,Directed
+Tennessee–Martin,Arkansas,1,Directed
+Tennessee–Martin,Georgia State,1,Directed
+Tennessee–Martin,Northern Illinois,1,Directed
+Tennessee–Martin,Ohio,1,Directed
+Tennessee–Martin,Ole Miss,1,Directed
+Tennessee Tech,Arkansas,1,Directed
+Tennessee Tech,Ball State,1,Directed
+Tennessee Tech,Iowa State,1,Directed
+Tennessee Tech,Kansas State,1,Directed
+Tennessee Tech,Memphis,1,Directed
+Tennessee Tech,Middle Tennessee,1,Directed
+Tennessee Tech,Ohio,1,Directed
+Tennessee Tech,Wisconsin,1,Directed
+Texas,Iowa State,1,Directed
+Texas,Kansas,1,Directed
+Texas,Notre Dame,1,Directed
+Texas,USC,1,Directed
+Texas A&M, Clemson,1,Directed
+Texas A&M, Florida,1,Directed
+Texas A&M, Kansas,1,Directed
+Texas A&M, Missouri,1,Directed
+Texas A&M, Ole Miss,1,Directed
+Texas A&M, Pittsburgh,1,Directed
+Texas A&M, Virginia Tech,1,Directed
+Texas A&M,Arkansas State,1,Directed
+Texas A&M,Auburn,1,Directed
+Texas A&M,Baylor,1,Directed
+Texas A&M,Clemson,1,Directed
+Texas A&M,Iowa State,1,Directed
+Texas A&M,LSU,1,Directed
+Texas A&M,Miami (FL),1,Directed
+Texas A&M,Mississippi State,1,Directed
+Texas A&M,Ole Miss,1,Directed
+Texas A&M,Texas Tech,1,Directed
+Texas A&M,UCLA,1,Directed
+Texas Southern,Arkansas State,1,Directed
+Texas Southern,Rutgers,1,Directed
+Texas State,Arkansas,1,Directed
+Texas State,Colorado,1,Directed
+Texas State,Florida State,1,Directed
+Texas State,Georgia State,1,Directed
+Texas State,Illinois,1,Directed
+Texas State,SMU,1,Directed
+Texas State,Texas A&M,1,Directed
+Texas Tech,NC State,1,Directed
+Texas Tech,Nebraska,1,Directed
+Texas Tech,New Mexico,1,Directed
+The Citadel,Arizona,1,Directed
+The Citadel,Georgia Tech,1,Directed
+The Citadel,Ole Miss,1,Directed
+The Citadel,Texas A&M,1,Directed
+The Citadel,Wisconsin,1,Directed
+Toledo, Boise State,1,Directed
+Toledo, Fresno State,1,Directed
+Toledo, Miami (FL),1,Directed
+Toledo, Missouri,1,Directed
+Toledo, Northern Illinois,1,Directed
+Toledo,at Central Michigan,1,Directed
+Toledo,Boise State,1,Directed
+Toledo,Bowling Green,1,Directed
+Toledo,BYU,1,Directed
+Toledo,Central Michigan,1,Directed
+Toledo,Florida International,1,Directed
+Toledo,Kent State,1,Directed
+Toledo,Marshall,1,Directed
+Toledo,Missouri,1,Directed
+Toledo,Purdue,1,Directed
+Toledo,Temple,1,Directed
+Toledo,Wyoming,1,Directed
+Towson,Indiana,1,Directed
+Towson,Northwestern,1,Directed
+Troy, Boise State,1,Directed
+Troy,Abilene Christian,1,Directed
+Troy,Appalachian State,1,Directed
+Troy,Boise State,1,Directed
+Troy,Duke,1,Directed
+Troy,Florida Atlantic,1,Directed
+Troy,Florida State,1,Directed
+Troy,Georgia Southern,1,Directed
+Troy,Georgia State,1,Directed
+Troy,Georgia Tech,1,Directed
+Troy,Idaho,1,Directed
+Troy,Middle Tennessee,1,Directed
+Troy,Mississippi State,1,Directed
+Troy,Missouri,1,Directed
+Troy,NC State,1,Directed
+Troy,Nebraska,1,Directed
+Troy,North Texas,1,Directed
+Troy,Ole Miss,1,Directed
+Troy,Western Kentucky,1,Directed
+Troy,Wisconsin,1,Directed
+Troy,WKU,1,Directed
+Troy State,Arkansas,1,Directed
+Troy State,Iowa State,1,Directed
+Troy State,Kansas State,1,Directed
+Troy State,Marshall,1,Directed
+Troy State,Middle Tennessee,1,Directed
+Troy State,Missouri,1,Directed
+Troy State,Virginia,1,Directed
+Tulane,Alabama,1,Directed
+Tulane,BYU,1,Directed
+Tulane,FIU,1,Directed
+Tulane,Georgia Tech,1,Directed
+Tulane,Hawaii,1,Directed
+Tulane,Louisiana,1,Directed
+Tulane,Oklahoma,1,Directed
+Tulane,Ole Miss,1,Directed
+Tulane,Rutgers,1,Directed
+Tulane,Syracuse,1,Directed
+Tulsa,Arkansas State,1,Directed
+Tulsa,Baylor,1,Directed
+Tulsa,BYU,1,Directed
+Tulsa,Iowa State,1,Directed
+Tulsa,Kansas,1,Directed
+Tulsa,Louisiana Tech,1,Directed
+Tulsa,Nevada,1,Directed
+Tulsa,Southern Miss,1,Directed
+Tulsa,Toledo,1,Directed
+UAB,Arkansas,1,Directed
+UAB,Ball State,1,Directed
+UAB,Hawaii,1,Directed
+UAB,Kansas,1,Directed
+UAB,Memphis,1,Directed
+UAB,Michigan State,1,Directed
+UAB,Oklahoma,1,Directed
+UAB,Ole Miss,1,Directed
+UAB,SMU,1,Directed
+UC Davis,Boise State,1,Directed
+UC Davis,California,1,Directed
+UC Davis,Hawaii,1,Directed
+UC Davis,San Diego State,1,Directed
+UCF, Houston,1,Directed
+UCF, Miami (FL),1,Directed
+UCF, Miami (OH),1,Directed
+UCF, South Carolina,1,Directed
+UCF, South Florida,1,Directed
+UCF, Texas,1,Directed
+UCF, Virginia Tech,1,Directed
+UCF, West Virginia,1,Directed
+UCF,Akron,1,Directed
+UCF,Arkansas,1,Directed
+UCF,Buffalo,1,Directed
+UCF,BYU,1,Directed
+UCF,Clemson,1,Directed
+UCF,Furman,1,Directed
+UCF,Georgia Tech,1,Directed
+UCF,Kansas State,1,Directed
+UCF,Kent State,1,Directed
+UCF,Maryland,1,Directed
+UCF,Missouri,1,Directed
+UCF,North Carolina State,1,Directed
+UCF,Northern Illinois,1,Directed
+UCF,Pittsburgh,1,Directed
+UCF,Rice,1,Directed
+UCF,SMU,1,Directed
+UCF,Temple,1,Directed
+UCF,Toledo,1,Directed
+UCF,UAB,1,Directed
+UCF,UConn,1,Directed
+UCF,UTEP,1,Directed
+UCF,Wisconsin,1,Directed
+UCLA, Arizona,1,Directed
+UCLA, Fresno State,1,Directed
+UCLA, Oregon State,1,Directed
+UCLA, Texas,1,Directed
+UCLA, Washington,1,Directed
+UCLA, Washington State,1,Directed
+UCLA,Arizona State,1,Directed
+UCLA,BYU,1,Directed
+UCLA,Cincinnati,1,Directed
+UCLA,Fresno State,1,Directed
+UCLA,Kansas State,1,Directed
+UCLA,Oklahoma State,1,Directed
+UCLA,Oregon,1,Directed
+UCLA,Utah,1,Directed
+UConn,Boise State,1,Directed
+UConn,Boston College,1,Directed
+UConn,Buffalo,1,Directed
+UConn,BYU,1,Directed
+UConn,Missouri,1,Directed
+UConn,Syracuse,1,Directed
+UConn,Virginia,1,Directed
+UMass, James Madison,1,Directed
+UMass, New Hampshire,1,Directed
+UMass, Richmond,1,Directed
+UMass,Boston College,1,Directed
+UMass,Bowling Green,1,Directed
+UMass,Buffalo,1,Directed
+UMass,BYU,1,Directed
+UMass,Coastal Carolina,1,Directed
+UMass,Delaware,1,Directed
+UMass,James Madison,1,Directed
+UMass,Kent State,1,Directed
+UMass,Maine,1,Directed
+UMass,Marshall,1,Directed
+UMass,New Hampshire,1,Directed
+UMass,Notre Dame,1,Directed
+UMass,Ohio,1,Directed
+UMass,Old Dominion,1,Directed
+UMass,South Florida,1,Directed
+UMass,Troy,1,Directed
+UMass,Tulane,1,Directed
+UMass,Villanova,1,Directed
+UMass,William & Mary,1,Directed
+UNLV,Arkansas,1,Directed
+UNLV,Arkansas State,1,Directed
+UNLV,Kansas,1,Directed
+UNLV,Louisiana Tech,1,Directed
+UNLV,Northern Illinois,1,Directed
+UNLV,Ole Miss,1,Directed
+UNLV,Oregon State,1,Directed
+UNLV,Toledo,1,Directed
+UNLV,UCLA,1,Directed
+UNLV,USC,1,Directed
+UNLV,West Virginia,1,Directed
+USC, Kansas State,1,Directed
+USC, UCLA,1,Directed
+USC,UCLA,1,Directed
+UT Martin,Boise State,1,Directed
+UT Martin,Hawaii,1,Directed
+UT Martin,Middle Tennessee,1,Directed
+UT Martin,Missouri,1,Directed
+UT Martin,South Alabama,1,Directed
+Utah,California,1,Directed
+Utah,San Diego State,1,Directed
+Utah,Texas A&M,1,Directed
+Utah State,Arkansas,1,Directed
+Utah State,Clemson,1,Directed
+Utah State,Michigan State,1,Directed
+Utah State,Middle Tennessee,1,Directed
+Utah State,Texas A&M,1,Directed
+Utah State,Washington,1,Directed
+UTEP, Boise State,1,Directed
+UTEP, Kansas,1,Directed
+UTEP, Oklahoma,1,Directed
+UTEP, Southern Miss,1,Directed
+UTEP, Texas,1,Directed
+UTEP, Texas Tech,1,Directed
+UTEP,Army,1,Directed
+UTEP,Cal Poly,1,Directed
+UTEP,East Carolina,1,Directed
+UTEP,Fresno State,1,Directed
+UTEP,Kansas State,1,Directed
+UTEP,North Texas,1,Directed
+UTEP,Northern Arizona,1,Directed
+UTEP,Old Dominion,1,Directed
+UTEP,Ole Miss,1,Directed
+UTEP,San Diego State,1,Directed
+UTEP,Texas Tech,1,Directed
+UTEP,Tulane,1,Directed
+UTEP,Western Kentucky,1,Directed
+UTEP,Wisconsin,1,Directed
+UTEP,WKU,1,Directed
+UTEP†,Western Kentucky,1,Directed
+UTSA,FIU,1,Directed
+UTSA,Kansas State,1,Directed
+UTSA,New Mexico,1,Directed
+UTSA,Texas A&M,1,Directed
+UTSA,Western Kentucky,1,Directed
+Vanderbilt,Arkansas,1,Directed
+Vanderbilt,Georgia Tech,1,Directed
+Vanderbilt,Notre Dame,1,Directed
+Vanderbilt,Texas A&M,1,Directed
+Villanova,UCF,1,Directed
+Villanova,West Virginia,1,Directed
+Virginia, (FCS) Richmond,1,Directed
+Virginia, (FCS) William & Mary,1,Directed
+Virginia, Georgia Tech,1,Directed
+Virginia, Louisville,1,Directed
+Virginia, Miami,1,Directed
+Virginia, North Carolina,1,Directed
+Virginia, Notre Dame,1,Directed
+Virginia, Oregon,1,Directed
+Virginia, TCU,1,Directed
+Virginia, UCLA,1,Directed
+Virginia, USC,1,Directed
+Virginia,Ball State,1,Directed
+Virginia,Boise State,1,Directed
+Virginia,Colorado State,1,Directed
+Virginia,Louisiana Tech,1,Directed
+Virginia,Miami,1,Directed
+Virginia,Miami (FL),1,Directed
+Virginia,Penn State,1,Directed
+Virginia,UCLA,1,Directed
+Virginia,USC,1,Directed
+Virginia,Western Michigan,1,Directed
+Virginia Tech,Boston College,1,Directed
+Virginia Tech,Clemson,1,Directed
+Virginia Tech,Florida State,1,Directed
+VMI,Ball State,1,Directed
+VMI,Toledo,1,Directed
+vs. Virginia,Wisconsin,1,Directed
+Wagner,Boston College,1,Directed
+Wagner,BYU,1,Directed
+Wagner,FIU,1,Directed
+Wagner,UMass,1,Directed
+Wake Forest,Nebraska,1,Directed
+Wake Forest,Northern Illinois,1,Directed
+Wake Forest,Virginia,1,Directed
+Washington, Arizona State,1,Directed
+Washington, BYU,1,Directed
+Washington, LSU,1,Directed
+Washington, Nebraska,1,Directed
+Washington, Notre Dame,1,Directed
+Washington, Ohio State,1,Directed
+Washington, Oklahoma,1,Directed
+Washington, UCLA,1,Directed
+Washington, Utah,1,Directed
+Washington,Boise State,1,Directed
+Washington,BYU,1,Directed
+Washington,Fresno State,1,Directed
+Washington,Hawaii,1,Directed
+Washington,Nebraska,1,Directed
+Washington,Nevada,1,Directed
+Washington,Oklahoma,1,Directed
+Washington State,Baylor,1,Directed
+Washington State,Boise State,1,Directed
+Washington State,BYU,1,Directed
+Washington State,Hawaii,1,Directed
+Washington State,Nevada,1,Directed
+Washington State,Notre Dame,1,Directed
+Washington State,San Diego State,1,Directed
+Washington State,SMU,1,Directed
+Washington State,Washington,1,Directed
+Washington State,Wisconsin,1,Directed
+Weber State,Arkansas,1,Directed
+Weber State,Boise State,1,Directed
+Weber State,Boston College,1,Directed
+Weber State,BYU,1,Directed
+Weber State,Hawaii,1,Directed
+Weber State,Oregon State,1,Directed
+Weber State,Toledo,1,Directed
+Weber State,UTEP,1,Directed
+West Alabama,South Alabama,1,Directed
+West Virginia, Miami,1,Directed
+West Virginia, Miami (FL),1,Directed
+West Virginia, Notre Dame,1,Directed
+West Virginia, Wisconsin,1,Directed
+West Virginia,Boston College,1,Directed
+West Virginia,Kansas,1,Directed
+West Virginia,Maryland,1,Directed
+West Virginia,Notre Dame,1,Directed
+West Virginia,South Florida,1,Directed
+West Virginia,Temple,1,Directed
+West Virginia,Wisconsin,1,Directed
+Western Carolina,Florida State,1,Directed
+Western Carolina,Georgia Tech,1,Directed
+Western Carolina,Hawaii,1,Directed
+Western Carolina,Marshall,1,Directed
+Western Carolina,Middle Tennessee,1,Directed
+Western Carolina,Texas A&M,1,Directed
+Western Illinois,Arkansas,1,Directed
+Western Illinois,Iowa State,1,Directed
+Western Illinois,Nebraska,1,Directed
+Western Illinois,Northern Illinois,1,Directed
+Western Illinois,Toledo,1,Directed
+Western Kentucky, (FCS) Maine,1,Directed
+Western Kentucky, Ball State,1,Directed
+Western Kentucky,Alabama,1,Directed
+Western Kentucky,Central Arkansas,1,Directed
+Western Kentucky,Florida International,1,Directed
+Western Kentucky,Illinois,1,Directed
+Western Kentucky,Indiana State,1,Directed
+Western Kentucky,Kansas State,1,Directed
+Western Kentucky,Louisiana-Lafayette,1,Directed
+Western Kentucky,Louisiana-Monroe,1,Directed
+Western Kentucky,Louisiana–Lafayette,1,Directed
+Western Kentucky,Louisiana Tech,1,Directed
+Western Kentucky,Marshall,1,Directed
+Western Kentucky,Navy,1,Directed
+Western Kentucky,Nebraska,1,Directed
+Western Kentucky,Old Dominion,1,Directed
+Western Kentucky,South Florida,1,Directed
+Western Kentucky,UAB,1,Directed
+Western Kentucky,Vanderbilt,1,Directed
+Western Michigan,Buffalo,1,Directed
+Western Michigan,Florida State,1,Directed
+Western Michigan,Miami (OH),1,Directed
+Western Michigan,Missouri,1,Directed
+Western Michigan,Nebraska,1,Directed
+Western Michigan,Notre Dame,1,Directed
+Western Michigan,Ohio,1,Directed
+Western Michigan,USC,1,Directed
+Western Michigan,Virginia,1,Directed
+Western Michigan,West Virginia,1,Directed
+Western Michigan,Wisconsin,1,Directed
+William & Mary,Indiana,1,Directed
+William & Mary,Marshall,1,Directed
+William & Mary,NC State,1,Directed
+William & Mary,UCF,1,Directed
+Wisconsin, Fresno State,1,Directed
+Wisconsin, Iowa,1,Directed
+Wisconsin, Michigan,1,Directed
+Wisconsin, Northwestern,1,Directed
+Wisconsin,BYU,1,Directed
+Wisconsin,Indiana,1,Directed
+Wisconsin,Minnesota,1,Directed
+Wisconsin,Nebraska,1,Directed
+Wisconsin,Northwestern,1,Directed
+Wisconsin,UNLV,1,Directed
+WKU,Ball State,1,Directed
+WKU,FIU,1,Directed
+WKU,Illinois,1,Directed
+WKU,Indiana,1,Directed
+WKU,Louisiana,1,Directed
+WKU,Louisiana Tech,1,Directed
+WKU,Middle Tennessee,1,Directed
+WKU,South Alabama,1,Directed
+Wofford,Georgia Tech,1,Directed
+Wofford,NC State,1,Directed
+Wofford,Ohio,1,Directed
+Wofford,Ole Miss,1,Directed
+Wofford,West Virginia,1,Directed
+Wofford,Wisconsin,1,Directed
+Wyoming,Colorado,1,Directed
+Wyoming,Michigan State,1,Directed
+Wyoming,Missouri,1,Directed
+Wyoming,Nevada,1,Directed
+Wyoming,Syracuse,1,Directed
+Wyoming,Virginia,1,Directed
+Wyoming,Washington,1,Directed
+Youngstown State,Kent State,1,Directed
+Youngstown State,Marshall,1,Directed

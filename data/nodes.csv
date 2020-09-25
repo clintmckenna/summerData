@@ -1,0 +1,460 @@
+Id,Name
+1,Southwest Missouri State
+2,Boise State
+3,Alabama
+4,Arkansas
+5,Louisiana–Monroe
+6, LSU
+7,UNLV
+8,Weber State
+9, South Carolina
+10, Auburn
+11,UCF
+12,Mississippi State
+13,South Florida
+14,Ole Miss
+15,Troy State
+16,Louisiana–Lafayette
+17,Tulsa
+18,North Texas
+19,South Carolina
+20,New Mexico State
+21,Louisiana-Monroe
+22,Missouri State
+23,Utah State
+24,SE Missouri State
+25, Tennessee
+26,Troy
+27,Chattanooga
+28,FIU
+29,Western Illinois
+30, Tulsa
+31,LSU
+32,Eastern Michigan
+33,Tennessee Tech
+34,Vanderbilt
+35,UTEP
+36,New Mexico
+37,Tennessee
+38, (FCS) Jacksonville State
+39,Kentucky
+40,Samford
+41,Southern Miss
+42,Nicholls State
+43,Northern Illinois
+44,UAB
+45, Ole Miss
+46,Auburn
+47,Tennessee–Martin
+48,Louisiana Tech
+49,Texas State
+50,Alcorn State
+51, Ole Miss†
+52, Florida
+53,Florida A&M
+54,Coastal Carolina
+55,Eastern Illinois
+56,Baylor
+57,Arkansas State
+58,Southern Illinois
+59,Kansas
+60,SMU
+61,Sam Houston State
+62,Colorado
+63, Texas A&M
+64,Oklahoma State
+65,Northwestern State
+66,Kansas State
+67,Rice
+68,Washington State
+69,Iowa State
+70,Texas A&M
+71,Kent State
+72,Buffalo
+73, TCU
+74, (FCS) Stephen F. Austin
+75,Missouri
+76, Oklahoma
+77, Texas
+78, (FCS) Sam Houston State
+79, Kansas State
+80, Oklahoma State
+81, (FCS) Wofford
+82,West Virginia
+83,Lamar
+84,Abilene Christian
+85,Northern Iowa
+86,Eastern Washington
+87,Idaho
+88,Nevada
+89,San Jose State
+90,Central Michigan
+91,Hawaii
+92,Fresno State
+93,Idaho State
+94,Wyoming
+95,Oregon State
+96,BYU
+97,Bowling Green
+98,Portland State
+99,Sacramento State
+100, Oregon
+101,Miami (OH)
+102,UC Davis
+103,Toledo
+104,Air Force
+105,Colorado State
+106,UT Martin
+107,San Diego State
+108,Washington
+109,UConn
+110, Fresno State
+111, Utah State
+112,Tulane
+113,Utah
+114,Syracuse
+115,Georgia Tech
+116,Notre Dame
+117,Arizona
+118,TCU
+119,UCLA
+120, Utah
+121,Middle Tennessee
+122,Houston
+123,Virginia
+124,Savannah State
+125, Boise State
+126,East Carolina
+127,Cincinnati
+128,Wagner
+129,Southern Utah
+130,UMass
+131, (FCS) McNeese State
+132,The Citadel
+133,Wake Forest
+134,NC State
+135,Maryland
+136,Clemson
+137,Wofford
+138,Duke
+139,Ball State
+140,Furman
+141,Middle Tennessee State
+142, Virginia
+143,North Carolina
+144, Florida State
+145,Temple
+146,Florida Atlantic
+147, Georgia Tech
+148,Florida State
+149,South Carolina State
+150,Virginia Tech
+151, Georgia
+152,Louisville
+153,Georgia State
+154,Appalachian State
+155, (FCS) Furman
+156,Georgia Southern
+157, NC State
+158, Nebraska
+159,Texas Tech
+160, Missouri
+161, West Virginia
+162, Kansas
+163,Hawai'i
+164,Georgia
+165, (FCS) Central Arkansas
+166,Charleston Southern
+167,California
+168,Massachusetts
+169,Arizona State
+170, Washington State
+171,Northern Colorado
+172,New Hampshire
+173, Clemson
+174, Maryland
+175, Miami (FL)
+176,Western Michigan
+177,Western Carolina
+178,Jacksonville State
+179,Boston College
+180,Florida
+181,Miami (FL)
+182,Murray State
+183, (FCS) Bethune–Cookman
+184, (FCS) Chattanooga
+185, (FCS) Charleston Southern
+186,Delaware State
+187, (FCS) Samford
+188, Boston College
+189,Navy
+190, North Carolina
+191,Connecticut
+192,Miami
+193,Army
+194,Gardner-Webb
+195, Virginia Tech
+196,Presbyterian
+197,Elon
+198,Pittsburgh
+199,Alabama A&M
+200,Mercer
+201,Indiana
+202,Northwestern
+203,Purdue
+204,William & Mary
+205, Wisconsin
+206,Indiana State
+207,Illinois
+208, Minnesota
+209, Iowa
+210,Michigan State
+211,Akron
+212,Minnesota
+213,Western Kentucky
+214,Eastern Kentucky
+215,Towson
+216, (FCS) South Carolina State
+217, (FCS) Indiana State
+218,Iowa
+219,Penn State
+220,WKU
+221, Michigan State
+222,Rutgers
+223,Ohio
+224,Nebraska
+225,Illinois State
+226, Colorado
+227,South Dakota State
+228,North Dakota State
+229, (FCS) Northern Iowa
+230,Texas
+231,Drake
+232, (I-AA) Western Kentucky
+233, USC
+234, Iowa State
+235,McNeese State
+236,Marshall
+237,Montana State
+238, Baylor
+239, Texas Tech
+240,Stephen F. Austin
+241,South Dakota
+242,Charlotte
+243,UTSA
+244,Youngstown State
+245, (1-AA) Appalachian State
+246,Hofstra
+247,Memphis
+248,Gardner–Webb
+249,Rhode Island
+250,Norfolk State
+251,Old Dominion
+252,Morgan State
+253, Notre Dame
+254,/10 Purdue
+255, Michigan
+256, Penn State
+257,Wisconsin
+258,Michigan
+259,Purdue†
+260,East Tennessee State
+261,Richmond
+262, (FCS) Appalachian State
+263, East Carolina
+264, Wake Forest
+265, (FCS) Liberty
+266,South Alabama
+267, (FCS) The Citadel
+268, (FCS) Richmond
+269, (FCS) Eastern Kentucky
+270, (FCS) William & Mary
+271, Louisville
+272, (FCS) James Madison
+273,San José State
+274,Maine
+275,Ohio State
+276, (FCS) South Dakota State
+277,Bethune–Cookman
+278,Grambling State
+279,Eastern Washington (FCS)
+280,Cal Poly
+281,Central Florida
+282, Bowling Green
+283,Miami(OH)
+284,North Dakota
+285, (FCS) Eastern Illinois
+286, Purdue
+287,Stanford
+288,USC
+289, Stanford
+290, Mississippi State
+291, Arkansas
+292,Southeastern Louisiana
+293,Northern Arizona
+294, (FCS) Southern Illinois
+295, Alabama
+296,Oklahoma
+297,Oregon
+298, Ohio State
+299,Florida International
+300,Oregon State[]
+301,Temple[]
+302, Illinois
+303,Akron[]
+304, Northwestern
+305,Villanova
+306,Howard
+307, South Florida
+308,Texas Southern
+309,North Carolina Central
+310,Cal State-Northridge
+311, (FCS) Montana State
+312,Liberty
+313, Houston
+314,Houston Baptist
+315,Northeastern
+316, Rutgers
+317,Colgate
+318, (FCS) Stony Brook
+319, (FCS) Villanova
+320, (FCS) Colgate
+321,Central Connecticut
+322, UCLA
+323,Prairie View A&M
+324,Louisiana
+325, Kentucky
+326,at Ball State
+327, Pittsburgh
+328, Northern Illinois
+329, (FCS) New Hampshire
+330, Cincinnati
+331, (FCS) Eastern Washington
+332,VMI
+333,Austin Peay
+334,Alabama State
+335, Washington
+336, Colorado State
+337, California
+338, Arizona State
+339, Arizona
+340, BYU
+341,Hawai<U+BB>i
+342, Oregon State
+343, (FCS) Portland State
+344,Montana
+345,vs. Virginia
+346, (FCS) South Dakota
+347,UTEP†
+348, Connecticut
+349, (FCS) Youngstown State
+350, Southern Miss
+351, (FCS) Georgia Southern
+352, Chattanooga (FCS)
+353,(FCS) The Citadel
+354, (FCS) Northern Arizona
+355,Southeast Missouri State
+356,Mississippi Valley State
+357,Central Arkansas
+358,Arkansas–Pine Bluff
+359, (FCS) Illinois State
+360, (FCS) Massachusetts
+361, (FCS) UMass
+362,North Carolina State
+363,Stony Brook
+364,Duquesne
+365,Albany
+366, (FCS) Weber State
+367,Saint Peter's
+368,Butler
+369,Georgetown
+370,Jacksonville
+371,Holy Cross
+372,Louisiana-Lafayette
+373,Clark Atlanta
+374,Campbell
+375, (FCS) Kennesaw State
+376, Nevada
+377,(FCS) UC Davis
+378,SW Missouri State
+379, (FCS) Towson
+380,Monmouth
+381,North Carolina A&T
+382,Southern
+383, Navy
+384, Ohio
+385,Blue Vs. White Spring Game
+386,Blue-White Spring Game
+387,Jackson State
+388,SW Texas State
+389,Southeast Missouri State (FCS)
+390,Southeast Missouri
+391, Air Force
+392,San Diego
+393,Hargrave Military Academy
+394,Army Prep
+395,Georgia Military College
+396,Louisburg College
+397,Fork Union Military Academy
+398,Milford Academy
+399,Huntingdon
+400,Pikeville
+401,Kentucky Wesleyan
+402,Missouri S&T
+403,Henderson State
+404,Arkansas–Monticello
+405,West Alabama
+406, San Diego State
+407,SE Louisiana
+408,Tennessee-Martin
+409,New Haven
+410,American International
+411,James Madison
+412,Central Connecticut State
+413, Maine
+414, Villanova
+415,Delaware
+416, Colgate
+417, Rhode Island
+418, James Madison
+419, Towson
+420, New Hampshire
+421,Bryant
+422, William & Mary
+423,Arkansas Pine Bluff
+424,Incarnate Word
+425, Miami
+426, (FCS) North Dakota State
+427,Southern Mississippi
+428,ECU
+429, Clemson†
+430,at Marshall
+431, (FCS) Western Illinois
+432,NR/ Fresno State
+433, UCF
+434, Temple
+435, Duke
+436,at Central Michigan
+437, Ball State
+438, (FCS) Maine
+439, Western Michigan
+440,Lehigh
+441, Bethune-Cookman
+442,Carson–Newman
+443, Florida Atlantic
+444, Georgia Southern
+445, Western Kentucky
+446, (FCS) Bethune-Cookman
+447, Marshall
+448,St. Francis (IL)
+449, Old Dominion
+450,Tennessee State
+451, (FCS) Nicholls
+452, (FCS) North Carolina A&T
+453, Hawaii
+454,Miami (Ohio)
+455, Toledo
+456, Miami (OH)
+457,at Tulsa
+458, Delaware
+459, Richmond

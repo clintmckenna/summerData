@@ -102,7 +102,7 @@ net <- graph_from_data_frame(edgelist, directed = TRUE)
 
 ```
 
-# with this object, you can access values related to edges and vertices with E() and V().
+With this object, you can access values related to edges and vertices with E() and V().
 
 ```{r}
 # check edges
@@ -121,7 +121,7 @@ plot(net)
 ```
 
 
-Kind of a mess, so we will scale some of the values in the network. Let's set some of the vertice values.
+Woof. Kind of a mess, so we will scale some of the values in the network. Let's set some of the vertex values.
 
 For size, I'll just take the natural log of the degree. As you might remember, degree is the number of ties/edges that any given vertex/node has. So if Michigan played 10 different teams in this dataset, they would have a degree of 10.
 
@@ -156,41 +156,151 @@ plot(net)
 Just visually, you can tell that there are a ton of teams that had 1 game in the dataset, losing to some other more centrally placed team in the network.
 
 
+## simplify edgelist
+
+Since there are multiple games in the edgelist where one team plays/loses to/wins against another team, we can consolidate them by considering them a weighted edge. A weighted edge means that the relationship between two nodes is stronger or weaker. In this case, it just means that the two teams encounter each other more often.
+
+I tried a few ways to do this, resulting in errors. The simplest way I found was to make a copy of the graph as an adjacency matrix.
+https://stackoverflow.com/a/12998776
+
 ```{r}
+# new graph
+net2 <- graph.adjacency(get.adjacency(net), weighted = TRUE)
 
-V(net)$size <- eigen_centrality(net)
+# check weight attribute
+E(net2)$weight %>% head()
 
-plot(net)
 ```
 
+Seems to be there. if we wanted to plot, we can now add all the changes we made above to net2.
 
 
+```{r}
+
+# edge size is in E() attributes
+E(net2)$arrow.size <- .05
+# can also color the edges
+E(net2)$color <- UMcolors[2]
+# size
+V(net2)$size <- log(degree(net))
+# label
+V(net2)$label <- NA
+# colors
+V(net2)$color <- UMcolors[3]
+
+# plot
+plot(net2)
+```
+
+Its not very pretty. For large networks, I would recommend plotting using Gephi (https://gephi.org/). It makes really messy plots look really good!
+
+Here is how I save igraph network objects for use in Gephi. This would also be another way to calculate weights.
+```{r}
+
+# name edges
+edge <- edgelist %>%
+  rename(Source = sender,
+         Target = receiver)
+
+# get unique edge occurrences
+unq <- c(edge$Source, edge$Target) %>%
+  unique()
+
+# merge with nodes and create Id column
+nodes <- data.frame(
+  Name = unq) %>%
+  mutate(Id = 1:n()) %>%
+  select(Id, Name)
+
+# save edgelist with weights
+edge <- edge %>%
+  count(Source, Target, sort = TRUE) %>%
+  mutate(Type = 'Directed') %>%
+  rename(Weight = n)
+
+# save to file to import in gephi
+write_csv(edge, '../data/edge.csv')
+write_csv(nodes, '../data/nodes.csv')
+```
+
+This will hopefully show up in the notebook, but I just quickly imported the data, applied a color, and saved it under figures in this repository. You could do a ton more. For example, you might want to apply text labels to the most important nodes in the network.
+
+![gephi_plot](../figures/gephi plot.png)
+
+## ranking teams
+
+Now, lets actually do something with these data. In the papers I liked earlier, they used a PageRank algorithm to sort which are the best tennis players/boxers. PageRank was made by Larry Page and colleagues (of Google fame) and is among the algorithms used to sort page results in the search engine. Rather than trying to explain it, here is the wikipedia page, which does a better job! https://en.wikipedia.org/wiki/PageRank
 
 
+Anyway, igraph luckily has this built in. Following Tennant et al., we will use a damping factor of .85.
+
+```{r}
+# run algorithm on nodes
+datPR <- page_rank(net2, algo = 'prpack', damping = .85)
+
+# igraph has a weird saving structure. we want a dataframe with just team names and the pagerank, which is within the vector element of datPR
+datPR <- datPR$vector
+
+# and convert to dataframe
+datPR <- as.data.frame(datPR)
+
+# this has row names instead of its own column, so I will change that just for preference
+datPR <- tibble::rownames_to_column(datPR, 'team')
+
+# preview
+head(datPR)
+```
+
+There is probably a simpler way organize the data in the way I eventually did. But it works! So who is at the top?
+
+```{r}
+# get top teams in network
+datPR %>%
+  arrange(desc(datPR))
 
 
+```
 
+I don't follow college football that much, but growing up in Southern California during the Pete Carroll run, I was perpetually annoyed by USC fans, so this is not the outcome I was looking for. 
 
-
-
-
-
-
-
-
-
+Anyway, it is also important to think about what this is actually measuring... It gets at the importance of placement in the network, so its not only wins and losses but also the diversity of teams that a college has faced, and success against them. I am not sure the specifics of how colleges decide who faces off against who, but you would not see a higher PageRank for a team that did really well, but was not central to the network (say, played only within their conference). So does it makes sense to even rank teams in this way? I'd lean towards not just because not every team has the opportunity to face any given other team, but it was an interesting exercise.
 
 
 
 ## PRACTICE
 
+Now, I am going to have you do the same thing, but with the tennis dataset.
+
+Create and edgelist with losers pointing to winners.
+(may need to clean the text using similar methods above)
+```{r}
+
+
+```
+
+
+create an igraph object
+```{r}
 
 
 
+```
 
 
 
+visualize in either igraph or gephi
+```{r}
 
 
 
+```
+
+
+
+get PageRank of all tennis players and see who is most central in the network.
+```{r}
+
+
+
+```
 
