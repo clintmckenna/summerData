@@ -275,6 +275,14 @@ Create and edgelist with losers pointing to winners.
 (may need to clean the text using similar methods above)
 ```{r}
 
+edgelst <- tennis %>%
+    select(winner_name, loser_name) %>%
+    na.omit() %>%
+    mutate(sender = loser_name, receiver = winner_name) %>% 
+    select(sender, receiver)
+# I did not see any weird things when I skimmed hte names, so did not do cleaning there
+print(edgelst)
+
 
 ```
 
@@ -282,7 +290,11 @@ Create and edgelist with losers pointing to winners.
 create an igraph object
 ```{r}
 
+library(igraph)
 
+# initial network graph
+tennis_net <- graph_from_data_frame(edgelst, directed = TRUE)
+plot(tennis_net)
 
 ```
 
@@ -291,7 +303,33 @@ create an igraph object
 visualize in either igraph or gephi
 ```{r}
 
+# values to vertex
+# size
+V(tennis_net)$size <- log(degree(tennis_net))
+# label
+V(tennis_net)$label <- NA
+# colors
+V(tennis_net)$color <- UMcolors[2]
 
+# new graph
+new_tennis <- graph.adjacency(get.adjacency(tennis_net), weighted = TRUE)
+
+# check weight
+E(new_tennis)$weight %>% head()
+
+# edge size
+E(new_tennis)$arrow.size <- .05
+# color
+E(new_tennis)$color <- UMcolors[2]
+# size
+V(new_tennis)$size <- log(degree(new_tennis))
+# label
+V(new_tennis)$label <- NA
+# graph colors
+V(new_tennis)$color <- UMcolors[3]
+
+# plot new network
+plot(new_tennis)
 
 ```
 
@@ -299,8 +337,21 @@ visualize in either igraph or gephi
 
 get PageRank of all tennis players and see who is most central in the network.
 ```{r}
+# run algorithm
+datPR1 <- page_rank(new_tennis, algo = 'prpack', damping = .85)
 
+# make data frame with player name and pageRank
+datPR1 <- datPR1$vector
 
+# convert to dataframe
+datPR1 <- as.data.frame(datPR1)
+
+# change row names to column
+datPR1 <- tibble::rownames_to_column(datPR1, 'player')
+
+datPR1 %>% 
+  arrange(desc(datPR1))
+# It's not surprising to see Serena Williams at the top here. In 2015, if I remember correctly, she won 3 of the 4 grand slams, only losing at the US Open in the semis. 
 
 ```
 
